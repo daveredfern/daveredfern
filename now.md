@@ -1,8 +1,6 @@
 ---
-title: What I'm doing now
+title: "What I'm doing now"
 ---
-
-# What I'm doing now
 
 I am currently focusing my efforts on:
 

@@ -1,8 +1,6 @@
 ---
-title: Privacy policy
+title: "Privacy policy"
 ---
-
-# Privacy policy
 
 **This website collects as little information as possible about you.** I don’t know who you are, where you’re from or how you found me. I don’t use any analytics software or collect any identifying information.
 

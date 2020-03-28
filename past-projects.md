@@ -1,11 +1,8 @@
 ---
-title: Past projects
+title: "Past projects"
 ---
 
-# Past projects
-
-Chop Chop
----------
+## Chop Chop
 
 A lightweight front end framework that is in production with several projects at work. It's goal is to create a standardised way of developing websites so projects become developer agnostic. It's available on Github so feel free to use it all or just bits. We have a monthly release schedule so keep an eye on developments.
 

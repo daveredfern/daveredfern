@@ -9,7 +9,11 @@
   <meta name="mobile-web-app-capable" content="yes">
 
   <meta charset="utf-8">
-  <title>{{ page.title }} - {{ site.title }}</title>
+  {% if page.seo_title %}
+    <title>{{ page.seo_title }} - {{ site.title }}</title>
+  {% else %}
+    <title>{{ page.title }} - {{ site.title }}</title>
+  {% endif %}
 
   <link rel="stylesheet" href="/assets/css/styles.css">
 
@@ -26,6 +30,10 @@
   {% include header.html %}
 
   <section>
+    <h1>{{ page.title }}</h1>
+    {% if page.url != "/" and page.url != "/blog/" and page.url != "/contact/" %}
+      <p>Last updated: {{ page.last_modified_at | date: "%B %Y" }}</p>
+    {% endif %}
     {{ content }}
   </section>
 

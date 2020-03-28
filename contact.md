@@ -1,8 +1,6 @@
 ---
-title: Contact
+title: "Get in touch"
 ---
-
-# Get in touch
 
 Whether it's a question, a request for me to speak or just a friendly nudge feel free to get in touch.
 

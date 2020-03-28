@@ -26,6 +26,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: daveredfern
 github_username:  daveredfern
+permalink: /:title/
 
 defaults:
   -
@@ -34,10 +35,16 @@ defaults:
     values:
       layout: "default"
 
+# collections:
+#   posts:
+#     output: true
+#     permalink: /:title/
+
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-last-modified-at
 
 # Exclude from processing.
 # The following items will not be processed, by default.
