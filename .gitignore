@@ -1,5 +1,5 @@
-node_modules/
-dist/
-site/data/webpack.json
-/npm-debug.log
-yarn-error.log
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor

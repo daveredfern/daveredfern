@@ -1,0 +1,8 @@
+<header class="header">
+  <ul class="inline-list">
+    <li><strong class="highlight">Dave Redfern</strong></li>
+    {% for item in site.data.nav %}
+      <li><a href="{{ item.link }}" {% if page.url == item.link %} aria-current="page"{% endif %}>{{ item.name }}</a></li>
+    {% endfor %}
+  </ul>
+</header>

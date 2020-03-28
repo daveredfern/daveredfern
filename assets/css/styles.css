@@ -1,0 +1,249 @@
+/* Variables */
+
+:root {
+	--default-color: rgb(51, 51, 51);
+
+	--primary-color: rgb(15, 115, 238);
+	
+	--light-color: rgb(136, 136, 136);
+	--lighter-color: rgb(221, 221, 221);
+
+	--background-color: rgb(255, 255, 255);
+
+	--link-color: var(--default-color);
+	--link-hover-color: var(--primary-color);
+	--link-visited-color: rgb(107, 75, 154);
+	
+	--selection-color: rgba(255, 255, 102, 0.75);
+
+	--hr-border-color: var(--lighter-color);
+	--blockquote-border-color: var(--default-color);
+	--well-border-color: var(--default-color);
+
+	--font-family: helvetica, sans-serif;
+	--heading-font-family: var(--font-family);
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--default-color: rgb(240, 240, 240);	
+		--background-color: rgb(20, 20, 20);
+	}
+}
+
+/* Global */
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	background: var(--background-color);
+	font-size: calc(1em + 0.2vw);
+	line-height: 1.5;
+	color: var(--default-color);
+	font-family: var(--font-family);
+}
+
+body {
+	max-width: 75em;
+	padding-left: calc(1em + 2vw);
+	padding-right: calc(1em + 2vw);
+	margin: calc(1em + 2vw) auto;
+}
+
+/* Links */
+
+a:link {
+	color: var(--link-color);
+}
+
+a:visited {
+	color: var(--link-visited-color);
+}
+
+a:hover {
+	color: var(--link-hover-color);
+}
+
+a:focus {
+	background-color: var(--link-hover-color);
+	color: var(--background-color);
+	outline: .2em solid var(--link-hover-color);
+}
+
+/* Highlight color */
+
+::selection {
+  background: var(--selection-color); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: var(--selection-color); /* Gecko Browsers */
+}
+
+/* Max width items for readability */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+blockquote,
+hr,
+pre {
+	max-width: 36rem;
+	margin: 1.2em auto;
+}
+
+/* Typography */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 1.2;
+	letter-spacing: -0.01em;
+	margin-top: 1.6em;
+	margin-bottom: 0.7em;
+	font-family: var(--heading-font-family);
+}
+
+h1 {
+	font-size: calc(2em + 0.4vw);
+}
+
+hr {
+	height: 1px;
+	border: 0;
+	border-bottom: 3px solid var(--hr-border-color);
+	outline: 0;
+	clear: both;
+	margin-top: calc(1em + 2vw);
+	margin-bottom: calc(1em + 2vw);
+}
+
+blockquote {
+	border-left: 3px solid var(--blockquote-border-color);
+	padding-left: 1.4em;
+	padding-right: 1.4em;
+	margin-top: 1.2em;
+	margin-bottom: 1.2em;
+}
+
+ol,
+ul {
+	padding-left: 20px;
+}
+
+li {
+	padding-left: 0.5em;
+	margin-bottom: 0.2em;
+}
+
+/* Code */
+
+code {
+    padding: 0.15em 0.5em;
+    vertical-align: text-top;
+    border: 1px solid var(--default-color);
+	font-size: 0.8em;
+}
+
+pre code {
+    display: block;
+    padding: 1.4em;
+	overflow-x: auto;
+}
+
+/* Media */
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+iframe {
+	width: 100%;
+}
+
+/* Custom font styles */
+
+.lead {
+	font-size: 1.2em;
+}
+
+.micro {
+	font-size: 0.8em;
+}
+
+.highlight {
+	color: var(--primary-color);
+}
+
+/* Inline list */
+
+.inline-list {
+	padding-left: 0;
+}
+
+.inline-list li {
+	padding-left: 0;
+	display: inline;
+	list-style: none;
+	margin-right: calc(0.5em + 0.5vw);
+}
+
+/* Pulls */
+
+@media (min-width: 700px) {
+	.alignleft,
+	.alignright {
+		width: 40%;
+		margin-bottom: 1em;
+	}
+
+	.alignleft {
+		float: left;
+		margin-right: calc(1em + 2vw);
+	}
+
+	.alignright {
+		float: right;
+		clear: right;
+		margin-left: calc(1em + 2vw);
+	}
+}
+
+/* Header and footer */
+
+.header,
+.footer {
+	margin-bottom: calc(1em + 3vw);
+	margin-top: calc(1em + 3vw);
+}
+
+/* WordPress specific styles */
+
+.wp-caption {
+	width: 100% !important;
+	margin-top: 1.2em;
+	margin-bottom: 1.2em;
+}
+
+.wp-caption img {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption p {
+	margin-top: 0.5em;
+	color: var(--mute-color);
+	font-size: 0.8em;
+}
