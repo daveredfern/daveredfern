@@ -17,11 +17,11 @@ This sort of behaviour from the advertisers has led to the despair of visitors 
 
 Let me show you can example of the Cnet website - with and without adverts.
 
-![screen-2015-09-01-at-18.11.27](//daveredfern.com/-content/uploads/2015/09/screen-2015-09-01-at-18.11.27-1024x640.png)
+![screen-2015-09-01-at-18.11.27](/assets/images/archive/2015/09/screen-2015-09-01-at-18.11.27-1024x640.png)
 
 Cnet without adverts which is also 2 times faster
 
-![screen-2015-09-01-at-18.11.41](//daveredfern.com/-content/uploads/2015/09/screen-2015-09-01-at-18.11.41-1024x640.png)
+![screen-2015-09-01-at-18.11.41](/assets/images/archive/2015/09/screen-2015-09-01-at-18.11.41-1024x640.png)
 
 From the next version of iOS, Apple will allow advert blockers in Safari. This has understandably outraged publisher and website owners. They only have themselves to blame. Visitors have been forced to seek these tools as a way of returning the web to it's natural state.
 

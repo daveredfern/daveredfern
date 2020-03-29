@@ -7,7 +7,7 @@ In October 2014 I helped cofound [Staffs Web Meetup](https://staffswebmeetup.co.
 
 Our first event had over 50 attendees and have averaged 44 people since then. In May we hit a record of 56 people for our [evening on design and front end](http://www.meetup.com/staffswebmeetup/events/230657412/).
 
-![People sitting ready to start the talks at Staffs Web Meetup](//daveredfern.com/-content/uploads/2016/05/26544379613_2a774a603f_k-1024x683.jpg)
+![People sitting ready to start the talks at Staffs Web Meetup](/assets/images/archive/2016/05/26544379613_2a774a603f_k-1024x683.jpg)
 
 For a long time I have wanted to write a posts sharing how we organise the meetup, the mistakes we’ve made and advice for anyone who wants to set their own up.
 
@@ -29,7 +29,7 @@ Thinking you can run a meetup by yourself is noble but also naive. It requires a
 
 Ask for help. If you don’t know anyone who can help you could ask at your first event. Remember you might not be able to attend all meetups so you need others who can cover you.
 
-![Phil, Natasha and me celebrating the first birthday of Staffs Web Meetup](//daveredfern.com/-content/uploads/2016/05/21675262303_b24a1f73fb_k-1024x683.jpg)
+![Phil, Natasha and me celebrating the first birthday of Staffs Web Meetup](/assets/images/archive/2016/05/21675262303_b24a1f73fb_k-1024x683.jpg)
 
 At Staffs Web Meetup we have a core team of three people who work during the month to organise the events. We have another three or four people who regularly help on the evening.
 
@@ -108,7 +108,7 @@ Before searching for a venue ask yourself the following questions.
 
 Based on the answer to these you can narrow down your search for a venue. The best venue is a public place such as a coffee shop or bar with a private area. They are already designed to accommodate groups of people and are in ideal locations. Keep in mind these are businesses so do need to make some money to host the event. You might be able to negotiate a free space in exchange for food and drink sales. We’re lucky to have sponsors who cover the cost of the venue, food and a drink for everyone.
 
-![Food supplied by Bean enCounter for Staffs Web Meetup](//daveredfern.com/-content/uploads/2016/05/27148707495_67570d4057_k-1024x684.jpg)
+![Food supplied by Bean enCounter for Staffs Web Meetup](/assets/images/archive/2016/05/27148707495_67570d4057_k-1024x684.jpg)
 
 If you can’t find a coffee shop or bar you could consider using a library, university or company office. Remember these places won't have food and drink available so you might need to stop at a local supermarket. Most people attend straight after work so drinks and snacks should be available.
 
@@ -128,7 +128,7 @@ Sponsorship is helpful for covering the running costs of a meetup but you can ma
 
 We’ve been very lucky at Staffs Web Meetup that companies have been open to sponsoring. This advice is coming from a privileged position but choose your sponsors carefully. We wanted our meetup to be a relaxed environment where people can learn, network and make friends. We agreed to stay clear of any sponsors who just want to promote or poach people from other businesses. This is a community event and we wanted sponsors who would support that.
 
-![Olly from TopCashback promoting their free office space available to attendees at Staffs Web Meetup](//daveredfern.com/-content/uploads/2016/05/25972624993_b11401543c_k-1024x683.jpg)
+![Olly from TopCashback promoting their free office space available to attendees at Staffs Web Meetup](/assets/images/archive/2016/05/25972624993_b11401543c_k-1024x683.jpg)
 
 Once you have a few events under your belt you are in a much better position to pursue sponsors. Start asking at your events to see if there are any business owners who are able to help with running costs. If you can’t find anyone at your meetup, consider looking at who sponsors other meetups. If they’ve already sponsored one meetup they might be willing to sponsor yours.
 
@@ -142,7 +142,7 @@ We discovered that it was a very busy night and with most attending came straigh
 
 We have now settled with two lightning talks, a long break followed by an open discussion. The open discussion session was inspired by [WordPress Birmingham](http://www.meetup.com/BirminghamWordPress/) and is a twist on [lean coffee](http://leancoffee.org/). The open discussion session is incredibly popular.
 
-![Trevor Adams hosting the open discussion at Staffs Web Meetup](//daveredfern.com/-content/uploads/2016/05/27053653642_400dcee8df_k-1024x683.jpg)
+![Trevor Adams hosting the open discussion at Staffs Web Meetup](/assets/images/archive/2016/05/27053653642_400dcee8df_k-1024x683.jpg)
 
 While this is our default format we do mix it about. Some months we will have one longer talk, others we won't have an open discussion and a couple times a year we try to host a workshop.
 
@@ -204,7 +204,7 @@ This is one of the most important things. On the evening you should stand by the
 
 At Staffs Web Meetup we welcome people to the event. While we're chatting to them we get them to write a name tag and hand them a drink voucher. Name tags encourage people to talk and removes the stress of remembering names. If they’re new to the meetup we let them know about the free food and drink available and a rough running order. I like to try and point out a few people who work in a similar field so they have someone to strike a good conversation with.
 
-![Jake Cobley helping to greet people at Staffs Web Meetup](//daveredfern.com/-content/uploads/2016/05/26544349223_3d0d80388e_k-1024x684.jpg)
+![Jake Cobley helping to greet people at Staffs Web Meetup](/assets/images/archive/2016/05/26544349223_3d0d80388e_k-1024x684.jpg)
 
 It doesn’t sound like much but this has been praised dozens of times by attendees to our meetup. All too often people walk into meetups not being welcomed, not sure if they're in the right place or what they have to do.
 
