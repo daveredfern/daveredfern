@@ -6,7 +6,7 @@ I’m Head of Design & Development at Conversion Rate Experts. I’ve got a degr
 
 During this time I’ve worked on nearly all aspects of creating a successful website including wireframing, user experience, user interface design, and performance driven front-end development.
 
-![A photo of Dave](/assets/content/wordpress/2016/08/IMG_0172-1024x686.jpg)
+![A photo of Dave](/assets/images/content/wordpress/2016/08/IMG_0172-1024x686.jpg)
 
 To help teams use modular CSS and best practices I helped create a lightweight front end framework. [Chop Chop](https://github.com/getchopchop/chopchop) is an open source project. It creates a structured environment that combines popular methodologies such as [BEM](http://getbem.com/), [atomic design](http://atomicdesign.bradfrost.com/) and [namespaces](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/) with technologies such as [Sass](http://sass-lang.com/) and [Gulp](http://gulpjs.com/).
 
