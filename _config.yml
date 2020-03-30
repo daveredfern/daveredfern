@@ -45,6 +45,7 @@ defaults:
 plugins:
   - jekyll-feed
   - jekyll-last-modified-at
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.

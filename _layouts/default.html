@@ -6,21 +6,25 @@ layout: compress
 <html lang="en-US">
 <head>
 
+  <!-- Page setting -->
 	<meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="mobile-web-app-capable" content="yes">
-
   <meta charset="utf-8">
+
+  <!-- Title -->
   {% if page.seo_title %}
     <title>{{ page.seo_title }} - {{ site.title }}</title>
   {% else %}
     <title>{{ page.title }} - {{ site.title }}</title>
   {% endif %}
   
+  <!-- CSS -->
   <link rel="stylesheet" href="/assets/css/styles.css">
 
+  <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
@@ -28,8 +32,15 @@ layout: compress
 	<meta name="msapplication-TileColor" content="#2774e7">
   <meta name="theme-color" content="#ffffff">
 
+  <!-- Misc meta information -->
   <meta itemprop="description" name="description" content="{% if post.excerpt %}{{ post.excerpt | truncate: 160 }}{% else %}{{ site.description | truncate: 150  }}{% endif %}" />
+  <meta name="author" content="{{ site.title }}">
+  <meta name="robots" content="all" />
 
+  <!-- RSS feed -->
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title}}’s Feed" href="{{ site.url }}/feed.xml" />
+
+  <!-- Social meta information -->
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="article">
   <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
@@ -45,6 +56,7 @@ layout: compress
   <meta name="twitter:creator" content="{{ site.twitter_username }}">
   <meta name="twitter:card" content="summary">
 
+  <!-- Canonical url -->
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
 </head>
