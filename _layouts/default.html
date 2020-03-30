@@ -28,7 +28,7 @@ layout: compress
 	<meta name="msapplication-TileColor" content="#2774e7">
   <meta name="theme-color" content="#ffffff">
 
-  <meta itemprop="description" name="description" content="{% if post.excerpt %}{{ post.excerpt | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
+  <meta itemprop="description" name="description" content="{% if post.excerpt %}{{ post.excerpt | truncate: 160 }}{% else %}{{ site.description | truncate: 150  }}{% endif %}" />
 
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="article">
@@ -45,7 +45,7 @@ layout: compress
   <meta name="twitter:creator" content="{{ site.twitter_username }}">
   <meta name="twitter:card" content="summary">
 
-  <link rel="canonical" href="{{ page.url | prepend: site.url }}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
 </head>
 <body>
