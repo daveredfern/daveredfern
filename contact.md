@@ -14,6 +14,5 @@ For quick questions or to chat, I generally respond the quickest on Twitter. If 
 Below is a list of social networks I am most active on. Feel free to browse them to find out more about me.
 
 * [LinkedIn](https://uk.linkedin.com/in/daveredfern)
-* [Instagram](https://www.instagram.com/daveredfern/)
 * [Unsplash.com](https://unsplash.com/daveredfern)
 * [Github](https://github.com/daveredfern)
