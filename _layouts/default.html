@@ -22,13 +22,13 @@ layout: compress
   {% endif %}
   
   <!-- CSS -->
-  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="{{ site.url }}/assets/css/styles.css">
 
   <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
-	<link rel="manifest" href="/assets/images/favicon/site.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/assets/images/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}/assets/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="{{ site.url }}/assets/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="{{ site.url }}/assets/images/favicon/site.webmanifest">
 	<meta name="msapplication-TileColor" content="#2774e7">
   <meta name="theme-color" content="#ffffff">
 
@@ -76,11 +76,8 @@ layout: compress
 
   {% include footer.html %}
 
-  <!-- Quicklink -->
-  <script src="assets/js/quicklink.umd.js"></script>
-  <script>
-    quicklink.listen();
-  </script>
+  <!-- Instant pages -->
+  <script src="{{ site.url }}/assets/js/instantpage.js"></script>
 
 </body>
 </html>
