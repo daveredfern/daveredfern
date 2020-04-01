@@ -67,7 +67,12 @@ layout: compress
   <section>
     <h1>{{ page.title }}</h1>
     {% if page.url != "/" and page.url != "/blog/" and page.url != "/contact/" %}
-      <p>Last updated: {{ page.last_modified_at | date: "%B %Y" }}</p>
+      <p>
+        Last updated: {{ page.last_modified_at | date: "%B %Y" }}
+        {% if page.date %}
+          <br />Published: {{ page.date | date: "%B %Y" }}
+        {% endif %}
+      </p>
     {% endif %}
     {{ content }}
   </section>
