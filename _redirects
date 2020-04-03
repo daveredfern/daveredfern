@@ -1,2 +1,9 @@
-# Redirects from what the browser requests to what we serve
+# Redirect /feed/ which is WordPress’ URL
 /feed/  /feed.xml
+/articles/feed/ /feed.xml
+
+# Old URLs that are still being used according to Analytics
+/speaking/  /
+/2017/hide-or-exclude-folders-and-files-from-search-in-visual-studio-code/  /hide-or-exclude-folders-and-files-from-search-in-visual-studio-code/
+/2016/you-should-be-using-ems/  /ems/
+/2016/getting-sass-using-arrays-functions-loops/    /getting-sass-using-arrays-functions-loops/
