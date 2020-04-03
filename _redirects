@@ -1,6 +1,8 @@
 # Redirect /feed/ which is WordPress’ URL
 /feed/  /feed.xml
 /articles/feed/ /feed.xml
+/notes/feed/    feed.xml
+/photography/feed/  feed.xml
 
 # Old URLs that are still being used according to Analytics
 /speaking/  /
