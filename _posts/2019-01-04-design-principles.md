@@ -1,6 +1,7 @@
 ---
 title: "Design Principles"
 date: "2019-01-04"
+categories: [Favorites]
 ---
 
 - **Simplicity:** The best code is no code at all. Only create new things if absolutely necessary. Always look back to see what can be reused or improve upon first.

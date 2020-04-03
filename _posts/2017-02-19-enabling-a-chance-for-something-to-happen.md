@@ -1,6 +1,7 @@
 ---
 title: "Enabling a Chance for Something to Happen"
 date: "2017-02-19"
+categories: [Favorites]
 ---
 
 I'm currently watching [Abstract: The Art of Design](https://www.netflix.com/title/80057883) on Netflix. It's a wonderful insight into how the best designers create iconic work. Part of what makes it wonderful is sharing the struggle of design that we've all experienced.
