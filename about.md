@@ -10,6 +10,8 @@ During this time I’ve worked on nearly all aspects of creating a successful we
 
 To help teams use modular CSS and best practices I helped create a lightweight front end framework. [Chop Chop](https://github.com/getchopchop/chopchop) is an open source project. It creates a structured environment that combines popular methodologies such as [BEM](http://getbem.com/), [atomic design](http://atomicdesign.bradfrost.com/) and [namespaces](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/) with technologies such as [Sass](http://sass-lang.com/) and [Gulp](http://gulpjs.com/).
 
+I am a keen photographer. My photos have been viewed over 11 million times and used by Adobe, Squarespace, Trello and Wix.
+
 I am founder of [Staffs Web Meetup](https://staffswebmeetup.co.uk/). A monthly meetup hosting talks to a friendly bunch of 50 people. I've also founded [Meetup of Meetup Organisers](https://meetupofmeetup.commeetuporganisers.com/), a meetup for organisers to network and share ideas.
 
 [Here's what I'm currently focused on](https://daveredfern.com/now/).
