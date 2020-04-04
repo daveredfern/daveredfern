@@ -247,3 +247,22 @@ iframe {
 	color: var(--mute-color);
 	font-size: 0.8em;
 }
+
+/* Well */
+
+.notification {
+	max-width: 36rem;
+	margin: calc(1em + 3vw) auto;
+	border: 1px solid #ccc;
+	border-bottom-width: 3px;
+	padding: calc(1em + 1vw);
+	border-radius: 5px;
+}
+
+.notification > *:first-child {
+	margin-top: 0;
+}
+
+.notification > *:last-child {
+	margin-bottom: 0;
+}
