@@ -1,5 +1,17 @@
-<h2>My favorite articles</h2>
-{% for post in site.categories.Favorites %}
+---
+title: "Blog"
+---
+
+{% include favorite-posts.html %}
+
+<h2>All articles</h2>
+
+{% assign post_date = false %}
+{% for post in site.posts %}
+    {% assign this_date = post.date | date: "%Y" %}
+    {% if post_date != this_date  %}
+        <h3>{{ this_date }}</h3>
+    {% endif %}
     <p>
         <a href="{{ post.url }}">{{ post.title }}</a><br />
         <span class="micro">
@@ -10,4 +22,5 @@
             {% endif %}
         </span>
     </p>
+    {% assign post_date = post.date | date: "%Y" %}
 {% endfor %}

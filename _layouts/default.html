@@ -68,9 +68,9 @@ layout: compress
     <h1>{{ page.title }}</h1>
     {% if page.url != "/" and page.url != "/blog/" and page.url != "/contact/" %}
       <p>
-        Last updated: {{ page.last_modified_at | date: "%B %Y" }}
+        Last updated: {{ page.last_modified_at | date: "%b %d, %Y" }}
         {% if page.date %}
-          <br />Published: {{ page.date | date: "%B %Y" }}
+          <br />Published: {{ page.date | date: "%b %d, %Y" }}
         {% endif %}
       </p>
     {% endif %}
