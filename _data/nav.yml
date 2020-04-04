@@ -1,5 +1,5 @@
-- name: Home
-  link: /
+- name: Now
+  link: /now/
 - name: About
   link: /about/
 - name: Blog

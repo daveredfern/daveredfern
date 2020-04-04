@@ -1,13 +1,5 @@
 <h2>My favorite articles</h2>
+
 {% for post in site.categories.Favorites %}
-    <p>
-        <a href="{{ post.url }}">{{ post.title }}</a><br />
-        <span class="micro">
-            {{ post.date | date: "%b %d, %Y" }}
-            {% if post.categories.size > 0 %}
-                | 
-                {% for category in post.categories %}{% if forloop.first == false %},{% endif %} {{ category }}{% endfor %}
-            {% endif %}
-        </span>
-    </p>
+    {% include blog-article.html %}
 {% endfor %}

@@ -64,17 +64,28 @@ layout: compress
 
   {% include header.html %}
 
-  <section>
+  <section class="section container">
     <h1>{{ page.title }}</h1>
+    
     {% if page.url != "/" and page.url != "/blog/" and page.url != "/contact/" %}
-      <p>
+      <p class="micro">
         Last updated: {{ page.last_modified_at | date: "%b %d, %Y" }}
         {% if page.date %}
           <br />Published: {{ page.date | date: "%b %d, %Y" }}
         {% endif %}
       </p>
     {% endif %}
+
     {{ content }}
+
+    {% if page.url == "/blog/" %}
+      {% include favorite-posts.html %}
+      {% include blog-listing.html %}
+    {% endif %}
+
+    {% if page.url == "/" %}
+      {% include favorite-posts.html %}
+    {% endif %}
   </section>
 
   {% include cta.html %}

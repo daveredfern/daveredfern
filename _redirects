@@ -4,6 +4,9 @@
 /notes/feed/    feed.xml
 /photography/feed/  feed.xml
 
+# Common URLs that are visited
+/wp-content/themes/brutal/images/favicon/favicon-32x32.png  /assets/images/favicon/favicon-32x32.png
+
 # Old URLs that are still being used according to Analytics
 /speaking/  /
 /2017/hide-or-exclude-folders-and-files-from-search-in-visual-studio-code/  /hide-or-exclude-folders-and-files-from-search-in-visual-studio-code/

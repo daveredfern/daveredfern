@@ -16,7 +16,7 @@ I am founder of [Staffs Web Meetup](https://staffswebmeetup.co.uk/). A monthly m
 
 ## About this website
 
-This site is built on [Jekyll](https://jekyllrb.com/) and hosted with [Netlify](https://www.netlify.com/). My goals are to make it as lean, fast, and user-friendly as possible.
+See my [style guide](/style-guide/) to find out about this website.
 
 ## Soppy thanks
 

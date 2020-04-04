@@ -1,0 +1,11 @@
+<h2>All articles</h2>
+
+{% assign post_date = false %}
+{% for post in site.posts %}
+    {% assign this_date = post.date | date: "%Y" %}
+    {% if post_date != this_date  %}
+        <h3>{{ this_date }}</h3>
+    {% endif %}
+    {% include blog-article.html %}
+    {% assign post_date = post.date | date: "%Y" %}
+{% endfor %}

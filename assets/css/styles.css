@@ -1,27 +1,30 @@
 /* Variables */
 
 :root {
-	--default-color: rgb(51, 51, 51);
+	--default-color: rgb(50, 50, 50);
 
-	--primary-color: rgb(15, 115, 238);
+	--primary-color: rgb(9, 57, 212);
 	
-	--light-color: rgb(136, 136, 136);
-	--lighter-color: rgb(221, 221, 221);
+	--mute-color: rgb(210, 210, 210);
+
+	--light-color: rgb(238, 238, 238);
 
 	--background-color: rgb(255, 255, 255);
 
-	--link-color: var(--default-color);
-	--link-hover-color: var(--primary-color);
-	--link-visited-color: rgb(107, 75, 154);
+	--link-color: var(--primary-color);
+	--link-hover-color: var(--default-color);
+	--link-visited-color: rgb(106, 54, 118);
 	
 	--selection-color: rgba(255, 255, 102, 0.75);
 
-	--hr-border-color: var(--lighter-color);
+	--hr-border-color: var(--mute-color);
 	--blockquote-border-color: var(--default-color);
 	--well-border-color: var(--default-color);
 
 	--font-family: helvetica, sans-serif;
 	--heading-font-family: var(--font-family);
+
+	--max-width: 36rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -67,9 +70,9 @@ a:hover {
 }
 
 a:focus {
-	background-color: var(--link-hover-color);
+	background-color: var(--link-color);
 	color: var(--background-color);
-	outline: .2em solid var(--link-hover-color);
+	outline: .2em solid var(--link-color);
 }
 
 /* Highlight color */
@@ -96,7 +99,8 @@ blockquote,
 hr,
 pre {
 	max-width: 36rem;
-	margin: 1.2em auto;
+	margin-top: 1.2em;
+	margin-bottom: 1.2em;
 }
 
 /* Typography */
@@ -149,10 +153,13 @@ li {
 /* Code */
 
 code {
-    padding: 0.15em 0.5em;
+	padding: 0.15em 0.5em;
+	border-radius: 5px;
     vertical-align: text-top;
-    border: 1px solid var(--default-color);
-	font-size: 0.8em;
+    background-color: var(--light-color);
+	font-size: 0.85em;
+	border-bottom-width: 3px;
+	color: var(--default-color);
 }
 
 pre code {
@@ -180,11 +187,21 @@ iframe {
 }
 
 .micro {
-	font-size: 0.8em;
+	font-size: 0.85em;
 }
 
-.highlight {
-	color: var(--primary-color);
+.highlight,
+a.highlight {
+	color: var(--primary-color) !important;
+}
+
+a.highlight:focus {
+	color: var(--background-color) !important;
+}
+
+.mute,
+a.mute {
+	color: var(--mute-color) !important;
 }
 
 /* Inline list */
@@ -200,60 +217,24 @@ iframe {
 	margin-right: calc(0.5em + 0.5vw);
 }
 
-/* Pulls */
-
-@media (min-width: 700px) {
-	.alignleft,
-	.alignright {
-		width: 40%;
-		margin-bottom: 1em;
-	}
-
-	.alignleft {
-		float: left;
-		margin-right: calc(1em + 2vw);
-	}
-
-	.alignright {
-		float: right;
-		clear: right;
-		margin-left: calc(1em + 2vw);
-	}
-}
-
-/* Header and footer */
-
-.header,
-.footer {
-	margin-bottom: calc(1em + 3vw);
-	margin-top: calc(1em + 3vw);
-}
-
-/* WordPress specific styles */
-
-.wp-caption {
-	width: 100% !important;
-	margin-top: 1.2em;
-	margin-bottom: 1.2em;
-}
-
-.wp-caption img {
+/* Container */
+.container {
+	max-width: 36rem;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.wp-caption p {
-	margin-top: 0.5em;
-	color: var(--mute-color);
-	font-size: 0.8em;
+/* Spacing */
+
+.spacing {
+	margin-bottom: calc(1em + 3vw);
+	margin-top: calc(1em + 3vw);
 }
 
-/* Well */
+/* Notification */
 
 .notification {
-	max-width: 36rem;
-	margin: calc(1em + 3vw) auto;
-	border: 1px solid #ccc;
+	border: 1px solid var(--mute-color);
 	border-bottom-width: 3px;
 	padding: calc(1em + 1vw);
 	border-radius: 5px;
