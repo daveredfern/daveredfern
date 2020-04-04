@@ -1,8 +1,16 @@
-- name: Now
-  link: /now/
-- name: About
-  link: /about/
-- name: Blog
-  link: /blog/
-- name: Contact
-  link: /contact/
+header:
+  - name: <strong>Dave Redfern</strong>
+    link: /
+  - name: Now
+    link: /now/
+  - name: About
+    link: /about/
+  - name: Blog
+    link: /blog/
+  - name: Contact
+    link: /contact/
+footer:
+  - name: Style guide
+    link: /style-guide/
+  - name: Past projects
+    link: /past-projects/
