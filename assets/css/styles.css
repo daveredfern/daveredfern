@@ -40,19 +40,17 @@
 	box-sizing: border-box;
 }
 
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
 html {
 	background: var(--background-color);
-	font-size: calc(1em + 0.2vw);
+	font-size: calc(1em + 0.3vw);
 	line-height: 1.5;
 	color: var(--default-color);
 	font-family: var(--font-family);
-}
-
-body {
-	max-width: 75em;
-	padding-left: calc(1em + 2vw);
-	padding-right: calc(1em + 2vw);
-	margin: calc(1em + 2vw) auto;
 }
 
 /* Links */
@@ -219,9 +217,11 @@ a.mute {
 
 /* Container */
 .container {
-	max-width: 36rem;
+	max-width: calc(38rem + 4vw);
 	margin-left: auto;
 	margin-right: auto;
+	padding-left: calc(1em + 2vw);
+	padding-right: calc(1em + 2vw);
 }
 
 /* Spacing */
