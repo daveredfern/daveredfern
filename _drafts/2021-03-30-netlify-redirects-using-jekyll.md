@@ -1,5 +1,6 @@
 ---
 title: "Using Netlify redirects with Jekyll"
+categories: [Jekyll, Netlify]
 ---
 
 ```
