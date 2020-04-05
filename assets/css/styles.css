@@ -24,12 +24,12 @@
 	--heading-font-family: var(--font-family);
 }
 
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
 	:root {
 		--default-color: rgb(240, 240, 240);	
 		--background-color: rgb(20, 20, 20);
 	}
-}
+}*/
 
 /* Global */
 
