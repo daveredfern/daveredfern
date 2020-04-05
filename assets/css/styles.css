@@ -247,3 +247,26 @@ a.mute {
 .notification > *:last-child {
 	margin-bottom: 0;
 }
+
+/* Header */
+
+.header {
+	overflow: hidden;
+    border-bottom: 1px solid var(--mute-color);
+    position: sticky;
+    background: var(--background-color);
+	top: 0;
+	transition: transform .5s, box-shadow .3s;
+}
+
+.is-scrolled .header {
+	box-shadow: 0 3px 4px rgba(0,0,0,0.1);
+}
+
+.is-scrolled--downwards .header {
+	transform: translateY(-150%);
+}
+
+.is-scrolled--upwards .header {
+	transform: translateY(0);
+}

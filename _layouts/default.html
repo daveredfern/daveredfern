@@ -59,6 +59,10 @@ layout: compress
   <!-- Canonical url -->
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
+  <!-- Instant pages -->
+  <script src="{{ site.url }}/assets/js/script.js" defer></script>
+  <script src="{{ site.url }}/assets/js/instantpage.js" defer></script>
+
 </head>
 <body>
 
@@ -91,9 +95,6 @@ layout: compress
   {% include cta.html %}
 
   {% include footer.html %}
-
-  <!-- Instant pages -->
-  <script src="{{ site.url }}/assets/js/instantpage.js"></script>
 
 </body>
 </html>
