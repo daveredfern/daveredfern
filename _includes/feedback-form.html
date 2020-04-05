@@ -1,0 +1,19 @@
+<form name="feedback" method="POST" action="/thanks/" data-netlify="true" netlify-honeypot="telephone">
+    <label>
+        <div><strong>Email address</strong></div>
+        <div class="micro">(I’ll only use your email to thank you for your feedback.)</div>
+        <input type="email" name="email" id="email" required>
+    </label>
+    <label>
+        <div><strong>Your message</strong></div>
+        <div class="micro">Please be brutally honest.</div>
+        <textarea name="message" id="message" required></textarea>
+    </label>
+    <label class="hidden">
+        <div><strong>Telephone</strong></div>
+        <div class="micro">Don’t fill this out if you're human.</div>
+        <input name="telephone" id="telephone">
+    </label>
+    <input type="hidden" name="referrer" id="referrer">
+    <button type="submit">Submit</button>
+</form>

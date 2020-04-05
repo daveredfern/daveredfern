@@ -1,4 +1,8 @@
-<footer class="footer">
-  <p class="micro"><a href="/past-projects/">Past projects</a></p>
+<footer class="container spacing">
+  <ul class="inline-list micro">
+      {% for item in site.data.nav.footer %}
+        <li><a href="{{ item.link }}" {% if page.url == item.link %} aria-current="page"{% endif %}>{{ item.name }}</a></li>
+      {% endfor %}
+    </ul>
   <p class="micro">This website collects <i>almost</i> no data. <a href="/privacy">Privacy policy</a><br>© 2020 Dave Redfern</p>
 </footer>

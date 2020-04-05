@@ -22,13 +22,13 @@ layout: compress
   {% endif %}
   
   <!-- CSS -->
-  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="{{ site.url }}/assets/css/styles.css">
 
   <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
-	<link rel="manifest" href="/assets/images/favicon/site.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/assets/images/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}/assets/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="{{ site.url }}/assets/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="{{ site.url }}/assets/images/favicon/site.webmanifest">
 	<meta name="msapplication-TileColor" content="#2774e7">
   <meta name="theme-color" content="#ffffff">
 
@@ -59,20 +59,54 @@ layout: compress
   <!-- Canonical url -->
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
+  <!-- Instant pages -->
+  <script src="{{ site.url }}/assets/js/script.js" defer></script>
+  <script src="{{ site.url }}/assets/js/instantpage.js" defer></script>
+
 </head>
 <body>
 
   {% include header.html %}
 
-  <section>
+  <section class="section container">
     <h1>{{ page.title }}</h1>
-    {% if page.url != "/" and page.url != "/blog/" and page.url != "/contact/" %}
-      <p>Last updated: {{ page.last_modified_at | date: "%B %Y" }}</p>
+    
+    {% if page.hide_date != true %}
+      <p class="micro">
+        {% assign page_date = page.date | date: "%b %Y" %}
+        {% assign page_update = page.last_modified_at | date: "%b %Y" %}
+        {% if page_date != page_update %}
+          Last updated: {{ page.last_modified_at | date: "%b %d, %Y" }}<br />
+        {% endif %}
+        {% if page.date %}
+          Published: {{ page.date | date: "%b %d, %Y" }}
+        {% endif %}
+      </p>
     {% endif %}
+
     {{ content }}
+
+    {% if page.url == "/feedback/" %}
+      {% include feedback-form.html %}
+    {% endif %}
+
+    {% if page.url == "/contact/" %}
+      {% include contact-form.html %}
+    {% endif %}
+    
+    {% if page.url == "/blog/" %}
+      {% include favorite-posts.html %}
+      {% include blog-listing.html %}
+    {% endif %}
+
+    {% if page.url == "/" %}
+      {% include favorite-posts.html %}
+    {% endif %}
   </section>
 
-  {% include cta.html %}
+  {% if page.hide_cta != true %}
+    {% include cta.html %}
+  {% endif %}
 
   {% include footer.html %}
 

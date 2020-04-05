@@ -1,5 +1,6 @@
 ---
-title: "Using Netlify redirects with Jekyll"
+title: "No media query grid system"
+categories: [Frontend]
 ---
 
 ```

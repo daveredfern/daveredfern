@@ -1,0 +1,23 @@
+<form name="contact" method="POST" action="/thanks/" data-netlify="true" netlify-honeypot="telephone">
+    <h2>Contact me using this form</h2>
+    <label>
+            <div><strong>Your name</strong> (optional)</div>
+            <input type="text" name="name" id="name">
+        </label>
+    <label>
+        <div><strong>Email address</strong></div>
+        <div class="micro">(I’ll only use your email to reply to you.)</div>
+        <input type="email" name="email" id="email" required>
+    </label>
+    <label>
+        <div><strong>Your message</strong></div>
+        <textarea name="message" id="message" required></textarea>
+    </label>
+    <label class="hidden">
+        <div><strong>Telephone</strong></div>
+        <div class="micro">Don’t fill this out if you're human.</div>
+        <input name="telephone" id="telephone">
+    </label>
+    <input type="hidden" name="referrer" id="referrer">
+    <button type="submit">Submit</button>
+</form>
