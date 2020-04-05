@@ -10,7 +10,7 @@ This site is built with [Jekyll](https://jekyllrb.com/) and deployed to [Netlify
 
 ## Typograph
 
-Helvetica is a widely used sans-serif typeface developed in 1957 by Swiss typeface designer Max Miedinger with input from Eduard Hoffmann.
+This website uses system fonts. On Mac and iPhone you’ll see [San Francisco](https://developer.apple.com/fonts/), on Android you’ll see [Roboto](https://github.com/google/roboto), and on Windows you’ll see [Segoe UI](https://www.microsoft.com/typography/fonts/family.aspx?FID=331). I first saw it at [Ampersand Conference](http://2015.ampersandconf.com/) in 2015 when [Marcin Wichary](http://2015.ampersandconf.com/speakers#marcin) from Medium demonstrated it.
 
 For optimum reading length, all typographic elements have a maximum width. This is the same as the container (see the layout section).
 
