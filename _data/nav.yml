@@ -10,6 +10,8 @@ header:
   - name: Contact
     link: /contact/
 footer:
+  - name: Give feedback
+    link: /feedback/
   - name: Style guide
     link: /style-guide/
   - name: Past projects

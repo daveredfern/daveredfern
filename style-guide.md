@@ -6,7 +6,7 @@ My goals is to make this website as lean, fast, and user-friendly as possible. I
 
 ## Behind the scenes
 
-This site is built with [Jekyll](https://jekyllrb.com/) and deployed to [Netlify](https://www.netlify.com/).
+This site is built with [Jekyll](https://jekyllrb.com/) and deployed to [Netlify](https://www.netlify.com/). The forms are managed and processed by [Netlify Forms](https://www.netlify.com/products/forms/).
 
 ## Typograph
 
@@ -78,6 +78,26 @@ He had risen from his chair and was standing between the parted blinds gazing do
     <li>list</li>
 </ul>
 
+## Button
+
+<a href="#" class="button">This is a button</a>
+
+## Forms
+
+<form>
+    <label>
+        <div><strong>Input field</strong></div>
+        <div class="micro">Additional instructions that might help the user fill in the field goes here.</div>
+        <input>
+    </label>
+    <label>
+        <div><strong>Textares</strong></div>
+        <div class="micro">Additional instructions that might help the user fill in the field goes here.</div>
+        <textarea></textarea>
+    </label>
+    <button>Submit button</button>
+</form>
+
 ## Utilities
 
 <p class="lead">Use the <code>lead</code> class to increase the size of an element.</p>
@@ -87,6 +107,8 @@ He had risen from his chair and was standing between the parted blinds gazing do
 <p class="highlight">Use the <code>highlight</code> class to make an element blue.</p>
 
 <p class="mute">Use the <code>mute</code> class to make an element light grey.</p>
+
+<p>Use the <code>hidden</code> class to hide an element.</p>
 
 ## Layout
 

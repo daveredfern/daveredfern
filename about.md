@@ -18,6 +18,6 @@ See my [style guide](/style-guide/) to find out about this website.
 
 ## Soppy thanks
 
-A big thanks to [Gareth Joyce](http://garethjoyce.co.uk), [Jake Cobley](https://jakecobley.com), [Marc Jenkins](https://marcjenkins.co.uk/), [Phil Wylie](https://www.philwylie.co.uk/) and everyone at [Conversion Rate Experts](https://conversion-rate-experts.com). Their passion for the web typifies why I love this industry. You should definitely check them out.
+A big thanks to [Gareth Joyce](http://garethjoyce.co.uk), [Marc Jenkins](https://marcjenkins.co.uk/), [Phil Wylie](https://www.philwylie.co.uk/) and everyone at [Conversion Rate Experts](https://conversion-rate-experts.com). Their passion for the web typifies why I love this industry. You should definitely check them out.
 
 The biggest thanks goes to my girlfriend, [Karen Uppal](https://karenuppal.co.uk/)—I tinker far too much.

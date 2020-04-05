@@ -45,12 +45,16 @@ html, body {
 	padding: 0;
 }
 
-html {
-	background: var(--background-color);
-	font-size: calc(1em + 0.3vw);
+html, input, textarea, button {
 	line-height: 1.5;
 	color: var(--default-color);
 	font-family: var(--font-family);
+	font-size: 1em;
+}
+
+html {
+	background: var(--background-color);
+	font-size: calc(1em + 0.3vw);
 }
 
 /* Links */
@@ -95,7 +99,9 @@ ol,
 ul,
 blockquote,
 hr,
-pre {
+pre,
+form,
+label {
 	max-width: 36rem;
 	margin-top: 1.2em;
 	margin-bottom: 1.2em;
@@ -256,11 +262,11 @@ a.mute {
     position: sticky;
     background: var(--background-color);
 	top: 0;
-	transition: transform .45s, box-shadow .3s;
+	transition: transform .3s, box-shadow .3s;
 }
 
 .is-scrolled .header {
-	box-shadow: 0 3px 4px rgba(0,0,0,0.1);
+	box-shadow: 0 3px 4px rgba(0,0,0,0.2);
 }
 
 .is-scrolled--downwards .header {
@@ -269,4 +275,53 @@ a.mute {
 
 .is-scrolled--upwards .header {
 	transform: translateY(0);
+}
+
+/* Forms */
+
+label {
+	display: block;
+}
+
+input {
+	max-width: 26em;
+}
+
+input, textarea {
+	padding: .5em 1em;
+	width: 100%;
+	margin-top: .5em;
+	border: 2px solid var(--default-color);
+	border-radius: 5px;
+}
+
+textarea {
+	min-height: 10em;
+}
+
+/* Visibility classes */
+
+.hidden {
+	display: none !important;
+}
+
+/* Button */
+
+a.button, input[type="submit"], button {
+	-webkit-appearance: none;
+    padding: .5em 1.2em;
+    border-radius: 5px;
+    font-size: inherit;
+    letter-spacing: -0.01em;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    width: auto;
+    fill: currentColor;
+    background-color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    color: var(--background-color);
+    white-space: inherit;
 }

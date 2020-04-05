@@ -71,7 +71,7 @@ layout: compress
   <section class="section container">
     <h1>{{ page.title }}</h1>
     
-    {% if page.url != "/" and page.url != "/blog/" and page.url != "/contact/" %}
+    {% if page.hide_date != true %}
       <p class="micro">
         Last updated: {{ page.last_modified_at | date: "%b %d, %Y" }}
         {% if page.date %}
@@ -82,6 +82,14 @@ layout: compress
 
     {{ content }}
 
+    {% if page.url == "/feedback/" %}
+      {% include feedback-form.html %}
+    {% endif %}
+
+    {% if page.url == "/contact/" %}
+      {% include contact-form.html %}
+    {% endif %}
+    
     {% if page.url == "/blog/" %}
       {% include favorite-posts.html %}
       {% include blog-listing.html %}
@@ -92,7 +100,9 @@ layout: compress
     {% endif %}
   </section>
 
-  {% include cta.html %}
+  {% if page.hide_cta != true %}
+    {% include cta.html %}
+  {% endif %}
 
   {% include footer.html %}
 
