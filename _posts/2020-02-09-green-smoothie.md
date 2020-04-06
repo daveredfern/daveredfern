@@ -1,9 +1,11 @@
 ---
-title: "Green breakfast smoothie - The perfect way to start the day fresh and alert"
+title: "Green breakfast smoothie"
 category: [Vegan, Recipe, Favorite]
 ---
 
-This is a super fresh smoothie to kick start your day. It’s inspired by the smoothies that Joe Rogan and Rich Roll have in the mornings. If you’ve never had a green smoothie for breakfast, this one is worth a try. It’ll make you feel fresh and ready to go for the rest of the day!
+<p class="lead">This is perfect way to start your day. A super fresh smoothie to make you feel fresh and alert.</p>
+
+ It’s inspired by the smoothies that Joe Rogan and Rich Roll have in the mornings. If you’ve never had a green smoothie for breakfast, this one is worth a try. It’ll make you feel fresh and ready to go for the rest of the day!
 
 This recipe makes one smoothie using a standard NutriBullet cup. That cup is around 900ml in size. If you don’t have a NurtiBullet, any blender that has a similar capacity will work well.
 
