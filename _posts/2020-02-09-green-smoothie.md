@@ -1,5 +1,5 @@
 ---
-title: "Green breakfast smoothie - A perfect way to make you feel fresh and alert"
+title: "Green breakfast smoothie - The perfect way to start the day fresh and alert"
 category: [Vegan, Recipe, Favorite]
 ---
 
