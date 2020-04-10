@@ -117,13 +117,13 @@ h5,
 h6 {
 	line-height: 1.2;
 	letter-spacing: -0.01em;
-	margin-top: 1.6em;
-	margin-bottom: 0.7em;
+	margin-top: 1.4em;
+	margin-bottom: 0.6em;
 	font-weight: 800;
 }
 
 h1 {
-	font-size: calc(2em + 0.4vw);
+	font-size: calc(2em + 0.6vw);
 }
 
 hr {
@@ -218,7 +218,7 @@ a.mute {
 
 /* Container */
 .container {
-	max-width: calc(38rem + 4vw);
+	max-width: calc(36rem + 4vw);
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: calc(1em + 2vw);

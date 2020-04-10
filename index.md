@@ -1,5 +1,5 @@
 ---
-title: "I help design and develop user‑centered experiences that deliver measurable returns."
+title: "I design, develop, and test user‑centered experiences that deliver measurable returns"
 seo_title: "User‑centered experiences that deliver measurable returns"
 hide_date: true
 ---
