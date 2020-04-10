@@ -3,8 +3,8 @@
 :root {
 	--color: #111111;
 
-	--link-color: #031cb5;
-	--link-hover-background-color: #dee2fb;
+	--link-color: #0E40F2;
+	--link-hover-background-color: #E6EBFF;
 
 	--background-color: #fff;
 
@@ -322,4 +322,20 @@ button {
 	border: 2px solid var(--link-color);
 	color: var(--background-color);
 	white-space: inherit;
+}
+
+/* Search chip */
+
+a.search-chip {
+	padding: 0.2em .8em;
+    border-radius: 100px;
+    /* font-size: 0.85em; */
+    border: 2px solid var(--link-color);
+	margin-right: .3em;
+	text-decoration: none;
+}
+
+a.search-chip:hover,
+a.search-chip:focus {
+	outline: 0;
 }
