@@ -1,11 +1,10 @@
 /* Variables */
 
 :root {
-	--color: #222222;
+	--color: #111111;
 
-	--link-color: #166437;
-	--link-hover-color: #0F4D44;
-	--link-hover-background-color: #DCE2CF;
+	--link-color: #031cb5;
+	--link-hover-background-color: #dee2fb;
 
 	--background-color: #fff;
 
@@ -21,10 +20,9 @@
 		--color: #eeeeee;
 
 		--link-color: #E99BC8;
-		--link-hover-color: #F0B2BB;
 		--link-hover-background-color: #231D30;
 
-		--background-color: #151515;
+		--background-color: #161616;
 
 		--light-color: #333333;
 		--mute-color: #444444;
@@ -66,7 +64,6 @@ a:link {
 }
 
 a:hover {
-	color: var(--link-hover-color);
 	background-color: var(--link-hover-background-color);
 	outline: .2em solid var(--link-hover-background-color);
 }
@@ -81,13 +78,11 @@ a:focus {
 
 ::selection {
 	background: var(--selection-color);
-	outline: .2em solid var(--selection-color);
 	/* WebKit/Blink Browsers */
 }
 
 ::-moz-selection {
 	background: var(--selection-color);
-	outline: .2em solid var(--selection-color);
 	/* Gecko Browsers */
 }
 
