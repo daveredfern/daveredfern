@@ -56,11 +56,15 @@ He had risen from his chair and was standing between the parted blinds gazing do
 
 ## Code
 
+This is an example of a code block.
+
 ```
 .hello-world {
     display: block;
 }
 ```
+
+There is also styling available for <code>inline code</code>.
 
 ## Forms
 
