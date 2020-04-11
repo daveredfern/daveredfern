@@ -1,6 +1,7 @@
 ---
 title: "Green breakfast smoothie"
-category: [Vegan, Recipe, Favorite]
+tag: [Favorite]
+category: [Vegan, Recipe]
 ---
 
 <p class="lead">This is perfect way to start your day. A super fresh smoothie to make you feel fresh and alert.</p>

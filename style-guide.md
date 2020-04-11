@@ -17,9 +17,9 @@ For optimum reading length, all typographic elements have a maximum width. This 
 ## Colors
 
 <ul>
-    <li class="highlight"><strong>Blue</strong> rgb(9, 57, 212)</li>
-    <li><strong>Black</strong> rgb(50, 50, 50)</li>
-    <li class="mute"><strong>Light grey</strong> rgb(200, 200, 200)</li>
+    <li class="highlight"><strong>Blue</strong> in light mode and <strong>pink</strong> in dark mode.</li>
+    <li><strong>Black</strong> in light mode and <strong>whit</strong>e in dark mode.</li>
+    <li class="mute"><strong>Light grey</strong> in light mode and <strong>dark grey</strong> in dark mode.</li>
 </ul>
 
 ## Headings
@@ -62,6 +62,26 @@ He had risen from his chair and was standing between the parted blinds gazing do
 }
 ```
 
+## Forms
+
+<form>
+    <label>
+        <div><strong>Input field</strong></div>
+        <div class="micro">Additional instructions that might help the user fill in the field goes here.</div>
+        <input>
+    </label>
+    <label>
+        <div><strong>Textares</strong></div>
+        <div class="micro">Additional instructions that might help the user fill in the field goes here.</div>
+        <textarea></textarea>
+    </label>
+    <button>Submit button</button>
+</form>
+
+## Button
+
+<a href="#" class="button">This is a button</a>
+
 ## Notification
 
 <div class="notification">
@@ -78,25 +98,9 @@ He had risen from his chair and was standing between the parted blinds gazing do
     <li>list</li>
 </ul>
 
-## Button
+## Tag
 
-<a href="#" class="button">This is a button</a>
-
-## Forms
-
-<form>
-    <label>
-        <div><strong>Input field</strong></div>
-        <div class="micro">Additional instructions that might help the user fill in the field goes here.</div>
-        <input>
-    </label>
-    <label>
-        <div><strong>Textares</strong></div>
-        <div class="micro">Additional instructions that might help the user fill in the field goes here.</div>
-        <textarea></textarea>
-    </label>
-    <button>Submit button</button>
-</form>
+A <span class="tag">Tag</span> can be created by wrapping content insdie of a span with the class <code>tag</code> applied to it.
 
 ## Utilities
 

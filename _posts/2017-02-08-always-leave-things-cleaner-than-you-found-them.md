@@ -1,7 +1,7 @@
 ---
 title: "Always Leave Things Cleaner Than You Found Them"
 date: "2017-02-08"
-categories: [Favorite]
+tag: [Favorite]
 ---
 
 Design and code can be a messy world. No one is to blame. Always make what you work on better.
