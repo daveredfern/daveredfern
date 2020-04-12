@@ -1,7 +1,6 @@
 ---
-title: "<h1><span class=\"highlight\">👋 I’m Dave.</span><br>I design and develop user‑centered experiences that deliver measurable returns</h1>"
+title: "<span class=\"highlight\">👋 I’m Dave.</span><br>I design and develop user‑centered experiences that deliver measurable returns"
 seo_title: "User‑centered experiences that deliver measurable returns"
-hide_title: true
 hide_date: true
 ---
 
