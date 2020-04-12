@@ -220,7 +220,7 @@ a.mute {
 
 /* Container */
 .container {
-	max-width: calc(36rem + 4vw);
+	max-width: calc(35rem + 4vw);
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: calc(1em + 2vw);

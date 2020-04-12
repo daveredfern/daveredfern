@@ -1,0 +1,10 @@
+<p class="micro">
+    {% assign page_date = page.date | date: "%b %Y" %}
+    {% assign page_update = page.last_modified_at | date: "%b %Y" %}
+    {% if page_date != page_update %}
+        Last updated: {{ page.last_modified_at | date: "%b %d, %Y" }}<br />
+    {% endif %}
+    {% if page.date %}
+        Published: {{ page.date | date: "%b %d, %Y" }}
+    {% endif %}
+</p>
