@@ -81,6 +81,12 @@ layout: compress
 
     {{ content }}
 
+    {% if page.url == "/vegan/" %}
+      {% for post in site.categories.Vegan %}
+        {% include recipe.html %}
+      {% endfor %}
+    {% endif %}
+
     {% if page.url == "/feedback/" %}
       {% include feedback-form.html %}
     {% endif %}

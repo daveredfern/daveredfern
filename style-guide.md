@@ -104,6 +104,14 @@ There is also styling available for <code>inline code</code>.
 
 A <span class="tag">Tag</span> can be created by wrapping content insdie of a span with the class <code>.tag</code> applied to it.
 
+## Search chip
+
+<a href="#" class="search-chip">Search chip</a>
+
+A search chip indicates that the content can be filtered by a category. These are primarily used on the <a href="{{ site.url }}/blog/">blog</a> pages.
+
+Use the <code>.search-chip</code> class on any link.
+
 ## Utilities
 
 <p class="lead">Use the <code>.lead</code> class to increase the size of an element.</p>

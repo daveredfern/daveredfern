@@ -47,7 +47,7 @@ html,
 input,
 textarea,
 button {
-	line-height: 1.5;
+	line-height: 1.618;
 	color: var(--color);
 	font-family: var(--font-family);
 	font-size: 1em;
@@ -55,7 +55,7 @@ button {
 
 html {
 	background: var(--background-color);
-	font-size: calc(.9em + 0.5vw);
+	font-size: calc(.95em + 0.5vw);
 }
 
 /* Links */

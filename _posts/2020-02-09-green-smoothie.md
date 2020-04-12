@@ -1,5 +1,6 @@
 ---
 title: "Green breakfast smoothie"
+excerpt: "This green smoothie is perfect for breakfast. It’ll make you feel fresh and alert, ready to start your day."
 tag: [Favorite]
 category: [Vegan]
 ---
