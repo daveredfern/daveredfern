@@ -3,16 +3,15 @@
 :root {
 	--color: #111111;
 
-	--link-color: #0E40F2;
-	--link-hover-background-color: #E6EBFF;
+	--primary-color: #0E40F2;
+	--light-primary-color: #E6EBFF;
+	--dark-primary-color: #082079;
 
 	--background-color: #fff;
 
 	--light-color: #eeeeee;
 	--mute-color: #dddddd;
 	--selection-color: #feff91;
-
-	--button-hover: #082079;
 
 	--font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
@@ -21,8 +20,9 @@
 	:root {
 		--color: #eeeeee;
 
-		--link-color: #E99BC8;
-		--link-hover-background-color: #56414d;
+		--primary-color: #E99BC8;
+		--light-primary-color: #56414d;
+		--dark-primary-color: #efc3dc;
 
 		--background-color: #161616;
 
@@ -55,25 +55,25 @@ button {
 
 html {
 	background: var(--background-color);
-	font-size: calc(1em + 0.3vw);
+	font-size: calc(.9em + 0.5vw);
 }
 
 /* Links */
 
 a,
 a:link {
-	color: var(--link-color);
+	color: var(--primary-color);
 }
 
 a:hover {
-	background-color: var(--link-hover-background-color);
-	outline: .2em solid var(--link-hover-background-color);
+	background-color: var(--light-primary-color);
+	outline: .2em solid var(--light-primary-color);
 }
 
 a:focus {
-	background-color: var(--link-color);
+	background-color: var(--primary-color);
 	color: var(--background-color);
-	outline: .2em solid var(--link-color);
+	outline: .2em solid var(--primary-color);
 }
 
 /* Highlight color */
@@ -104,7 +104,6 @@ hr,
 pre,
 form,
 label {
-	max-width: 36rem;
 	margin-top: 1.2em;
 	margin-bottom: 1.2em;
 }
@@ -120,13 +119,12 @@ h6 {
 	line-height: 1.2;
 	letter-spacing: -0.01em;
 	margin-top: 1.4em;
-	margin-bottom: 0.6em;
+	margin-bottom: 0.7em;
 	font-weight: 800;
 }
 
 h1 {
-	margin-top: 1.2em;
-	font-size: calc(2em + 0.5vw);
+	font-size: calc(1.8em + .8vw);
 }
 
 hr {
@@ -195,7 +193,7 @@ iframe {
 
 .highlight,
 a.highlight {
-	color: var(--link-color) !important;
+	color: var(--primary-color) !important;
 }
 
 a.highlight:focus {
@@ -256,11 +254,13 @@ a.mute {
 /* Header */
 
 .header {
+    position: sticky;
+    top: 0;
+    left: 0;
+	width: 100vw;
 	overflow: hidden;
-	border-bottom: 1px solid var(--mute-color);
-	position: sticky;
+	border-bottom: 3px solid var(--primary-color);
 	background: var(--background-color);
-	top: 0;
 	transition: transform .3s, box-shadow .3s;
 }
 
@@ -300,6 +300,11 @@ textarea {
 	min-height: 10em;
 }
 
+input:focus,
+textarea:focus {
+	border-color: var(--primary-color);
+}
+
 /* Visibility classes */
 
 .hidden {
@@ -323,8 +328,8 @@ button {
 	text-align: center;
 	width: auto;
 	fill: currentColor;
-	background-color: var(--link-color);
-	border: 2px solid var(--link-color);
+	background-color: var(--primary-color);
+	border: 2px solid var(--primary-color);
 	color: var(--background-color);
 	white-space: inherit;
 	text-decoration: none;
@@ -333,8 +338,8 @@ button {
 a.button:hover,
 input[type="submit"]:hover,
 button:hover {
-	background-color: var(--button-hover);
-	border-color: var(--button-hover);
+	background-color: var(--dark-primary-color);
+	border-color: var(--dark-primary-color);
 	outline: 0;
 }
 
@@ -343,7 +348,7 @@ button:hover {
 a.search-chip {
 	padding: 0.2em .8em;
     border-radius: 100px;
-    border: 2px solid var(--link-color);
+    border: 2px solid var(--primary-color);
 	margin-right: .3em;
 	text-decoration: none;
 }
@@ -356,7 +361,7 @@ a.search-chip:focus {
 /* Tag */
 
 .tag {
-	background-color: var(--link-color);
+	background-color: var(--primary-color);
     color: var(--background-color);
     display: inline-block;
     border-radius: 5px;

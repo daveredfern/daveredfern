@@ -11,7 +11,7 @@ var className = {
 window.addEventListener('scroll', function () {
     var scrollPosition = window.pageYOffset;
     var navbarHeight = document.querySelector('.header').clientHeight;
-    var tolerance = navbarHeight / 2;
+    var tolerance = 30;
 
     // Make sure they scroll more than tolerance
     if (Math.abs(lastScrollTop - scrollPosition) <= tolerance)
