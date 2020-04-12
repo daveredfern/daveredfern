@@ -12,8 +12,6 @@ This site is built with [Jekyll](https://jekyllrb.com/) and deployed to [Netlify
 
 This website uses system fonts. On Mac and iPhone you’ll see [San Francisco](https://developer.apple.com/fonts/), on Android you’ll see [Roboto](https://github.com/google/roboto), and on Windows you’ll see [Segoe UI](https://www.microsoft.com/typography/fonts/family.aspx?FID=331). I first saw it at [Ampersand Conference](http://2015.ampersandconf.com/) in 2015 when [Marcin Wichary](http://2015.ampersandconf.com/speakers#marcin) from Medium demonstrated it.
 
-For optimum reading length, all typographic elements have a maximum width. This is the same as the container (see the layout section).
-
 ## Colors
 
 <ul>
@@ -104,22 +102,22 @@ There is also styling available for <code>inline code</code>.
 
 ## Tag
 
-A <span class="tag">Tag</span> can be created by wrapping content insdie of a span with the class <code>tag</code> applied to it.
+A <span class="tag">Tag</span> can be created by wrapping content insdie of a span with the class <code>.tag</code> applied to it.
 
 ## Utilities
 
-<p class="lead">Use the <code>lead</code> class to increase the size of an element.</p>
+<p class="lead">Use the <code>.lead</code> class to increase the size of an element.</p>
 
-<p class="micro">Use the <code>micro</code> class to decrease the size of an element.</p>
+<p class="micro">Use the <code>.micro</code> class to decrease the size of an element.</p>
 
-<p class="highlight">Use the <code>highlight</code> class to make an element blue.</p>
+<p class="highlight">Use the <code>.highlight</code> class to make an element blue.</p>
 
-<p class="mute">Use the <code>mute</code> class to make an element light grey.</p>
+<p class="mute">Use the <code>.mute</code> class to make an element light grey.</p>
 
-<p>Use the <code>hidden</code> class to hide an element.</p>
+<p>Use the <code>.hidden</code> class to hide an element.</p>
 
 ## Layout
 
-<p>Use the <code>container</code> class to cap with width of the content.</p>
+<p>Use the <code>.container</code> class to cap with width of the content.</p>
 
-<p>Use the <code>spacing</code> class add large space to the top and bottom of the element.</p>
+<p>Use the <code>.spacing</code> class add large space to the top and bottom of the element.</p>
