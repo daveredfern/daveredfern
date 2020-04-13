@@ -55,7 +55,7 @@ button {
 
 html {
 	background: var(--background-color);
-	font-size: calc(.95em + 0.5vw);
+	font-size: calc(.95em + 0.45vw);
 }
 
 /* Links */
