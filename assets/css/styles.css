@@ -373,6 +373,10 @@ a.search-chip:focus {
 	padding-top: calc(100% / (16 / 9));
 }
 
+.media-object--43 {
+	padding-top: calc(100% / (4 / 3));
+}
+
 .media-object>* {
 	position: absolute;
 	top: 0;

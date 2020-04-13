@@ -3,7 +3,7 @@ title: "Designing With Clients"
 date: "2016-04-25"
 ---
 
-<script async class="speakerdeck-embed" data-id="e11685bbc4de4c279451bff7824d240d" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<div class="media-object media-object--43"><iframe width="560" height="315" src="https://speakerdeck.com/player/e11685bbc4de4c279451bff7824d240d" frameborder="0" allowfullscreen></div>
 
 ## Events
 

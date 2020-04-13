@@ -3,7 +3,7 @@ title: "Iconography – First Time For Everything"
 date: "2016-04-25"
 ---
 
-<script async class="speakerdeck-embed" data-id="30e420a5a6b94620964fe2d052fb72f6" data-ratio="1.33159947984395" src="//speakerdeck.com/assets/embed.js"></script>
+<div class="media-object media-object--43"><iframe width="560" height="315" src="https://speakerdeck.com/player/30e420a5a6b94620964fe2d052fb72f6" frameborder="0" allowfullscreen></div>
 
 ## Events
 
