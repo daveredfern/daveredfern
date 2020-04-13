@@ -158,7 +158,6 @@ code {
 	vertical-align: text-top;
 	background-color: var(--light-color);
 	font-size: 0.85em;
-	border-bottom-width: 3px;
 	color: var(--color);
 }
 
