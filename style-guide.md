@@ -112,6 +112,12 @@ A search chip indicates that the content can be filtered by a category. These ar
 
 Use the <code>.search-chip</code> class on any link.
 
+## Media object
+
+A media object forces an element to maintain a ratio of 16:9. It’s primarily used for embedding iFrame content such as YouTube where, by default, they don’t resize responsively.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2XX14tfsk4c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Utilities
 
 <p class="lead">Use the <code>.lead</code> class to increase the size of an element.</p>

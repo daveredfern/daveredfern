@@ -10,4 +10,6 @@ I anonymously collect data using [Netlify Analytics](https://www.netlify.com/pro
 
 If you complete any forms on this website, the information is processed and stored in [Netlify Forms](https://www.netlify.com/products/forms/).
 
+On a few pages of my website I use embed code for services like [YouTube](https://youtube.com) and [Speaker Deck](https://www.speakerdeck.com). These websites may collect information about you and use cookies. For more information their own privacy notices.
+
 If you have any questions, please [contact me](https://daveredfern.com/contact/).

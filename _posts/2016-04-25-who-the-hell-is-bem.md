@@ -19,7 +19,7 @@ BEM stands for block, element and modifier.
 
 This talk explains the basic concepts of BEM with some examples.
 
-https://speakerdeck.com/daveredfern/who-the-fuck-is-bem
+<script async class="speakerdeck-embed" data-id="47081b805ad30132d7cd52853fe718f7" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 ## Further reading
 
