@@ -2,7 +2,7 @@
 title: "Privacy policy"
 ---
 
-**This website collects as little personal information as possible.** I don’t know who you are, where you’re from or how you found me.
+<p class="lead"><strong>This website collects as little personal information as possible.</strong> I don’t know who you are, where you’re from or how you found me.</p>
 
 For security reasons, [Netlify](https://www.netlify.com/), my hosting provider, collects your IP address, user agent, and URL requested. This information is stored for 30 days before being deleted.
 
