@@ -254,7 +254,6 @@ a.mute {
 	width: 100vw;
 	z-index: 2;
 	overflow: hidden;
-	border-bottom: 3px solid var(--primary-color);
 	background: var(--background-color);
 	transition: transform .3s, box-shadow .3s;
 }
