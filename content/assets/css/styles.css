@@ -54,7 +54,6 @@ button {
 }
 
 html {
-	background: var(--background-color);
 	font-size: calc(.95em + 0.45vw);
 }
 
@@ -120,7 +119,6 @@ h6 {
 
 h1 {
 	font-size: calc(1.8em + .8vw);
-	margin-top: 1em;
 }
 
 hr {
@@ -244,31 +242,6 @@ a.mute {
 
 .notification>*:last-child {
 	margin-bottom: 0;
-}
-
-/* Header */
-
-.header {
-	position: sticky;
-	top: 0;
-	left: 0;
-	width: 100vw;
-	z-index: 2;
-	overflow: hidden;
-	background: var(--background-color);
-	transition: transform .3s, box-shadow .3s;
-}
-
-.is-scrolled .header {
-	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
-}
-
-.is-scrolled--downwards .header {
-	transform: translateY(-150%);
-}
-
-.is-scrolled--upwards .header {
-	transform: translateY(0);
 }
 
 /* Forms */
