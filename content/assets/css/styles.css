@@ -120,6 +120,7 @@ h6 {
 
 h1 {
 	font-size: calc(1.8em + .8vw);
+	margin-top: 1em;
 }
 
 hr {
