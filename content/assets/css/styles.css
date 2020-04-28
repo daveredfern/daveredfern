@@ -13,7 +13,7 @@
 	--mute-color: #dddddd;
 	--selection-color: #feff91;
 
-	--font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	--font-family: "wotfard", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 @media (prefers-color-scheme: dark) {
@@ -29,6 +29,48 @@
 		--light-color: #333333;
 		--mute-color: #444444;
 	}
+}
+
+/* Import fonts */
+
+@font-face {
+    font-family: 'wotfard';
+    src: url('/assets/fonts/wotfard-bold-webfont.eot');
+    src: url('/assets/fonts/wotfard-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/wotfard-bold-webfont.woff2') format('woff2'),
+         url('/assets/fonts/wotfard-bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'wotfard';
+    src: url('/assets/fonts/wotfard-regular-webfont.eot');
+    src: url('/assets/fonts/wotfard-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/wotfard-regular-webfont.woff2') format('woff2'),
+         url('/assets/fonts/wotfard-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'wotfard';
+    src: url('/assets/fonts/wotfard-bolditalic-webfont.eot');
+    src: url('/assets/fonts/wotfard-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/wotfard-bolditalic-webfont.woff2') format('woff2'),
+         url('/assets/fonts/wotfard-bolditalic-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'wotfard';
+    src: url('/assets/fonts/wotfard-regularitalic-webfont.eot');
+    src: url('/assets/fonts/wotfard-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/wotfard-regularitalic-webfont.woff2') format('woff2'),
+         url('/assets/fonts/wotfard-regularitalic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
 }
 
 /* Global */
@@ -113,7 +155,6 @@ h6 {
 	letter-spacing: -0.01em;
 	margin-top: 1.4em;
 	margin-bottom: 0.7em;
-	font-weight: 900;
 	scroll-margin-top: 1em;
 }
 
