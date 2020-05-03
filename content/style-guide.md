@@ -116,7 +116,7 @@ Use the <code>.search-chip</code> class on any link.
 
 A <code>.media-object</code> forces an element to maintain a ratio of 16:9. It’s primarily used for embedding iFrame content such as YouTube where, by default, they don’t resize responsively.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2XX14tfsk4c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="media-object"><iframe width="560" height="315" src="https://www.youtube.com/embed/2XX14tfsk4c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 To make the ratio 4:3, add a modifying class of <code>.media-object--43</code> to it.
 
