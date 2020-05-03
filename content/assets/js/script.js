@@ -15,7 +15,9 @@ document.querySelectorAll('a').forEach(function (link) {
 document.querySelectorAll('[role="main"] h2, [role="main"] h3').forEach(function (link) {
     var hash = link.textContent.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '');
     var anchor = document.createElement('a');
-    anchor.innerHTML = `<a href="#${hash}">#</a>`;
+    anchor.innerHTML = `#`;
+    anchor.classList.add('hash');
+    anchor.href = `#${hash}`;
     link.setAttribute('id', hash);
     link.append(' ');
     link.append(anchor);
