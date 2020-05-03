@@ -34,45 +34,45 @@
 /* Import fonts */
 
 @font-face {
-    font-family: 'wotfard';
-    src: url('/assets/fonts/wotfard-semibold-webfont.eot');
-    src: url('/assets/fonts/wotfard-semibold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/wotfard-semibold-webfont.woff2') format('woff2'),
-         url('/assets/fonts/wotfard-semibold-webfont.ttf') format('truetype');
-    font-weight: bold;
+	font-family: 'wotfard';
+	src: url('/assets/fonts/wotfard-semibold-webfont.eot');
+	src: url('/assets/fonts/wotfard-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('/assets/fonts/wotfard-semibold-webfont.woff2') format('woff2'),
+		url('/assets/fonts/wotfard-semibold-webfont.ttf') format('truetype');
+	font-weight: bold;
 	font-style: normal;
 	font-display: swap;
 }
 
 @font-face {
-    font-family: 'wotfard';
-    src: url('/assets/fonts/wotfard-regular-webfont.eot');
-    src: url('/assets/fonts/wotfard-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/wotfard-regular-webfont.woff2') format('woff2'),
-         url('/assets/fonts/wotfard-regular-webfont.ttf') format('truetype');
-    font-weight: normal;
+	font-family: 'wotfard';
+	src: url('/assets/fonts/wotfard-regular-webfont.eot');
+	src: url('/assets/fonts/wotfard-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('/assets/fonts/wotfard-regular-webfont.woff2') format('woff2'),
+		url('/assets/fonts/wotfard-regular-webfont.ttf') format('truetype');
+	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
 }
 
 @font-face {
-    font-family: 'wotfard';
-    src: url('/assets/fonts/wotfard-semibolditalic-webfont.eot');
-    src: url('/assets/fonts/wotfard-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/wotfard-semibolditalic-webfont.woff2') format('woff2'),
-         url('/assets/fonts/wotfard-semibolditalic-webfont.ttf') format('truetype');
-    font-weight: bold;
+	font-family: 'wotfard';
+	src: url('/assets/fonts/wotfard-semibolditalic-webfont.eot');
+	src: url('/assets/fonts/wotfard-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+		url('/assets/fonts/wotfard-semibolditalic-webfont.woff2') format('woff2'),
+		url('/assets/fonts/wotfard-semibolditalic-webfont.ttf') format('truetype');
+	font-weight: bold;
 	font-style: italic;
 	font-display: swap;
 }
 
 @font-face {
-    font-family: 'wotfard';
-    src: url('/assets/fonts/wotfard-regularitalic-webfont.eot');
-    src: url('/assets/fonts/wotfard-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/wotfard-regularitalic-webfont.woff2') format('woff2'),
-         url('/assets/fonts/wotfard-regularitalic-webfont.ttf') format('truetype');
-    font-weight: normal;
+	font-family: 'wotfard';
+	src: url('/assets/fonts/wotfard-regularitalic-webfont.eot');
+	src: url('/assets/fonts/wotfard-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
+		url('/assets/fonts/wotfard-regularitalic-webfont.woff2') format('woff2'),
+		url('/assets/fonts/wotfard-regularitalic-webfont.ttf') format('truetype');
+	font-weight: normal;
 	font-style: italic;
 	font-display: swap;
 }
@@ -81,14 +81,14 @@
 
 * {
 	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html,
 body {
 	margin: 0;
 	padding: 0;
-        background-color: var(--background-color);
+	background-color: var(--background-color);
 }
 
 html,
@@ -99,6 +99,9 @@ button {
 	color: var(--color);
 	font-family: var(--font-family);
 	font-size: 1em;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
 }
 
 html {
@@ -414,56 +417,64 @@ a.search-chip:focus {
 /* Wave */
 
 @-webkit-keyframes wave {
-    0% {
-        -webkit-transform: rotate(0);
-                transform: rotate(0)
-    }
-    25% {
-        -webkit-transform: rotate(10deg);
-                transform: rotate(10deg)
-    }
-    50% {
-        -webkit-transform: rotate(0deg);
-                transform: rotate(0deg)
-    }
-    75% {
-        -webkit-transform: rotate(-10deg);
-                transform: rotate(-10deg)
-    }
-    to {
-        -webkit-transform: rotate(0);
-                transform: rotate(0)
-    }
+	0% {
+		-webkit-transform: rotate(0);
+		transform: rotate(0)
+	}
+
+	25% {
+		-webkit-transform: rotate(10deg);
+		transform: rotate(10deg)
+	}
+
+	50% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg)
+	}
+
+	75% {
+		-webkit-transform: rotate(-10deg);
+		transform: rotate(-10deg)
+	}
+
+	to {
+		-webkit-transform: rotate(0);
+		transform: rotate(0)
+	}
 }
 
 @keyframes wave {
-    0% {
-        -webkit-transform: rotate(0);
-                transform: rotate(0)
-    }
-    25% {
-        -webkit-transform: rotate(10deg);
-                transform: rotate(10deg)
-    }
-    50% {
-        -webkit-transform: rotate(0deg);
-                transform: rotate(0deg)
-    }
-    75% {
-        -webkit-transform: rotate(-10deg);
-                transform: rotate(-10deg)
-    }
-    to {
-        -webkit-transform: rotate(0);
-                transform: rotate(0)
-    }
+	0% {
+		-webkit-transform: rotate(0);
+		transform: rotate(0)
+	}
+
+	25% {
+		-webkit-transform: rotate(10deg);
+		transform: rotate(10deg)
+	}
+
+	50% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg)
+	}
+
+	75% {
+		-webkit-transform: rotate(-10deg);
+		transform: rotate(-10deg)
+	}
+
+	to {
+		-webkit-transform: rotate(0);
+		transform: rotate(0)
+	}
 }
 
 .wave {
 	display: inline-block;
-    -webkit-animation: wave .5s 4 ease-in-out;
-            animation: wave .5s 4 ease-in-out;
-    -webkit-transform-origin: 70% 80%;
-        -ms-transform-origin: 70% 80%;
-            transform-origin: 70% 80%;
+	-webkit-animation: wave .5s 4 ease-in-out;
+	animation: wave .5s 4 ease-in-out;
+	-webkit-transform-origin: 70% 80%;
+	-ms-transform-origin: 70% 80%;
+	transform-origin: 70% 80%;
 }
