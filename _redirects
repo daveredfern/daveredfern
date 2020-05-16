@@ -1,8 +1,8 @@
 # Redirect /feed/ which is WordPress’ URL
 /feed/  /feed.xml
 /articles/feed/ /feed.xml
-/notes/feed/    feed.xml
-/photography/feed/  feed.xml
+/notes/feed/    /feed.xml
+/photography/feed/  /feed.xml
 
 # Common URLs that are visited
 /wp-content/themes/brutal/images/favicon/favicon-32x32.png  /assets/images/favicon/favicon-32x32.png
