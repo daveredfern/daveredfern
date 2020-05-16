@@ -8,7 +8,7 @@ By default, [Netlify redirects](https://docs.netlify.com/routing/redirects/) won
 The simple fix is to append the following to your [build command](https://docs.netlify.com/configure-builds/get-started/) in Netlify.
 
 ```
-&& cp _site/_redirects _site/_redirects
+&& cp _redirects _site/_redirects
 ```
 
 This command will copy your `_redirects` file into the `_site` folder during the build process.
