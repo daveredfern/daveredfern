@@ -108,7 +108,7 @@ A <span class="tag">Tag</span> can be created by wrapping content insdie of a sp
 
 <a href="#" class="search-chip">Search chip</a>
 
-A search chip indicates that the content can be filtered by a category. These are primarily used on the <a href="{{ site.url }}/blog/">blog</a> pages.
+A search chip indicates that the content can be filtered by a category. These are primarily used on the <a href="/blog/">blog</a> pages.
 
 Use the <code>.search-chip</code> class on any link.
 

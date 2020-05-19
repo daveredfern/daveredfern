@@ -2,7 +2,7 @@
   <div class="container">
     <ul class="inline-list">
       {% for item in site.data.nav.header %}
-        <li><a href="{{ site.url }}{{ item.link }}" {% if page.url == item.link %} aria-current="page"{% endif %}>{{ item.name }}</a></li>
+        <li><a href="{{ item.link }}" {% if page.url == item.link %} aria-current="page"{% endif %}>{{ item.name }}</a></li>
       {% endfor %}
     </ul>
   </div>

@@ -4,7 +4,7 @@ title: "What I'm doing now"
 
 I am currently focusing my efforts on:
 
-**Continuously improving this website** with the goals of making it as lean, fast, and user-friendly as possible. I’ve just moved from WordPress to Jekyll. If you have any suggestions for improving it, [let me know]({{ site.url }}/contact/).
+**Continuously improving this website** with the goals of making it as lean, fast, and user-friendly as possible. I’ve just moved from WordPress to Jekyll. If you have any suggestions for improving it, [let me know](/contact/).
 
 **Working at Conversion Rate Expert** as head of design and development. CRE is the world’s leading agency for conversion rate optimization (CRO)—a term they coined in 2007.
 
