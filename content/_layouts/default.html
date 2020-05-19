@@ -9,7 +9,7 @@ layout: compress
   <!-- Page setting -->
 	<meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="mobile-web-app-capable" content="yes">
   <meta charset="utf-8">
@@ -26,9 +26,7 @@ layout: compress
 
   <!-- Preconnect for assets -->
   <link rel="preconnect" href="https://d33wubrfki0l68.cloudfront.net">
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="preconnect" href="https://instant.page">
 
   <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
@@ -65,9 +63,23 @@ layout: compress
   <!-- Canonical url -->
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
+  <!-- CSS -->
+  <style>
+      {% include styles.css %}
+  </style>
+
   <!-- Instant pages -->
-  <script src="/assets/js/script.js" defer></script>
-  <script src="/assets/js/instantpage.js" defer></script>
+  <script defer>
+      {% include script.js %}
+  </script>
+  <script src="//instant.page/5.0.1" type="module" integrity="sha384-0DvoZ9kNcB36fWcQApIMIGQoTzoBDYTQ85e8nmsfFOGz4RHAdUhADqJt4k3K2uLS"></script>
+  <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('/assets/js/sw.js');
+        });
+      }
+    </script>
 
 </head>
 <body>
@@ -103,7 +115,7 @@ layout: compress
       {% include blog-listing.html %}
     {% endif %}
 
-    {% if page.url == "/" %}
+    {% if page.url == "/" or page.url == "/offline/" %}
       {% include favorite-posts.html %}
     {% endif %}
   </section>
