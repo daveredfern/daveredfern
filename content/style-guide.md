@@ -122,6 +122,12 @@ A <code>.media-object</code> forces an element to maintain a ratio of 16:9. Itâ€
 
 To make the ratio 4:3, add a modifying class of <code>.media-object--43</code> to it.
 
+## Icons
+
+When using an icon, add the class <code>.icon</code> to the SVG to set the size correctly.
+
+When an SVG is used inside of a link, an SVG element wonâ€™t have an underline like text does. This can look odd so to overcome this, instead of using a space, add the class <code>.space-left</code> which adds the equivelant of one space.
+
 ## Utilities
 
 <p class="lead">Use the <code>.lead</code> class to increase the size of an element.</p>
