@@ -124,10 +124,10 @@ layout: compress
       window.addEventListener('load', function() {
         navigator.serviceWorker.register('/assets/js/sw.js').then(function(registration) {
           // Successfully registered the Service Worker
-          //console.log('Service Worker registration successful with scope: ', registration.scope);
+          console.log('Service Worker registration successful with scope: ', registration.scope);
         }).catch(function(err) {
           // Failed to register the Service Worker
-          //console.log('Service Worker registration failed: ', err);
+          console.log('Service Worker registration failed: ', err);
         });
       });
     }
