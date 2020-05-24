@@ -13,5 +13,10 @@
     }],
     "theme_color": "#0f40f2",
     "background_color": "#ffffff",
-    "display": "standalone"
+    "display": "standalone",
+    "dir": "ltr",
+    "lang": "en",
+    "orientation": "natural",
+    "start_url": "/",
+    "categories": ["technology", "web", "design", "web design", "a/b testing", "conversion rate optimization"]
 }

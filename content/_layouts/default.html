@@ -120,16 +120,16 @@ layout: compress
   </script>
   <script src="//instant.page/5.0.1" type="module" integrity="sha384-0DvoZ9kNcB36fWcQApIMIGQoTzoBDYTQ85e8nmsfFOGz4RHAdUhADqJt4k3K2uLS"></script>
   <script>
+    // ServiceWorker is a progressive technology. Ignore unsupported browsers
     if ('serviceWorker' in navigator) {
-      window.addEventListener('load', function() {
-        navigator.serviceWorker.register('/assets/js/sw.js').then(function(registration) {
-          // Successfully registered the Service Worker
-          console.log('Service Worker registration successful with scope: ', registration.scope);
-        }).catch(function(err) {
-          // Failed to register the Service Worker
-          console.log('Service Worker registration failed: ', err);
-        });
+      console.log('CLIENT: service worker registration in progress.');
+      navigator.serviceWorker.register('/assets/js/sw.js').then(function() {
+        console.log('CLIENT: service worker registration complete.');
+      }, function() {
+        console.log('CLIENT: service worker registration failure.');
       });
+    } else {
+      console.log('CLIENT: service worker is not supported.');
     }
   </script>
 
