@@ -8,6 +8,8 @@ My goals is to make this website as lean, fast, and user-friendly as possible. I
 
 This site is built with [Jekyll](https://jekyllrb.com/) and deployed to [Netlify](https://www.netlify.com/). The forms are managed and processed by [Netlify Forms](https://www.netlify.com/products/forms/).
 
+This site scores 100 on lighthouse in all categories and supports offline content—just because I thought it would be fun to include.
+
 ## Typograph
 
 This website uses system fonts. On Mac and iPhone you’ll see [San Francisco](https://developer.apple.com/fonts/), on Android you’ll see [Roboto](https://github.com/google/roboto), and on Windows you’ll see [Segoe UI](https://www.microsoft.com/typography/fonts/family.aspx?FID=331). I first saw it at [Ampersand Conference](http://2015.ampersandconf.com/) in 2015 when [Marcin Wichary](http://2015.ampersandconf.com/speakers#marcin) from Medium demonstrated it.
