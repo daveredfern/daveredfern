@@ -120,11 +120,13 @@ layout: compress
   </script>
   <script>
     /* ServiceWorker is a progressive technology. Ignore unsupported browsers */
+    const cacheName = 'daveredfern-{{ site.data['hash'] }}';
     if('serviceWorker' in navigator){
       navigator.serviceWorker.register('/sw.js')
         .then(reg => console.log('service worker registered'))
         .catch(err => console.log('service worker not registered', err));
     }
+    {{ site.data }}
   </script>
   <script src="/assets/js/instantpage.js"></script>
 
