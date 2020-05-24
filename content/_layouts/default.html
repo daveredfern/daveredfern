@@ -26,7 +26,6 @@ layout: compress
 
   <!-- Preconnect for assets -->
   <link rel="preconnect" href="https://d33wubrfki0l68.cloudfront.net">
-  <link rel="preconnect" href="https://instant.page">
 
   <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
@@ -118,7 +117,6 @@ layout: compress
   <script defer>
     {% include script.js %}
   </script>
-  <script src="//instant.page/5.0.1" type="module" integrity="sha384-0DvoZ9kNcB36fWcQApIMIGQoTzoBDYTQ85e8nmsfFOGz4RHAdUhADqJt4k3K2uLS"></script>
   <script>
     // ServiceWorker is a progressive technology. Ignore unsupported browsers
     if ('serviceWorker' in navigator) {
@@ -132,6 +130,7 @@ layout: compress
       console.log('CLIENT: service worker is not supported.');
     }
   </script>
+  <script src="/assets/js/instantpage.js"></script>
 
 </body>
 </html>
