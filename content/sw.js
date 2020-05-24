@@ -1,46 +1,45 @@
-const staticCacheName = 'daveredfern-v1';
+const cacheName = 'daveredfern-v1';
 
-const assets = [
+const cacheFiles = [
     '/',
     '/now/',
     '/about/',
     '/blog/',
     '/contact/',
-    
+
     '/green-smoothie/',
     '/design-principles/',
     '/enabling-a-chance-for-something-to-happen/',
     '/always-leave-things-cleaner-than-you-found-them/',
-    '/screen-sizes/'
+    '/screen-sizes/',
+
+    '/offline/'
 ];
 
-// install event
-self.addEventListener('install', evt => {
-  evt.waitUntil(
-    caches.open(staticCacheName).then((cache) => {
-      console.log('caching shell assets');
-      cache.addAll(assets);
-    })
-  );
+self.addEventListener('install', function (event) {
+    event.waitUntil(caches.open(cacheName).then(function (cache) {
+        return cache.addAll(cacheFiles);
+    }));
 });
 
-// activate event
-self.addEventListener('activate', evt => {
-  evt.waitUntil(
-    caches.keys().then(keys => {
-      return Promise.all(keys
-        .filter(key => key !== staticCacheName)
-        .map(key => caches.delete(key))
-      );
-    })
-  );
+self.addEventListener('fetch', function (event) {
+    event.respondWith(caches.match(event.request).then(function (response) {
+        if (response) {
+            return response;
+        }
+        return fetch(event.request);
+    }).catch(function () {
+        return caches.match('/offline/');
+    }));
 });
 
-// fetch event
-self.addEventListener('fetch', evt => {
-  evt.respondWith(
-    caches.match(evt.request).then(cacheRes => {
-      return cacheRes || fetch(evt.request);
-    })
-  );
+self.addEventListener('activate', function (event) {
+    var cacheWhitelist = ['daveredfern-v1'];
+    event.waitUntil(caches.keys().then(function (cacheNames) {
+        return Promise.all(cacheNames.map(function (cacheName) {
+            if (cacheWhitelist.indexOf(cacheName) === -1) {
+                return caches.delete(cacheName);
+            }
+        }));
+    }));
 });
