@@ -1,3 +1,5 @@
+const cacheName = "daveredfern-v2";
+
 const cacheFiles = [
     '/',
     '/now/',
