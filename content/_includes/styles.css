@@ -430,10 +430,13 @@ a.search-chip:focus {
 	transform-origin: 70% 80%;
 }
 
-/* External link */
+/* Icon */
 
-.external-link {
+.icon {
 	height: .8em;
     width: .8em;
+}
+
+.space-left {
 	margin-left: .25em;
 }
