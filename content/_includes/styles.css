@@ -429,3 +429,11 @@ a.search-chip:focus {
 	-ms-transform-origin: 70% 80%;
 	transform-origin: 70% 80%;
 }
+
+/* External link */
+
+.external-link {
+	height: .8em;
+    width: .8em;
+	margin-left: .3em;
+}
