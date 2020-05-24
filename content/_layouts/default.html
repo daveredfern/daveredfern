@@ -31,7 +31,7 @@ layout: compress
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
-	<link rel="manifest" href="/assets/js/manifest.json">
+  <link rel="manifest" href="manifest.json">
 	<meta name="msapplication-TileColor" content="#2774e7">
   <meta name="theme-color" content="#ffffff">
 
@@ -121,7 +121,7 @@ layout: compress
     // ServiceWorker is a progressive technology. Ignore unsupported browsers
     if ('serviceWorker' in navigator) {
       console.log('CLIENT: service worker registration in progress.');
-      navigator.serviceWorker.register('/assets/js/sw.js').then(function() {
+      navigator.serviceWorker.register('/sw.js').then(function() {
         console.log('CLIENT: service worker registration complete.');
       }, function() {
         console.log('CLIENT: service worker registration failure.');
