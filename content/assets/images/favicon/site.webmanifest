@@ -1,6 +1,7 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Dave Redfern",
+    "short_name": "Dave Redfern",
+    "description": "User‑centered experiences that deliver measurable returns",
     "icons": [{
         "src": "/assets/images/favicon/android-chrome-192x192.png",
         "sizes": "192x192",
