@@ -6,7 +6,6 @@ const assets = [
     '/about/',
     '/blog/',
     '/contact/',
-    '/now/',
     
     '/green-smoothie/',
     '/design-principles/',
