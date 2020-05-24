@@ -1,17 +1,17 @@
 const staticCacheName = 'daveredfern-v1';
 const assets = [
     '/',
+    '/now/',
     '/about/',
     '/blog/',
     '/contact/',
     '/now/',
-    '/hide-or-exclude-folders-and-files-from-search-in-visual-studio-code/',
-    '/getting-sass-using-arrays-functions-loops/',
-    '/screen-sizes/',
+    
     '/green-smoothie/',
-    '/always-leave-things-cleaner-than-you-found-them/',
-    '/enabling-a-chance-for-something-to-happen/',
     '/design-principles/',
+    '/enabling-a-chance-for-something-to-happen/',
+    '/always-leave-things-cleaner-than-you-found-them/',
+    '/screen-sizes/'
 ];
 
 // install event
