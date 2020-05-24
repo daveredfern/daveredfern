@@ -1,4 +1,5 @@
 const staticCacheName = 'daveredfern-v1';
+
 const assets = [
     '/',
     '/now/',
