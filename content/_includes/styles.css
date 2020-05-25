@@ -447,3 +447,11 @@ a.search-chip:focus {
 .space-left {
 	margin-left: .25em;
 }
+
+/* Header - hack to make the wrapping of the header nicer */
+
+@media(max-width: 30em) {
+	.header li:first-child {
+		display: block;
+	}
+}
