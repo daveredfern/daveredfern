@@ -1,6 +1,7 @@
 ---
 title: "Using Netlify redirects with Jekyll"
 categories: [Jekyll, Netlify]
+date: "2020-04-05"
 ---
 
 By default, [Netlify redirects](https://docs.netlify.com/routing/redirects/) won’t work when using Jekyll. This is because the `_redirects` file needs to be in the root of the public folder of your website. For Jekyll, this is the `_site` folder. Unfortunately, that folder is dynamically generated during the build process.

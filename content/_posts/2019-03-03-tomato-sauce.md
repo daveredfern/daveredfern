@@ -2,6 +2,7 @@
 title: "Italian Tomato Sauce"
 excerpt: "Once you know this, you’ll have dozens of recipes under your belt."
 category: [Vegan]
+date: "2019-03-03"
 ---
 
 ## Ingredients

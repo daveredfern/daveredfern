@@ -3,6 +3,7 @@ title: "Green breakfast smoothie"
 excerpt: "This green smoothie is perfect for breakfast. It’ll make you feel fresh and alert, ready to start your day."
 tag: [Favorite]
 category: [Vegan]
+date: "2020-02-09"
 ---
 
 <p class="lead">This is perfect way to start your day. A super fresh smoothie to make you feel fresh and alert.</p>

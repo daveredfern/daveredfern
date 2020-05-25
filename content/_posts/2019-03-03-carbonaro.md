@@ -2,6 +2,7 @@
 title: "Carbonara"
 excerpt: "A vegan twist on the classic Italian spaghetti dish."
 category: [Vegan]
+date: "2019-03-03"
 ---
 
 Before turning vegan, Carbonara was one of my favorite dishes. Here’s a vegan twist on this classic, traditional Italian dish.
