@@ -1,6 +1,6 @@
 ---
 title: "6 steps to Easily move your WordPress Website"
-date: "2010-04-14"
+date: "2010-05-26"
 ---
 
 WordPress can be a tricky content management system to move from one location to another. This is mainly due to the endless number of absolute paths which are stored in the database in posts, pages, comments, links and plugins. It is understandable that WordPress stores absolute paths as it is designed to accomodate a wide variety of locations and conditions.
