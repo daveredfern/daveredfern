@@ -13,3 +13,7 @@
 /2016/you-should-be-using-ems/  /ems/
 /2016/getting-sass-using-arrays-functions-loops/    /getting-sass-using-arrays-functions-loops/
 /category/blog/  /blog/
+
+# Fixing inbound links
+/2016/* /:splat 301
+/blog/* /:splat 301

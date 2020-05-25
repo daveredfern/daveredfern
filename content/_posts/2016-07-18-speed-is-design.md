@@ -19,7 +19,7 @@ But why do we feel compelled to keep adding more weight to our webpages? Why can
 
 Just like me, I'm sure you've had equally frustrating moments waiting for a page to load the content you desperately need. At that moment, whether it's on the streets of New York or a [coffee shop in Stafford](https://www.tripadvisor.co.uk/Restaurant_Review-g186377-d6622746-Reviews-Bean_Encounter_LTD-Stafford_Staffordshire_England.html), you just want the content fast.
 
-During the last year we’ve seen a [rise in ad blocker usage](https://www.theguardian.com/technology/2015/oct/03/ad-blockers-advertising-mobile-apple). Ad blockers not only block adverts but also some scripts. Some mobile ad blockers also support the blocking of custom fonts. As a result we see huge leaps in performance. I [wrote a post about ad blockers](http://daveredfern.dredfern.dyn.iweb.co.uk/2015/online-advertising-has-broken-the-social-contract/) last year comparing the speed of a site with and without it enabled.
+During the last year we’ve seen a [rise in ad blocker usage](https://www.theguardian.com/technology/2015/oct/03/ad-blockers-advertising-mobile-apple). Ad blockers not only block adverts but also some scripts. Some mobile ad blockers also support the blocking of custom fonts. As a result we see huge leaps in performance.
 
 While this is only a quick fix to make sites faster, it is the first time the public have cried out for a faster, better web.
 
