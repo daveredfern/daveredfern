@@ -1,5 +1,5 @@
 ---
-layout: 'compress.html'
+layout: 'compress'
 ---
 const cacheName = "daveredfern-{{ site.data['hash'] }}";
 

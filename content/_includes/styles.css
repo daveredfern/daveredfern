@@ -56,7 +56,13 @@ button {
 }
 
 html {
-	font-size: calc(.9em + 0.45vw);
+	font-size: calc(.95em + 0.3vw);
+}
+
+body {
+	min-height: 100vh;
+    scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
 }
 
 /* Links */
