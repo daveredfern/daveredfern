@@ -1,10 +1,19 @@
 <p class="micro">
+    
     {% assign page_date = page.date | date: "%b %Y" %}
     {% assign page_update = page.last_modified_at | date: "%b %Y" %}
     {% if page_date != page_update %}
-        Last updated: {{ page.last_modified_at | date: "%b %d, %Y" }}<br />
+        Updated on {{ page.last_modified_at | date: "%b %d, %Y" }}
+    {% else %}
+        Published on {{ page.date | date: "%b %d, %Y" }}
     {% endif %}
-    {% if page.date %}
-        Published: {{ page.date | date: "%b %d, %Y" }}
-    {% endif %}
+    
+    &nbsp;|&nbsp; 
+
+    {% capture words %}
+        {{ content | number_of_words }}
+    {% endcapture %}
+    {% unless words contains '-' %}
+        {{ words | plus: 100 | divided_by: 100 | append: ' minute read' }}
+    {% endunless %}
 </p>
