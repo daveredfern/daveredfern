@@ -34,7 +34,7 @@ self.addEventListener('fetch', function (event) {
 });
 
 self.addEventListener('activate', function (event) {
-    var cacheWhitelist = [cacheName];
+    var cacheWhitelist = ["daveredfern-v3"];
     event.waitUntil(caches.keys().then(function (cacheNames) {
         return Promise.all(cacheNames.map(function (cacheName) {
             if (cacheWhitelist.indexOf(cacheName) === -1) {
