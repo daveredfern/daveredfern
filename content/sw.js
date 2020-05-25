@@ -1,4 +1,7 @@
-const cacheName = "daveredfern-v3";
+---
+layout: 'js.html'
+---
+const cacheName = "daveredfern-{{ site.data['hash'] }}";
 
 const cacheFiles = [
     '/',
@@ -34,7 +37,7 @@ self.addEventListener('fetch', function (event) {
 });
 
 self.addEventListener('activate', function (event) {
-    var cacheWhitelist = ["daveredfern-v3"];
+    var cacheWhitelist = ["daveredfern-{{ site.data['hash'] }}"];
     event.waitUntil(caches.keys().then(function (cacheNames) {
         return Promise.all(cacheNames.map(function (cacheName) {
             if (cacheWhitelist.indexOf(cacheName) === -1) {
