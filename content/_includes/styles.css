@@ -13,7 +13,8 @@
 	--mute-color: #dddddd;
 	--selection-color: #feff91;
 
-	--font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+	--font-family: Georgia, Times, "Times New Roman", serif;
+	--heading-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -49,14 +50,14 @@ html,
 input,
 textarea,
 button {
-	line-height: 1.5;
+	line-height: 1.6;
 	color: var(--color);
 	font-family: var(--font-family);
 	font-size: 1em;
 }
 
 html {
-	font-size: calc(.95em + 0.3vw);
+	font-size: calc(.9em + 0.4vw);
 }
 
 body {
@@ -128,6 +129,7 @@ h6 {
 	margin-bottom: 0.7em;
 	scroll-margin-top: 1em;
 	font-weight: 800;
+	font-family: var(--heading-font-family);
 }
 
 h1 {
@@ -150,11 +152,27 @@ blockquote {
 	padding-right: 1.4em;
 	margin-left: 0;
 	margin-right: 0;
+	font-style: italic;
+}
+
+@media(min-width: 44em) {
+	blockquote {
+		margin-left: calc(-1.4em - 3px); 
+	}
 }
 
 li {
 	padding-left: 0.5em;
 	margin-bottom: 0.2em;
+}
+
+
+@media(min-width: 44em) {
+	ol:not(.inline-list),
+	ul:not(.inline-list) {
+		padding-left: 0;
+		margin-left: -0.5em;
+	}
 }
 
 /* Code */
@@ -350,6 +368,7 @@ a.search-chip:focus {
 	padding: 0.1em 0.5em;
 	vertical-align: text-top;
 	font-size: 0.65em;
+	font-family: var(--heading-font-family);
 }
 
 /* Media object */

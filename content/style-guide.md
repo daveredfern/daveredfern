@@ -12,7 +12,9 @@ This site scores 100 on lighthouse in all categories and supports offline conten
 
 ## Typograph
 
-This website uses system fonts. On Mac and iPhone you’ll see [San Francisco](https://developer.apple.com/fonts/), on Android you’ll see [Roboto](https://github.com/google/roboto), and on Windows you’ll see [Segoe UI](https://www.microsoft.com/typography/fonts/family.aspx?FID=331). I first saw it at [Ampersand Conference](http://2015.ampersandconf.com/) in 2015 when [Marcin Wichary](http://2015.ampersandconf.com/speakers#marcin) from Medium demonstrated it.
+This website uses Georgia with a fallback of Times New Roman.
+
+For headings, I uses system fonts. On Mac and iPhone you’ll see [San Francisco](https://developer.apple.com/fonts/), on Android you’ll see [Roboto](https://github.com/google/roboto), and on Windows you’ll see [Segoe UI](https://www.microsoft.com/typography/fonts/family.aspx?FID=331). I first saw it at [Ampersand Conference](http://2015.ampersandconf.com/) in 2015 when [Marcin Wichary](http://2015.ampersandconf.com/speakers#marcin) from Medium demonstrated it.
 
 ## Colors
 
@@ -75,7 +77,7 @@ There is also styling available for <code>inline code</code>.
         <input>
     </label>
     <label>
-        <div><strong>Textares</strong></div>
+        <div><strong>Textarea</strong></div>
         <div class="micro">Additional instructions that might help the user fill in the field goes here.</div>
         <textarea></textarea>
     </label>
