@@ -16,7 +16,9 @@ const cacheFiles = [
     '/always-leave-things-cleaner-than-you-found-them/',
     '/screen-sizes/',
 
-    '/offline/'
+    '/offline/',
+
+    '/assets/images/archive/2016/08/img_0172-1024x686.jpg'
 ];
 
 self.addEventListener('install', function (event) {
@@ -38,6 +40,7 @@ self.addEventListener('fetch', function (event) {
 
 self.addEventListener('activate', function (event) {
     var cacheWhitelist = ["daveredfern-{{ site.data['hash'] }}"];
+
     event.waitUntil(caches.keys().then(function (cacheNames) {
         return Promise.all(cacheNames.map(function (cacheName) {
             if (cacheWhitelist.indexOf(cacheName) === -1) {
