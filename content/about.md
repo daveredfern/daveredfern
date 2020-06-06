@@ -1,6 +1,5 @@
 ---
 title: "About"
-hide_about: true
 ---
 
 I’m Head of Design & Development at [Conversion Rate Experts](https://conversion-rate-experts.com/). I’ve got a degree in Computer Science and over a decade’s worth of experience designing and developing e-commerce websites for leading B2B and B2C businesses.
