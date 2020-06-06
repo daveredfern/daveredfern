@@ -5,12 +5,4 @@
             <span class="tag">{{ tag }}</span>
         {% endfor %}
     {% endif %}
-    <br />
-    <span class="micro">
-        {{ post.date | date: "%b %d, %Y" }}
-        {% if post.categories.size > 0 %}
-            | 
-            {% for category in post.categories %}{% if forloop.first == false %},{% endif %} {{ category }}{% endfor %}
-        {% endif %}
-    </span>
 </p>
