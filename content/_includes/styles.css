@@ -167,7 +167,8 @@ li {
 }
 
 @media(min-width: 44em) {
-	ul, ol {
+	ul:not(.inline-list),
+	ol {
 		padding-left: 0;
 		margin-left: -0.5em;
 	}
