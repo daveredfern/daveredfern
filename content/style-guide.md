@@ -12,9 +12,7 @@ This site scores 100 on lighthouse in all categories and supports offline conten
 
 ## Typograph
 
-This website uses Georgia with a fallback of Times New Roman.
-
-For headings, I uses system fonts. On Mac and iPhone you’ll see [San Francisco](https://developer.apple.com/fonts/), on Android you’ll see [Roboto](https://github.com/google/roboto), and on Windows you’ll see [Segoe UI](https://www.microsoft.com/typography/fonts/family.aspx?FID=331). I first saw it at [Ampersand Conference](http://2015.ampersandconf.com/) in 2015 when [Marcin Wichary](http://2015.ampersandconf.com/speakers#marcin) from Medium demonstrated it.
+I uses system fonts. On Mac and iPhone you’ll see [San Francisco](https://developer.apple.com/fonts/), on Android you’ll see [Roboto](https://github.com/google/roboto), and on Windows you’ll see [Segoe UI](https://www.microsoft.com/typography/fonts/family.aspx?FID=331). I first saw it at [Ampersand Conference](http://2015.ampersandconf.com/) in 2015 when [Marcin Wichary](http://2015.ampersandconf.com/speakers#marcin) from Medium demonstrated it.
 
 ## Colors
 
@@ -84,6 +82,10 @@ There is also styling available for <code>inline code</code>.
     <button>Submit button</button>
 </form>
 
+## Horizontal line
+
+<hr />
+
 ## Button
 
 <a href="#" class="button">This is a button</a>
@@ -129,6 +131,23 @@ To make the ratio 4:3, add a modifying class of <code>.media-object--43</code> t
 When using an icon, add the class <code>.icon</code> to the SVG to set the size correctly.
 
 When an SVG is used inside of a link, an SVG element won’t have an underline like text does. This can look odd so to overcome this, instead of using a space, add the class <code>.space-left</code> which adds the equivelant of one space.
+
+## Info panel
+
+An `.info-panel` is a two column layout which is designed to have some media on the left and some copy on the right. I primarily use it at the bottom of each page to introduce myself.
+
+<div class="info-panel">
+    <div class="info-panel__media">
+        <img src="/assets/images/profile.jpg" alt="A photo of Dave Redfern" />
+    </div>
+    <div class="info-panel__body">
+        <p><strong>Hi. I’m Dave Redfern.</strong> I work with some of the world’s most sophisticated companies, helping to design and develop user‑centered experiences that deliver measurable returns. <a href="/about/">Read more about me</a>.</p>
+    </div>
+</div>
+
+I’m aware this needs a better name. If you have a suggestion, let me know!
+
+
 
 ## Utilities
 

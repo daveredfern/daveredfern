@@ -16,7 +16,9 @@ const cacheFiles = [
     '/always-leave-things-cleaner-than-you-found-them/',
     '/screen-sizes/',
 
-    '/offline/'
+    '/offline/',
+
+    '/assets/images/profile.jpg'
 ];
 
 self.addEventListener('install', function (event) {

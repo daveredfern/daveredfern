@@ -109,7 +109,8 @@ blockquote,
 pre,
 form,
 label,
-.media-object {
+.media-object,
+.info-panel {
 	margin-top: 1.2em;
 	margin-bottom: 1.2em;
 }
@@ -139,8 +140,8 @@ hr {
 	border-bottom: 3px solid var(--mute-color);
 	outline: 0;
 	clear: both;
-	margin-top: calc(1em + 2vw);
-	margin-bottom: calc(1em + 2vw);
+	margin: calc(1em + 2vw) 0;
+	width: 30%;
 }
 
 blockquote {
@@ -239,8 +240,8 @@ a.mute {
 /* Spacing */
 
 .spacing {
-	margin-bottom: calc(1em + 3vw);
-	margin-top: calc(1em + 3vw);
+	margin-bottom: calc(1em + 2vw);
+	margin-top: calc(1em + 2vw);
 }
 
 /* Notification */
@@ -248,7 +249,7 @@ a.mute {
 .notification {
 	border: 2px solid var(--primary-color);
 	border-bottom-width: 3px;
-	padding: calc(1em + .6vw);
+	padding: calc(1em + .4vw);
 	border-radius: 5px;
 }
 
@@ -457,4 +458,29 @@ a.search-chip:focus {
 	.header li:first-child {
 		display: block;
 	}
+}
+
+/* Media object */
+
+.info-panel {
+	display: flex;
+}
+
+.info-panel__media {
+	width: 15%;
+	min-width: 80px;
+	margin-right: 1em;
+	flex-shrink: 0;
+}
+
+.info-panel__body {
+	flex-grow: 1;
+}
+
+.info-panel__body > *:first-child {
+	margin-top: 0;
+}
+
+.info-panel__body > *:last-child {
+	margin-bottom: 0;
 }
