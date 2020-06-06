@@ -18,7 +18,7 @@ I uses system fonts. On Mac and iPhone you’ll see [San Francisco](https://deve
 
 <ul>
     <li class="highlight"><strong>Blue</strong> in light mode and <strong>pink</strong> in dark mode.</li>
-    <li><strong>Black</strong> in light mode and <strong>whit</strong>e in dark mode.</li>
+    <li><strong>Black</strong> in light mode and <strong>white</strong> in dark mode.</li>
     <li class="mute"><strong>Light grey</strong> in light mode and <strong>dark grey</strong> in dark mode.</li>
 </ul>
 
