@@ -1,4 +1,4 @@
-<footer class="container spacing">
+<footer class="spacing">
   <ul class="inline-list micro">
       {% for item in site.data.nav.footer %}
         <li><a href="{{ item.link }}" {% if page.url == item.link %} aria-current="page"{% endif %}>{{ item.name }}</a></li>

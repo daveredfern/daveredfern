@@ -71,48 +71,51 @@ layout: compress
 </head>
 <body>
 
-  {% include header.html %}
+  <div class="container section">
 
-  <section class="container section" role="main">
+    {% include header.html %}
 
-    <h1>{{ page.title }}</h1>
-    
-    {% if page.hide_date != true %}
-      {% include publish-date.html %}
+    <div role="main">
+      <h1>{{ page.title }}</h1>
+      
+      {% if page.hide_date != true %}
+        {% include publish-date.html %}
+      {% endif %}
+
+      {{ content }}
+
+      {% if page.url == "/vegan/" %}
+        {% for post in site.categories.Vegan %}
+          {% include recipe.html %}
+        {% endfor %}
+      {% endif %}
+
+      {% if page.url == "/feedback/" %}
+        {% include feedback-form.html %}
+      {% endif %}
+
+      {% if page.url == "/contact/" %}
+        {% include contact-form.html %}
+      {% endif %}
+      
+      {% if page.url == "/blog/" %}
+        {% include favorite-posts.html %}
+        {% include blog-listing.html %}
+      {% endif %}
+
+      {% if page.url == "/" or page.url == "/offline/" %}
+        {% include favorite-posts.html %}
+      {% endif %}
+
+    </div>
+
+    {% if page.hide_cta != true %}
+      {% include cta.html %}
     {% endif %}
 
-    {{ content }}
+    {% include footer.html %}
 
-    {% if page.url == "/vegan/" %}
-      {% for post in site.categories.Vegan %}
-        {% include recipe.html %}
-      {% endfor %}
-    {% endif %}
-
-    {% if page.url == "/feedback/" %}
-      {% include feedback-form.html %}
-    {% endif %}
-
-    {% if page.url == "/contact/" %}
-      {% include contact-form.html %}
-    {% endif %}
-    
-    {% if page.url == "/blog/" %}
-      {% include favorite-posts.html %}
-      {% include blog-listing.html %}
-    {% endif %}
-
-    {% if page.url == "/" or page.url == "/offline/" %}
-      {% include favorite-posts.html %}
-    {% endif %}
-  </section>
-
-  {% if page.hide_cta != true %}
-    {% include cta.html %}
-  {% endif %}
-
-  {% include footer.html %}
-
+  </div>
 
   <!-- Instant pages -->
   <script defer>
@@ -120,7 +123,7 @@ layout: compress
   </script>
   <script>
     /* ServiceWorker is a progressive technology. Ignore unsupported browsers */
-    if('serviceWorker' in navigator){
+    if('serviceWorker' in navigator && window.location.href.indexOf('daveredfern.com') > -1) {
       navigator.serviceWorker.register('/sw.js');
     }
   </script>
