@@ -1,6 +1,7 @@
 ---
 title: "Work with the garage door up"
 date: "2020-06-06"
+tag: [Favorite]
 ---
 
 I recently came across [Andy Matuschak’s working notes](https://notes.andymatuschak.org/About_these_notes). It’s a goldmind. One note that caught my eye was [**Work with the garage door up**](https://notes.andymatuschak.org/z21cgR9K3UcQ5a7yPsj2RUim3oM2TzdBByZu).

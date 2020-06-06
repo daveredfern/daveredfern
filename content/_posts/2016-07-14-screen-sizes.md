@@ -1,7 +1,6 @@
 ---
 title: "Screen Sizes to Optimise Your Web Page For"
 date: "2016-07-14"
-tag: [Favorite]
 ---
 
 Here is a list of screen sizes you should be considering when designing a website. This is by no means an exhausted list.
