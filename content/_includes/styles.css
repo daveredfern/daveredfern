@@ -145,6 +145,8 @@ hr {
 }
 
 blockquote {
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
 	border-left: 3px solid var(--color);
 	padding-left: 1.2em;
 	padding-right: 1.2em;
@@ -153,9 +155,22 @@ blockquote {
 	font-style: italic;
 }
 
+@media(min-width: 44em) {
+	blockquote {
+		margin-left: calc(-1.2em - 3px);
+	}
+}
+
 li {
 	padding-left: 0.5em;
 	margin-bottom: 0.2em;
+}
+
+@media(min-width: 44em) {
+	ul, ol {
+		padding-left: 0;
+		margin-left: -0.5em;
+	}
 }
 
 /* Code */
