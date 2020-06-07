@@ -137,7 +137,7 @@ h1 {
 hr {
 	height: 1px;
 	border: 0;
-	border-bottom: 3px solid var(--mute-color);
+	border-bottom: 2px solid var(--mute-color);
 	outline: 0;
 	clear: both;
 	margin: calc(1.8em + .6vw) 0;
