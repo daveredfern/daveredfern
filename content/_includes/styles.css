@@ -500,3 +500,8 @@ a.search-chip:focus {
 .info-panel__body > *:last-child {
 	margin-bottom: 0;
 }
+
+.round {
+	border-radius: 100px;
+	overflow: hidden;
+}
