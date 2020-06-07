@@ -140,7 +140,7 @@ hr {
 	border-bottom: 3px solid var(--mute-color);
 	outline: 0;
 	clear: both;
-	margin: calc(1em + 2vw) 0;
+	margin: calc(1.8em + .6vw) 0;
 	width: 30%;
 }
 

@@ -4,7 +4,7 @@ title: "Past projects"
 
 ## Chop Chop
 
-A lightweight front end framework that is in production with several projects at work. It's goal is to create a standardised way of developing websites so projects become developer agnostic. It's available on Github so feel free to use it all or just bits. We have a monthly release schedule so keep an eye on developments.
+A lightweight front end framework that is in production with several projects at work. It's goal is to create a standardized way of developing websites so projects become developer agnostic. It's available on Github so feel free to use it all or just bits. We have a monthly release schedule so keep an eye on developments.
 
 [View project on Github](https://github.com/getchopchop/chopchop)
 
@@ -16,7 +16,7 @@ See more information on the [Birmingham Homebrew Website Club...website](https:/
 
 ## Meetup of meetup organisers
 
-Founder and organiser of a semi-regular meetup of meetup organisers.  The aim is for each meetup to be an informal gathering to share ideas, problems, successes, and contacts. Generally, a drink (or two) and some tasty grub doesn't go amiss either.
+Founder and organizer of a semi-regular meetup of meetup organizers.  The aim is for each meetup to be an informal gathering to share ideas, problems, successes, and contacts. Generally, a drink (or two) and some tasty grub doesn't go amiss either.
 
 [Visit the website](https://meetupofmeetup.commeetuporganisers.com/)
 
