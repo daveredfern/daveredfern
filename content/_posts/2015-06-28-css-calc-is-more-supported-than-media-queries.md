@@ -1,6 +1,7 @@
 ---
 title: "CSS calc is more supported than media queries"
 date: "2015-06-28"
+tags: [CSS, "Web Design", "Front End Development"]
 ---
 
 [Calc is awesome](https://developer.mozilla.org/en-US/docs/Web/CSS/calc).

@@ -1,6 +1,7 @@
 ---
 title: "The easier my life becomes, the higher the barrier to entry"
 date: "2015-08-13"
+tags: ["Web Design", "Front End Development", Thought]
 ---
 
 As an industry we love automation. Seriously, we’re obsessed with it! It sometimes feels like there is a new thing each day I step into the office.

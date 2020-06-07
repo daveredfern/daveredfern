@@ -1,6 +1,7 @@
 ---
 title: "The psychology of price anchoring"
 date: "2016-08-12"
+tags: ["Web Design", Selling]
 ---
 
 I recently wrote [an article on iWeb's website](https://www.iweb.co.uk/2016/08/price-anchoring-can-help-increase-conversions/) about using price anchoring online to increase conversions.

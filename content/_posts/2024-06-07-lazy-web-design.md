@@ -1,6 +1,7 @@
 ---
 title: "Lazy web design - deferring to other peoples decisions"
 date: "2020-06-07"
+tags: ["Web Design", Design, Inspiration]
 ---
 
 When in doubt or looking for a starting point, defer to what others have already created. Especially when those systems have been built for everyone and used by millions of people every day.

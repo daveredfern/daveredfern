@@ -1,6 +1,6 @@
 ---
 title: "I love honest feedback"
-hide_date: true
+hide_meta: true
 hide_cta: true
 ---
 

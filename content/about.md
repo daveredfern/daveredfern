@@ -14,7 +14,7 @@ I am a keen photographer. My photos have been viewed over 12 million times and u
 
 ## About this website
 
-See my [style guide](/style-guide/) to find out about this website. I also keep a [uses page](/uses/) that includes what technology I use on this website.
+See my [style guide](/style-guide/) to find out about this website. I also keep a [uses page](/uses/) that includes the technology I use on this website.
 
 ## Soppy thanks
 

@@ -1,6 +1,7 @@
 ---
 title: "Microsoft drops support for IE10 and below"
 date: "2016-01-08"
+tags: ["Web Design", "Front End Development"]
 ---
 
 [Next week Microsoft will drop support for the their older versions of Internet Explorer.](https://www.iweb.co.uk/2016/01/microsoft-drops-support-for-ie10-and-below/) This includes IE8, IE9 and IE10. For many web designers and developers it will come as a relief.

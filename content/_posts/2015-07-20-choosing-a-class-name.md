@@ -1,6 +1,7 @@
 ---
 title: "I Spent an Hour Choosing a Class Name"
 date: "2015-07-20"
+tags: [CSS, "Web Design", "Front End Development"]
 ---
 
 There, I said it. It’s not procrastination, it’s planning and there is a big difference!

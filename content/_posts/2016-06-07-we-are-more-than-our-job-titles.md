@@ -1,6 +1,7 @@
 ---
 title: "We are more than our job titles"
 date: "2016-06-07"
+tags: [Personal, Thought]
 ---
 
 Job titles suck. To describe your job in three or less words sounds preposterous, but that’s what we do. Ever since I started my career in the web industry I have struggled to apply a job title to what I do.

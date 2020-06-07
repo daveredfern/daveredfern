@@ -1,6 +1,7 @@
 ---
 title: "The real CSS has landed"
 date: "2015-07-02"
+tags: [CSS, "Web Design", "Front End Development"]
 ---
 
 It's took a while, but it finally feels like CSS has matured to what it originally promised.

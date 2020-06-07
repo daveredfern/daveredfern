@@ -1,7 +1,7 @@
 ---
 title: "Problem solving in 5 questions"
 date: "2020-06-06"
-tag: [Favorite]
+tags: [Design, Inspiration]
 ---
 
 Not all problems are created equal. On any website and in any business there will be an endless list of things that can be improved. Before doing anything, I find Nicholas C. Zakas’ list of five questions helpful for prioritizing if they should be fixed, by who, and how high of a priority it is.

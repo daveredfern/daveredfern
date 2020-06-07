@@ -1,6 +1,7 @@
 ---
 title: "Upfront Conference 2015"
 date: "2015-05-28"
+tags: [Conference, "Web Design", "Front End Development"]
 ---
 
 This year I was lucky enough to attend the first [UpFront Conference](http://2015.upfrontconf.com/). It was a great day out, full of really entertaining and informative talks. It's probably one of the best conferences I have attended.

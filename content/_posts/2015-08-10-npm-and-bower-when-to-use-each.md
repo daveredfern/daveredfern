@@ -1,6 +1,7 @@
 ---
 title: "NPM and Bower: When to use each"
 date: "2015-08-10"
+tags: [CSS, "Web Design", "Front End Development"]
 ---
 
 [Gulp](http://gulpjs.com/) was my first experience of using package managers. A quick search and you'll probably notice that [NPM](https://www.npmjs.com/) and [Bower](http://bower.io/) are the popular choices.

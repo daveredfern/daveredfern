@@ -1,6 +1,7 @@
 ---
 title: "Ampersand Conference 2015"
 date: "2015-12-08"
+tags: ["Web Design", Typography, Conference]
 ---
 
 A few weeks ago I was lucky enough to attend [Ampersand Conference](https://www.iweb.co.uk/2015/12/ampersand-conference-2015/) in Brighton. [Here is an article](https://www.iweb.co.uk/2015/12/ampersand-conference-2015/) I wrote on iWeb's site, where I work, for the top takeaways from the event.

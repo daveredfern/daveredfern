@@ -48,6 +48,14 @@ plugins:
   - jekyll-feed
   - jekyll-last-modified-at
   - jekyll-sitemap
+  - jekyll-archives
+
+
+jekyll-archives:
+  enabled: ['tags']
+  layout: default
+  permalinks:
+    tag: '/tag/:name/'
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -1,6 +1,7 @@
 ---
 title: "14 things to do when you first install WordPress"
 date: "2010-04-14"
+tags: [WordPress, "Web Design"]
 ---
 
 Here’s a list of 14 things to do when you install WordPress to secure and set your website up ready for development.

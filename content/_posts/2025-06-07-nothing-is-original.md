@@ -1,6 +1,7 @@
 ---
 title: "Nothing is original"
 date: "2020-06-07"
+tags: [Design, Inspiration]
 ---
 
 I have an unhealthy obsession with trying to create something original—I think we all do. But, it’s only when I let go of that obsession that something creative happens. The most important part is [Enabling a Chance for Something to Happen](/enabling-a-chance-for-something-to-happen/).

@@ -1,6 +1,7 @@
 ---
 title: "Tim Ferriss inspired Q&A"
 date: "2016-04-15"
+tags: [Personal]
 ---
 
 As part of the [30 day writing challenge](/2016/30-day-writing-photo-challenge/), [Marc Jenkins](https://marcjenkins.co.uk/qa/) suggested answering the following questions inspired by [Tim Ferriss](http://fourhourworkweek.com/blog/). So here we go…

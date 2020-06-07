@@ -1,6 +1,8 @@
 ---
 title: "How commuting affects my mood"
 date: "2015-08-11"
+tags: [Personal]
+
 ---
 
 Like many, I commute to work. My average commute time is around 45 minutes each way. Previously it was nearly an hour before changing my work hours to avoid traffic ([thanks iWeb!](http://www.iweb.co.uk)).

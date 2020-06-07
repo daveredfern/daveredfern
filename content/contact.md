@@ -1,6 +1,6 @@
 ---
 title: "Get in touch"
-hide_date: true
+hide_meta: true
 ---
 
 Whether it's a question, a request for me to speak or just a friendly hello, get in touch.

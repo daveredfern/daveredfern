@@ -1,8 +1,7 @@
 ---
 title: "Design Principles"
 date: "2019-01-04"
-tag: [Favorite]
-date: "2019-01-04"
+tags: [Favorite, "Web Design", Design, Inspiration]
 ---
 
 - **Simplicity:** The best code is no code at all. Only create new things if absolutely necessary. Always look back to see what can be reused or improve upon first.

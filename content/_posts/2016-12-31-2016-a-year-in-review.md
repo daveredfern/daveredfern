@@ -1,6 +1,7 @@
 ---
 title: "2016 – A year in review"
 date: "2016-12-31"
+tags: [Personal]
 ---
 
 Inspired from discussions on the [slack community inline block](http://www.inlineblock.co.uk/), I wanted to keep a log of some of my achievements this year. I wasn’t originally going to write a yearly review, I find them a little self indulgent, but after reading [Darren Beale’s year in review](https://bealers.com/2016/12/29/2016-in-review/) I was inspired to make a few notes. After all, if you can’t self indulge on your own blog, where can you?

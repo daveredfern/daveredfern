@@ -1,6 +1,7 @@
 ---
 title: "What I’ve Learned From Organizing a Meetup"
 date: "2016-05-22"
+tags: [Personal, Thought]
 ---
 
 In October 2014 I helped cofound [Staffs Web Meetup](https://staffswebmeetup.co.uk/) with [Phil Wylie](https://www.philwylie.co.uk/) and [Natasha Allsopp](http://www.natashaallsopp.co.uk/). Our hopes were to create an opportunity for like minded people in the web industry to meet. To our shock, Stafford has a thriving web community.

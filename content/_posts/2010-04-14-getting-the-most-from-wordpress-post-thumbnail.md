@@ -1,6 +1,7 @@
 ---
 title: "Getting the most from WordPress post thumbnail"
-date: "2010-05-1"
+date: "2010-05-01"
+tags: [WordPress, "Web Design"]
 ---
 
 The majority of page on the Internet includes an image; blogs are no exception. More and more blogs are introducing newspaper style layouts with a large image at the top of each article.

@@ -1,6 +1,6 @@
 ---
 title: "Using Netlify redirects with Jekyll"
-categories: [Jekyll, Netlify]
+tags: ["Static Site Generator"]
 date: "2020-04-05"
 ---
 

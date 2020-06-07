@@ -1,6 +1,7 @@
 ---
 title: "Progressive design for the modern web"
 date: "2015-08-31"
+tags: ["Web Design", "Front End Development", Thought]
 ---
 
 A couple weeks ago I was featured on [Web Design Depot](http://www.webdesignerdepot.com/2015/08/progressive-design-for-the-modern-web/). The article was about progressive design for the modern web. In the article I talk about the changes to design and front-end development processes at [iWeb](https://www.iwebsolutions.co.uk/).

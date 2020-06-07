@@ -2,7 +2,7 @@
 title: "Vanilla oat smoothie"
 date: "2020-05-31"
 excerpt: "Reminiscent of a vanilla milkshake but with the reassuring feeling that all the ingredients are natural."
-category: [Vegan]
+tags: [Vegan, Recipe, Food]
 ---
 
 This is a great alternative to my [green breakfast smoothie](/green-smoothie/) when you want a change. It’s reminiscent of a vanilla milkshake but with the reassuring feeling that all the ingredients are natural.

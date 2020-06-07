@@ -1,6 +1,7 @@
 ---
 title: "Achieving 100/100 on Google Page Insights using WordPress"
 date: "2016-04-12"
+tags: ["Web Design", "Front End Development"]
 ---
 
 A few at work set a challenge, to get 100/100 on [Google Page Insight](https://developers.google.com/speed/pagespeed/insights/). Both [Andy](https://www.smartiehastheanswer.co.uk/achieving-100-out-of-100-on-google-pagespeed-insights-using-jekyll.html) and [Jake](https://jake.cobe.ly/2016/03/achieving-100-out-of-100-on-google-pageSpeed-insights/) use Jekyll and have written posts (which I highly recommend reading) on what they did.

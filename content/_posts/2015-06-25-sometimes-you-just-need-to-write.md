@@ -1,6 +1,7 @@
 ---
 title: "Sometimes you just need to write"
 date: "2015-06-25"
+tags: [Writing]
 ---
 
 To procrastinate as much as I have is a skill. It has to be, else I have a big personality deficiency. Starting a blog is hard, especially when you work in the industry and you’re a designer. My fixation on look causes me to down tools and run for the nearest dark closet.

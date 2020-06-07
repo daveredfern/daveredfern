@@ -1,6 +1,7 @@
 ---
 title: "Getting the most out of Sass using arrays, functions and loops"
 date: "2016-05-31"
+tags: ["Web Design", CSS, "Front End Development"]
 ---
 
 Sass is a great way to organise your CSS and especially so for large projects. The ability to use variables, include files inside one another and create reusable nuggets of code (or [mixins](https://www.sitepoint.com/sass-basics-the-mixin-directive/)) has revolutionised how I write CSS. Until recently all I used were variables, imports, mixins and a few built-in functions such as `darken` and `lighten`. I suspect many other front end developers are the same, but it can help us much more.

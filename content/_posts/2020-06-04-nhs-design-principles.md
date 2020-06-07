@@ -2,6 +2,7 @@
 title: "The design princples used by the NHS"
 excerpt: "One of the most diverse foods we make. Throw in salads, wraps, sauces."
 date: "2020-06-04"
+tags: ["Web Design", Design, Inspiration]
 ---
 
 I’ve previously shared my [design principles](/design-principles/) that I use when I’m designing and building new systems.

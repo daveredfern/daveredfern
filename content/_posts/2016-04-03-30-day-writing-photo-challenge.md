@@ -1,6 +1,7 @@
 ---
 title: "30 day writing (photo) challenge"
 date: "2016-04-03"
+tags: [Personal]
 ---
 
 I recently signed up to [Marc Jenkins’ 30 day writing challenge](https://marcjenkins.co.uk/the-30-day-writing-challenge/). The challenge involves setting aside some time each day to write during April. There are over 100 people participating, writing articles on their own website or Medium about a variety of topics ranging from the web industry to personal health and even short stories.

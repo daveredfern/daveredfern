@@ -1,7 +1,7 @@
 ---
 title: "Carbonara"
 excerpt: "A vegan twist on the classic Italian spaghetti dish."
-category: [Vegan]
+tags: [Vegan, Recipe, Food]
 date: "2019-03-03"
 ---
 

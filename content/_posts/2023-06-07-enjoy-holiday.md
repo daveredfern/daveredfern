@@ -1,6 +1,7 @@
 ---
 title: "How to enjoy a holiday"
 date: "2020-06-07"
+tags: [Personal]
 ---
 
 Each time we go on holiday, I try to distill why we enjoyed it.

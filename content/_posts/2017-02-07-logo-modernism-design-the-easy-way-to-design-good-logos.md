@@ -1,6 +1,7 @@
 ---
 title: "Logo Modernism (Design) — The Easy Way to Design Good Logos"
 date: "2017-02-07"
+tags: [Design, Inspiration, Recommendation]
 ---
 
 In the eyes of a purist this might be cheating. If you're about to design a logo buy this book!

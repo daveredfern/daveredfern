@@ -1,7 +1,7 @@
 ---
 title: "<span class=\"highlight\"><span class=\"wave\">👋</span> I’m Dave.</span><br>I design and develop user‑centered experiences that deliver measurable returns"
 seo_title: "User‑centered experiences that deliver measurable returns"
-hide_date: true
+hide_meta: true
 ---
 
 I'm Head of Design & Development at [Conversion Rate Experts](https://conversion-rate-experts.com/). I’ve got a degree in Computer Science and over a decade's worth of experience designing, developing, and optimizing e-commerce websites for leading B2B and B2C businesses.
@@ -10,6 +10,6 @@ During this time I’ve worked on nearly all aspects of creating a successful we
 
 ## How my website works
 
-In an effort to publish as much as possible, my website contains articles on everything I find interesting from web design to management and cooking.
+In an effort to publish as much as possible, my website contains articles on everything I find interesting from web design to music and cooking.
 
 Some of the articles are short. Some are incomplete. I’m trying to follow the rule that if it doesn’t contain any private information—for better or worse—I should publish it.

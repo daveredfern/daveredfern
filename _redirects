@@ -15,6 +15,9 @@
 /category/blog/  /blog/
 /2015/06/css-calc-is-more-supported-than-media-queries/ /css-calc-is-more-supported-than-media-queries/
 
+# Old Jekyll links
+/vegan/ /tag/vegan/ 301
+
 # Fixing inbound links
 /2016/* /:splat 301
 /blog/* /:splat 301

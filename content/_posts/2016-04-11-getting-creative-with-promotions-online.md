@@ -1,6 +1,7 @@
 ---
 title: "Getting creative with promotions online"
 date: "2016-04-11"
+tags: ["Web Design", Selling]
 ---
 
 This is [an article I wrote](https://www.iweb.co.uk/2016/04/10-ideas-promotions-coupons-magento/) on my work's blog collating some more creative ideas for an eCommerce website. The web is driven by price but that doesn't always mean profit margins have to take a hit. Here are some interesting ways to use promotions and coupons in your favourite eCommerce platform of choice (we use Magento and WooCommerce).

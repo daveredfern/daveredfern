@@ -1,6 +1,7 @@
 ---
 title: "The Simpler Way to Access Post Meta in WordPress"
 date: "2017-02-05"
+tags: ["Web Design", WordPress]
 ---
 
 Access post meta the simple way. Forget trying to remember the complex `get_post_meta()` function, just use this instead:

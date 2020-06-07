@@ -1,6 +1,7 @@
 ---
 title: "Tools arms race"
 date: "2015-11-10"
+tags: ["Web Design", "Front End Development", Thought]
 ---
 
 Job titles are a good reflection of how complex the web industry has become. Only a few years ago we would call ourselves web designers, now we see titles such as UX designers and front-end engineers.

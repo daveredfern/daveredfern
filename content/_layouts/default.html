@@ -76,35 +76,44 @@ layout: compress
     {% include header.html %}
 
     <div role="main">
-      <h1>{{ page.title }}</h1>
-      
-      {% if page.hide_date != true %}
-        {% include publish-date.html %}
-      {% endif %}
+      {% if page.type == 'tag' %}
 
-      {{ content }}
+        <h1>Articles in “{{ page.title }}”</h1>
 
-      {% if page.url == "/vegan/" %}
-        {% for post in site.categories.Vegan %}
-          {% include recipe.html %}
+        <p>All of the following articles have been tagged with “{{ page.title }}”:</p>
+
+        {% for post in page.posts %}
+          {% include blog-article.html %}
         {% endfor %}
-      {% endif %}
 
-      {% if page.url == "/feedback/" %}
-        {% include feedback-form.html %}
-      {% endif %}
+      {% else %}
 
-      {% if page.url == "/contact/" %}
-        {% include contact-form.html %}
-      {% endif %}
-      
-      {% if page.url == "/blog/" %}
-        {% include favorite-posts.html %}
-        {% include blog-listing.html %}
-      {% endif %}
+        <h1>{{ page.title }}</h1>
 
-      {% if page.url == "/" or page.url == "/offline/" %}
-        {% include favorite-posts.html %}
+        {% if page.hide_meta != true %}
+          {% include meta.html %}
+        {% endif %}
+
+        {{ content }}
+
+        {% if page.url == "/feedback/" %}
+          {% include feedback-form.html %}
+        {% endif %}
+
+        {% if page.url == "/contact/" %}
+          {% include contact-form.html %}
+        {% endif %}
+        
+        {% if page.url == "/blog/" %}
+          {% include tags.html %}
+          {% include favorite-posts.html %}
+          {% include blog-listing.html %}
+        {% endif %}
+
+        {% if page.url == "/" or page.url == "/offline/" %}
+          {% include favorite-posts.html %}
+        {% endif %}
+
       {% endif %}
 
     </div>
@@ -131,6 +140,18 @@ layout: compress
     /* ServiceWorker is a progressive technology. Ignore unsupported browsers */
     if('serviceWorker' in navigator && window.location.href.indexOf('daveredfern.com') > -1) {
       navigator.serviceWorker.register('/sw.js');
+
+      self.addEventListener('activate', function (event) {
+        var cacheWhitelist = ["daveredfern-{{ site.data['hash'] }}"];
+    
+        event.waitUntil(caches.keys().then(function (cacheNames) {
+            return Promise.all(cacheNames.map(function (cacheName) {
+                if (cacheWhitelist.indexOf(cacheName) === -1) {
+                    return caches.delete(cacheName);
+                }
+            }));
+        }));
+      });
     }
   </script>
   <script src="/assets/js/instantpage.js"></script>

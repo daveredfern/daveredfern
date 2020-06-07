@@ -1,0 +1,7 @@
+<h2>Filter by tags</h2>
+
+<p>
+    {% for tag in site.tags %}
+        <a href="/tag/{{ tag[0] | slugify }}" class="search-chip">{{ tag[0] }} ({{ tag[1].size }})</a> 
+    {% endfor %}
+</p>

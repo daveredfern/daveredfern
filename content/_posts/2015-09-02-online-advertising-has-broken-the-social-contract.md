@@ -1,6 +1,7 @@
 ---
 title: "Online advertising has broken the social contract"
 date: "2015-09-02"
+tags: ["Web Design", "Front End Development", Thought]
 ---
 
 I have always opposed ad blockers. Everybody has to make a living and adverts pay for thousands, if not millions of peoples wages. From someone who works in the industry I appreciate that adverts are a necessity for some websites.

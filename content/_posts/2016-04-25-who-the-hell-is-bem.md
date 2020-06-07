@@ -1,6 +1,7 @@
 ---
 title: "Who the hell is BEM?"
 date: "2016-04-25"
+tags: ["Web Design", CSS, Talk, "Front End Development"]
 ---
 
 Naming things is hard. Really hard. Having a convention for how to name things within a team helps everyone understand the code. It allows everyone who works on the project, from front end developers to programmers, to work on a project with the understanding of how things are organised.

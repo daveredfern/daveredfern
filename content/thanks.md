@@ -1,6 +1,6 @@
 ---
 title: "Thanks for getting in touch"
-hide_date: true
+hide_meta: true
 ---
 
 Thank you for contacting me.

@@ -1,6 +1,7 @@
 ---
 title: "An open letter to meetup organisers"
 date: "2016-06-03"
+tags: [Personal]
 ---
 
 I’ve been organising [Staffs Web Meetup](https://staffswebmeetup.co.uk/) for just over 18 months. It’s one of the most rewarding and stressful things I have done in my career.

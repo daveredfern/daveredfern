@@ -1,6 +1,7 @@
 ---
 title: "Hide or Exclude Folders and Files From Search in Visual Studio Code"
 date: "2017-02-14"
+tags: ["Web Design", "Front End Development"]
 ---
 
 I love [Visual Studio Code](https://code.visualstudio.com/). I never thought I'd be saying that my favourite application was developed by Microsoft! One of it's best features is the ability to customise almost anything using user settings.

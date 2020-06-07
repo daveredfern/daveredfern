@@ -1,7 +1,7 @@
 ---
 title: "Vegan cheese on toast"
 excerpt: "You won’t believe this isn’t the real thing. Trust me."
-category: [Vegan]
+tags: [Vegan, Recipe, Food]
 date: "2020-06-03"
 ---
 

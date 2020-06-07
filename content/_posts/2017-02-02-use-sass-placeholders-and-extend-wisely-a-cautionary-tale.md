@@ -1,6 +1,7 @@
 ---
 title: "Use Sass placeholders and extend wisely – a cautionary tale"
 date: "2017-02-02"
+tags: ["Web Design", "Front End Development", CSS]
 ---
 
 [Extends](https://css-tricks.com/the-extend-concept/) are probably one of the biggest selling points to use Sass. They allow you to say this selector has the same styling as this other element so they should share styles to reduce the size of the CSS. An extend will therefore append that selector to the other.

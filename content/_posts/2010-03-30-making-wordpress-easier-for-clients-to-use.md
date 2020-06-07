@@ -1,6 +1,7 @@
 ---
 title: "Making WordPress easier for clients to use"
 date: "2010-03-30"
+tags: [WordPress, "Web Design"]
 ---
 
 [WordPress](http://www.wordpress.org/) is a daunting prospect for clients to edit their own website. With the plethora of [open source plugins](http://wordpress.org/extend/plugins/) available and a few clicks you can clean up the interface to a simple content management system which even the most computer illiterate clients will be able to find their way around.

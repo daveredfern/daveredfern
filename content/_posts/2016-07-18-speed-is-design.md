@@ -1,6 +1,7 @@
 ---
 title: "Speed is design"
 date: "2016-07-18"
+tags: ["Web Design", "Front End Development"]
 ---
 
 A few months ago I visited New York. I was lucky enough to have internet on my phone (thanks [Three](http://www.three.co.uk/Discover/Phones/Feel_At_Home)). While walking around the streets I wanted to find the number for [One Observatory](https://oneworldobservatory.com). With my phone in hand I started to load their website. I waited, then waited some more. Part of the page had loaded but I was still waiting for the text to show – I was waiting for a custom font. The page took over a minute to fully load.
