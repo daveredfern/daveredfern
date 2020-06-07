@@ -12,4 +12,4 @@ During this time I’ve worked on nearly all aspects of creating a successful we
 
 In an effort to publish as much as possible, my website [contains articles](/blog/) on everything I find interesting from web design to music and cooking.
 
-Some of the articles are short. Some are incomplete. I’m trying to follow the rule that if it doesn’t contain any private information—for better or worse—I should publish it.
+Some articles are short. Some articles are incomplete. I’m trying to follow the rule that if it doesn’t contain any private information—for better or worse—I should publish it.
