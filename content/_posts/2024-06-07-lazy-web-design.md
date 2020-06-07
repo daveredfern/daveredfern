@@ -5,7 +5,7 @@ date: "2020-06-07"
 
 When in doubt or looking for a starting point, defer to what others have already created. Especially when those systems have been built for everyone and used by millions of people every day.
 
-As the book says, “[Steal Like An Artist](https://www.goodreads.com/book/show/13099738-steal-like-an-artist).”
+As the book says, “[Steal Like An Artist](https://www.goodreads.com/book/show/13099738-steal-like-an-artist).” There is also a [TED talk](https://www.youtube.com/watch?v=oww7oB9rjgw) with the same name.
 
 Before reinventing the wheel, the following is a list of places that do great work.
 
