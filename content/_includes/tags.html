@@ -1,7 +1,8 @@
 <h2>Filter by tags</h2>
 
 <p>
-    {% for tag in site.tags %}
+    {% assign sorted_tags = (site.tags | sort:0) %}
+    {% for tag in sorted_tags %}
         <a href="/tag/{{ tag[0] | slugify }}" class="search-chip">{{ tag[0] }} ({{ tag[1].size }})</a> 
     {% endfor %}
 </p>
