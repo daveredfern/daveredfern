@@ -14,7 +14,7 @@ A lightweight front end framework that is in production with several projects a
 
 See more information on the [Birmingham Homebrew Website Club...website](https://homebrewbrum.co.uk/).
 
-## Meetup of meetup organisers
+## Meetup of meetup organizers
 
 Founder and organizer of a semi-regular meetup of meetup organizers.  The aim is for each meetup to be an informal gathering to share ideas, problems, successes, and contacts. Generally, a drink (or two) and some tasty grub doesn't go amiss either.
 
@@ -22,7 +22,7 @@ Founder and organizer of a semi-regular meetup of meetup organizers.  The aim i
 
 ## Staffs Web Meetup
 
-I am co-founder and organiser of Staffs Web Meetup. An informal gathering of like-minded web enthusiasts held monthly at Bean enCounter, an independent coffee shop in Stafford. Staffs Web Meetup offers a host of events including lightning talks, guest speakers and social gatherings.
+I am co-founder and organizer of Staffs Web Meetup. An informal gathering of like-minded web enthusiasts held monthly at Bean enCounter, an independent coffee shop in Stafford. Staffs Web Meetup offers a host of events including lightning talks, guest speakers and social gatherings.
 
 [Visit the website](https://staffswebmeetup.co.uk/)
 
