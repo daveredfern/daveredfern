@@ -1,5 +1,5 @@
 ---
-title: "Making wordpress easier for clients to use"
+title: "Making WordPress easier for clients to use"
 date: "2010-03-30"
 ---
 
