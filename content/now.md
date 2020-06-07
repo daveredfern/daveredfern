@@ -12,4 +12,6 @@ I am currently focusing my efforts on:
 
 **Learning the piano.** After a 10 year hiatus, I’ve decided to learn the piano again. I’m aiming for one new song a month.
 
+I have a [uses page](/uses/) if you’d like to see what hardware and software I use on a daily basis.
+
 This page is inspired by [Derek Sivers now page](https://sivers.org/nowff) via [Marc Jenkins’ now page](https://marcjenkins.co.uk/now/).

@@ -14,10 +14,10 @@ I am a keen photographer. My photos have been viewed over 12 million times and u
 
 ## About this website
 
-See my [style guide](/style-guide/) to find out about this website.
+See my [style guide](/style-guide/) to find out about this website. I also keep a [uses page](/uses/) that includes what technology I use on this website.
 
 ## Soppy thanks
 
-A big thanks to [Gareth Joyce](http://garethjoyce.co.uk), [Marc Jenkins](https://marcjenkins.co.uk/), [Phil Wylie](https://www.philwylie.co.uk/) and everyone at [Conversion Rate Experts](https://conversion-rate-experts.com). Their passion for the web typifies why I love this industry. You should definitely check them out.
+A big thanks to [Marc Jenkins](https://marcjenkins.co.uk/), everyone at [Conversion Rate Experts](https://conversion-rate-experts.com) and everyone I [follow on Twitter](https://twitter.com/daveredfern/following). Their passion for the web typifies why I love this industry.
 
-The biggest thanks goes to my girlfriend, [Karen Uppal](https://karenuppal.co.uk/)—I tinker far too much.
+The biggest thanks goes to my girlfriend, [Karen Uppal](https://karenuppal.co.uk/). I tinker far too much.

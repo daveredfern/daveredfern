@@ -6,9 +6,7 @@ My goals is to make this website as lean, fast, and user-friendly as possible. I
 
 ## Behind the scenes
 
-This site is built with [Jekyll](https://jekyllrb.com/) and deployed to [Netlify](https://www.netlify.com/). The forms are managed and processed by [Netlify Forms](https://www.netlify.com/products/forms/).
-
-This site scores 100 on lighthouse in all categories and supports offline content—just because I thought it would be fun to include.
+See my [uses page](/uses/) for the technology I use for this website.
 
 ## Typography
 
