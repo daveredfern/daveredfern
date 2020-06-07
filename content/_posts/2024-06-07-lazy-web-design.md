@@ -1,5 +1,5 @@
 ---
-title: "# Lazy web design - deferring to other peoples decisions"
+title: "Lazy web design - deferring to other peoples decisions"
 date: "2020-06-07"
 ---
 
