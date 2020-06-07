@@ -21,7 +21,7 @@ The second place I use percentages is for horizontal sizing. The classic example
 
 ## Ems
 
-If you're not familiar with ems, or even if you are, I recommend [reading my post on them](https://daveredfern.com/2016/you-should-be-using-ems/). It will help you understand my thought process behind using them so much.
+If you're not familiar with ems, or even if you are, I recommend [reading my post on them](/2016/you-should-be-using-ems/). It will help you understand my thought process behind using them so much.
 
 I use ems a lot. For all font sizes and most paddings and margins. This is because it scales with font size. A good example is padding on buttons and icons that are next to text.
 

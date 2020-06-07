@@ -3,7 +3,7 @@ title: "Performance driven web design"
 date: "2016-09-24"
 ---
 
-This week I wrote an article on the iWeb blog about [performance driven web design](https://www.iweb.co.uk/2016/09/performance-driven-web-design/). This is a more in-depth of an article I wrote a few weeks ago on this blog called [Speed is design](https://daveredfern.com/2016/speed-is-design/). In the article I go into depth about why companies should care about speed and how there are multiple reasons for a poorly performing website that crosses multiple disciplines.
+This week I wrote an article on the iWeb blog about [performance driven web design](https://www.iweb.co.uk/2016/09/performance-driven-web-design/). This is a more in-depth of an article I wrote a few weeks ago on this blog called [Speed is design](/2016/speed-is-design/). In the article I go into depth about why companies should care about speed and how there are multiple reasons for a poorly performing website that crosses multiple disciplines.
 
 Spoiler alert: Team work is vital.
 

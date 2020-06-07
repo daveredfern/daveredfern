@@ -19,6 +19,6 @@ While editing some photos today I had a light bulb moment – why not write abou
 
 So, I have decided to change my goal. Starting tomorrow I will be posting everyday. Each post will contain one of my favourite photos with information about the building, object or location featured.
 
-Head over to my [photography section](https://daveredfern.com/photography/) to see my posts.
+Head over to my [photography section](/photography/) to see my posts.
 
 Wish me luck!

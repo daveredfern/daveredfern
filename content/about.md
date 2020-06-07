@@ -10,7 +10,7 @@ During this time I’ve worked on nearly all aspects of creating a successful we
 
 I am a keen photographer. My photos have been viewed over 12 million times and used by Adobe, Squarespace, Trello and Wix.
 
-[Here's what I'm currently focused on](https://daveredfern.com/now/).
+[Here's what I'm currently focused on](/now/).
 
 ## About this website
 

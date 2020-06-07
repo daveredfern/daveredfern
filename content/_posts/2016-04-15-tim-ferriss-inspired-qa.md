@@ -3,7 +3,7 @@ title: "Tim Ferriss inspired Q&A"
 date: "2016-04-15"
 ---
 
-As part of the [30 day writing challenge](https://daveredfern.com/2016/30-day-writing-photo-challenge/), [Marc Jenkins](https://marcjenkins.co.uk/qa/) suggested answering the following questions inspired by [Tim Ferriss](http://fourhourworkweek.com/blog/). So here we go…
+As part of the [30 day writing challenge](/2016/30-day-writing-photo-challenge/), [Marc Jenkins](https://marcjenkins.co.uk/qa/) suggested answering the following questions inspired by [Tim Ferriss](http://fourhourworkweek.com/blog/). So here we go…
 
 ## When someone asks you what you do, how do you answer that?
 
@@ -69,11 +69,11 @@ Also, Italian food has climbed the ranks to third in the world’s best cuisines
 
 ## What are you excited about right now?
 
-I have a [now page](https://daveredfern.com/now/) that I try to keep up-to-date with what my current priorities. Here are a few specific things I am excited about:
+I have a [now page](/now/) that I try to keep up-to-date with what my current priorities. Here are a few specific things I am excited about:
 
 - Working on some larger project at work, something that is definitely my forte. I have no interest in working on smaller projects.
 - Working on our in-house front end library. It’s called Chop Chop and we hope to realise it soon. It’s currently in a lot of flux but it’s a huge leap forward for me.
 - Using [Sketch app](http://www.sketchapp.com/) on more projects. It’s awesome and definitely changed how I design.
 - To end with some cheese, a happy future with [Karen](https://www.instagram.com/karen.uppal/).
 
-If you write your own Q&A post, let me know. [I’d love to read it](https://daveredfern.com/contact/).
+If you write your own Q&A post, let me know. [I’d love to read it](/contact/).

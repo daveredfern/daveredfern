@@ -12,4 +12,4 @@ If you complete any forms on this website, the information is processed and stor
 
 On a few pages of my website I use embed code for services like [YouTube](https://youtube.com) and [Speaker Deck](https://www.speakerdeck.com). Those services may collect information about you and use cookies. For more information, see their own privacy notices.
 
-If you have any questions, please [contact me](https://daveredfern.com/contact/).
+If you have any questions, please [contact me](/contact/).

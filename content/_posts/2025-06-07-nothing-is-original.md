@@ -3,11 +3,11 @@ title: "Nothing is original"
 date: "2020-06-07"
 ---
 
-I have an unhealthy obsession with trying to create something original—I think we all do. But, it’s only when I let go of that obsession that something creative happens. The most important part is [Enabling a Chance for Something to Happen](https://daveredfern.com/enabling-a-chance-for-something-to-happen/).
+I have an unhealthy obsession with trying to create something original—I think we all do. But, it’s only when I let go of that obsession that something creative happens. The most important part is [Enabling a Chance for Something to Happen](/enabling-a-chance-for-something-to-happen/).
 
 I would highly recommend [reading the book](https://www.goodreads.com/book/show/13099738-steal-like-an-artist) or watching the [TED talk](https://www.youtube.com/watch?v=oww7oB9rjgw) titled “Steal Like An Artist”. It’s great at demonstrating how the most innovative and creative people use other peoples work as a basis for theirs. 
 
-If you’re a web designer, you may find by article on ([lazy web design](https://daveredfern.com/lazy-web-design/) useful
+If you’re a web designer, you may find by article on ([lazy web design](/lazy-web-design/) useful
 
 The following are some quotes from famous designers and artists.
 

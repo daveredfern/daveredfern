@@ -11,7 +11,7 @@ We often hear the phrase ‘good old days’. I am glad the good old days are be
 
 > Do not say, "Why were the old days better than these?" For it is not wise to ask such questions.
 
-Hello to a new era of CSS. It finally feels like it caters for our needs. The introduction of [CSS calc](https://daveredfern.com/2015/06/css-calc-is-more-supported-than-media-queries/), [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), [nth child](http://www.w3schools.com/cssref/sel_nth-child.asp), just to name a few, are revealing the power of CSS and flexible layouts.
+Hello to a new era of CSS. It finally feels like it caters for our needs. The introduction of [CSS calc](/2015/06/css-calc-is-more-supported-than-media-queries/), [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), [nth child](http://www.w3schools.com/cssref/sel_nth-child.asp), just to name a few, are revealing the power of CSS and flexible layouts.
 
 [Responsive web design](http://alistapart.com/article/responsive-web-design) is what the web should have always been. Instead of mimicking other industries such as print, we're now able to stand proud on our own two feet and innovate for a better web.
 

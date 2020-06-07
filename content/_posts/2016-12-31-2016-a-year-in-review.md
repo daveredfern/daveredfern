@@ -27,9 +27,9 @@ As part of the inline block community, Marc Jenkins organised the [30 day writin
 
 This has been a year of ups and down for writing (more on the down later). The first part of the year was particularly successful. Here are some posts I am particularly proud of:
 
-- [Speed is design](https://daveredfern.com/2016/speed-is-design/)
-- [Achieving 100/100 on Google Page Insights using WordPress](https://daveredfern.com/2016/achieving-100-on-google-page-insights-using-wordpress/)
-- [Getting the most out of Sass using arrays, functions and loops](https://daveredfern.com/2016/getting-sass-using-arrays-functions-loops/)
+- [Speed is design](/2016/speed-is-design/)
+- [Achieving 100/100 on Google Page Insights using WordPress](/2016/achieving-100-on-google-page-insights-using-wordpress/)
+- [Getting the most out of Sass using arrays, functions and loops](/2016/getting-sass-using-arrays-functions-loops/)
 - [Why you should be using pattern libraries](http://www.webdesignerdepot.com/2016/12/why-you-should-be-using-pattern-libraries/)
 - [What is Browser Support?](https://www.iweb.co.uk/2016/11/what-is-browser-support/)
 - [Inclusive Web Design – Why Our Websites Should Be More Accessible](https://www.iweb.co.uk/2016/10/inclusive-design-why-our-websites-should-more-accessible/)
@@ -70,7 +70,7 @@ Development of this site has become stagnant over the past few months. Posts hav
 
 ### Public speaking
 
-2015 was a great year for [public speaking](https://daveredfern.com/speaking/). I spoke at six events including WordCamp London. This year I only had the opportunity to speak at one event. I hope to speak at many more meetups and work towards a full length conference talk.
+2015 was a great year for [public speaking](/speaking/). I spoke at six events including WordCamp London. This year I only had the opportunity to speak at one event. I hope to speak at many more meetups and work towards a full length conference talk.
 
 ### Reading
 
