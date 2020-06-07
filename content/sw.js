@@ -14,7 +14,7 @@ const cacheFiles = [
     '/design-principles/',
     '/enabling-a-chance-for-something-to-happen/',
     '/always-leave-things-cleaner-than-you-found-them/',
-    '/work-wirth-the-garage-door-up/',
+    '/work-with-the-garage-door-up/',
 
     '/offline/',
 
