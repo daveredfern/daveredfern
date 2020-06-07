@@ -9,7 +9,8 @@ As the book says, “[Steal Like An Artist](https://www.goodreads.com/book/show/
 
 Before reinventing the wheel, the following is a list of places that do great work.
 
-* [Components – GOV.UK Design System](https://design-system.service.gov.uk/components/)
+* [GOV.UK Design System](https://design-system.service.gov.uk/)
+* [NHS Design System](https://service-manual.nhs.uk/design-system)
 * [Material Design](https://material.io/design/)
 
 If you know of a place that should be added to the list above, [let me know](/contact/).
