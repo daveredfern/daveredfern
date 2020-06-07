@@ -139,19 +139,7 @@ layout: compress
   <script>
     /* ServiceWorker is a progressive technology. Ignore unsupported browsers */
     if('serviceWorker' in navigator && window.location.href.indexOf('daveredfern.com') > -1) {
-      navigator.serviceWorker.register('/sw.js');
-
-      self.addEventListener('activate', function (event) {
-        var cacheWhitelist = ["daveredfern-{{ site.data['hash'] }}"];
-    
-        event.waitUntil(caches.keys().then(function (cacheNames) {
-            return Promise.all(cacheNames.map(function (cacheName) {
-                if (cacheWhitelist.indexOf(cacheName) === -1) {
-                    return caches.delete(cacheName);
-                }
-            }));
-        }));
-      });
+      navigator.serviceWorker.register('/sw.js?v={{ site.data['hash'] }}');
     }
   </script>
   <script src="/assets/js/instantpage.js"></script>
