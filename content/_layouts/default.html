@@ -95,14 +95,6 @@ layout: compress
         {% endif %}
 
         {{ content }}
-
-        {% if page.url == "/feedback/" %}
-          {% include feedback-form.html %}
-        {% endif %}
-
-        {% if page.url == "/contact/" %}
-          {% include contact-form.html %}
-        {% endif %}
         
         {% if page.url == "/blog/" %}
           {% include tags.html %}
