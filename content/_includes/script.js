@@ -3,6 +3,7 @@
 document.querySelectorAll('a').forEach(function (link) {
     if (
         link.href.indexOf('daveredfern.com') == -1 &&
+        link.href.indexOf('amplifyapp.com') == -1 &&
         link.href.indexOf('127.0.0.1') == -1 &&
         link.href.indexOf('localhost') == -1 ||
         link.href.indexOf('http') == -1
