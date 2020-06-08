@@ -1,22 +1,22 @@
 # Redirect /feed/ which is WordPress’ URL
-/feed/  /feed.xml
-/articles/feed/ /feed.xml
-/notes/feed/    /feed.xml
-/photography/feed/  /feed.xml
+/feed/  /feed.xml 301!
+/articles/feed/ /feed.xml 301!
+/notes/feed/    /feed.xml 301!
+/photography/feed/  /feed.xml 301!
 
 # Common URLs that are visited
-/wp-content/themes/brutal/images/favicon/favicon-32x32.png  /assets/images/favicon/favicon-32x32.png
+/wp-content/themes/brutal/images/favicon/favicon-32x32.png  /assets/images/favicon/favicon-32x32.png 301!
 
 # Old URLs that are still being used according to Analytics
-/speaking/  /
-/2017/hide-or-exclude-folders-and-files-from-search-in-visual-studio-code/  /hide-or-exclude-folders-and-files-from-search-in-visual-studio-code/
-/2016/you-should-be-using-ems/  /ems/
-/2016/getting-sass-using-arrays-functions-loops/    /getting-sass-using-arrays-functions-loops/
-/category/blog/  /blog/
-/2015/06/css-calc-is-more-supported-than-media-queries/ /css-calc-is-more-supported-than-media-queries/
+/speaking/  / 301!
+/2017/hide-or-exclude-folders-and-files-from-search-in-visual-studio-code/  /hide-or-exclude-folders-and-files-from-search-in-visual-studio-code/ 301!
+/2016/you-should-be-using-ems/  /ems/ 301!
+/2016/getting-sass-using-arrays-functions-loops/    /getting-sass-using-arrays-functions-loops/ 301!
+/category/blog/  /blog/ 301!
+/2015/06/css-calc-is-more-supported-than-media-queries/ /css-calc-is-more-supported-than-media-queries/ 301!
 
 # Old Jekyll links
-/vegan/ /tag/vegan/ 301
+/vegan/ /tag/vegan/ 301!
 
 # Fixing inbound links
 /2016/* /:splat 301
