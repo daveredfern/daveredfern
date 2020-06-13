@@ -56,6 +56,7 @@ button {
 }
 
 html {
+	scroll-behavior: smooth;
 	font-size: calc(.9em + 0.3vw);
 }
 
@@ -250,7 +251,6 @@ a.mute {
 	padding-right: 6vw;
 	margin-left: auto;
 	margin-right: auto;
-	overflow: hidden;
 }
 
 /* Spacing */
@@ -361,6 +361,11 @@ a.search-chip {
 a.search-chip:hover,
 a.search-chip:focus {
 	outline: 0;
+}
+
+a.search-chip.is-active {
+	background-color: var(--primary-color);
+	color: var(--background-color);
 }
 
 /* Tag */

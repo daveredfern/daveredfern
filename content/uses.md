@@ -6,7 +6,7 @@ The following is a list of everything I use.
 
 I generally recommend everything in the list. I wouldn‘t use them if I didn’t. That being said, there are a few products that are the best I’ve found but I still don’t particularly enjoy them. For those, I’ve made a note.
 
-## Hardware
+## Hardware {#hardware}
 
 I use a [MacBook Pro 15”](https://support.apple.com/kb/SP756?locale=en_GB), [Magic Keyboard](https://www.apple.com/uk/shop/product/MLA22B/A/magic-keyboard-british-english), and [Magic Trackpad 2](https://www.apple.com/uk/shop/product/MJ2R2Z/A/magic-trackpad-2-silver). I previously used a [Magic Mouse 2](https://www.apple.com/uk/shop/product/MLA02Z/A/magic-mouse-2-silver) (and I still own one) but it was causing some aches in my hand so switched to the trackpad which fixed it.
 
@@ -16,7 +16,7 @@ While working remotely, I use a [Roost laptop stand](https://www.therooststand.c
 
 I use a [iPhone Xs](apple.com/uk/newsroom/2018/09/iphone-xs-and-iphone-xs-max-bring-the-best-and-biggest-displays-to-iphone/) and never leave home without my [AirPods](https://www.apple.com/uk/airpods/).
 
-## Software
+## Software {#software}
 
 On my Mac, I use [Chrome](https://www.google.com/chrome/), [Spotify](https://www.spotify.com/) for music, [Reminders](https://support.apple.com/en-gb/guide/reminders/welcome/mac) for… reminders, [Bear](https://bear.app/) for note taking, and [NetNewsWire](https://ranchero.com/netnewswire/) for my RSS reader.
 
@@ -28,25 +28,23 @@ On my iPhone, I use a lot of the same apps as my Mac (1Password, Reminders, Bear
 
 I subscribe to [Feedbin](https://feedbin.com/) which helps sync my RSS subscriptions between devices. I’m a big [Google Suite](https://gsuite.google.co.uk/intl/en_uk/) user so use Gmail, Calendar, and Drive constantly. 
 
-## This website
+## This website {#website}
 
-This site is built with [Jekyll](https://jekyllrb.com/) and deployed to [Netlify](https://www.netlify.com/). The forms are managed and processed by [Netlify Forms](https://www.netlify.com/products/forms/). I collect analytics anonymously using [Netlify Analytics](https://www.netlify.com/products/analytics/). The code is stored in [Github](https://github.com/).
+This site is built with [Jekyll](https://jekyllrb.com/) and deployed to [Netlify](https://www.netlify.com/). The forms are managed and processed by [Netlify Forms](https://www.netlify.com/products/forms/). I collect analytics anonymously using [Netlify Analytics](https://www.netlify.com/products/analytics/). Almost all of the images are hosted on [Cloudinary](https://cloudinary.com/). The code is stored in [Github](https://github.com/).
 
 For more information, you can [see my style guide](/style-guide/).
 
-## Photography
-
-I’m a keen photography. Unfortunately a lot of my equipment was stolen a couple of years ago. But, the silver lining is it forced me to spend more time using film cameras.
+## Photography {#photography}
 
 I have an [Olympus OM-10](https://en.wikipedia.org/wiki/Olympus_OM-10) and [Olympus OM-2](https://en.wikipedia.org/wiki/Olympus_OM-2). I almost always use either a 28mm or 50mm lens. When I’m feeing wealthy, I use [Kodak Portra 400](https://www.amazon.co.uk/gp/product/B004FNRTGG/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) and for all the other times, I use [Fujifilm Superia 200](https://www.amazon.co.uk/gp/your-account/order-history/ref=ppx_yo_dt_b_search?opt=ab&search=film). I get my film processed at [AG Photo Lab](https://www.ag-photolab.co.uk/).
 
-## Music
+## Music {#music}
 
 I play the piano. I use a [Roland FP-30](https://www.roland.com/uk/products/fp_series/fp-30/) with official stand and pedals. I’m also experimenting with a [Novation Launchkey Mini MK3](https://novationmusic.com/en/keys/launchkey-mini).
 
 I’ve not settled on any particular software but my go to are [Ableton Live](https://www.ableton.com/en/) and [GarageBand](https://www.apple.com/uk/mac/garageband/).
 
-## Kitchen
+## Kitchen {#kitchen}
 
 I love cooking. For how much I love cooking, I only have a handful of recommendations. My go to place is Ikea and Oxo. They both fantastic value equipment.
 

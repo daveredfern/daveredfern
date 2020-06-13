@@ -116,6 +116,8 @@ A search chip indicates that the content can be filtered by a category. These ar
 
 Use the <code>.search-chip</code> class on any link.
 
+If you’re filtering content on the same page, you can add the <code>.is-active</code> class to indicate the search chip is active.
+
 ## Media object
 
 A <code>.media-object</code> forces an element to maintain a ratio of 16:9. It’s primarily used for embedding iFrame content such as YouTube where, by default, they don’t resize responsively.
