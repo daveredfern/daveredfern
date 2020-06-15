@@ -3,6 +3,6 @@
 <p>
     {% assign sorted_tags = (site.tags | sort:0) %}
     {% for tag in sorted_tags %}
-        <a href="/tag/{{ tag[0] | slugify }}" class="search-chip">{{ tag[0] }} ({{ tag[1].size }})</a> 
+        <a href="/tag/{{ tag[0] | slugify }}/" class="search-chip">{{ tag[0] }} ({{ tag[1].size }})</a> 
     {% endfor %}
 </p>

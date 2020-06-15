@@ -26,7 +26,7 @@ const cacheFiles = [
 
 /* Store core files in a cache (including a page to display when offline) */
 function updateStaticCache() {
-    return caches.open(version + staticCacheName)
+    return caches.open(staticCacheName + '-' + version)
         .then(function (cache) {
             return cache.addAll(cacheFiles);
         });
@@ -36,22 +36,15 @@ self.addEventListener('install', function (event) {
     event.waitUntil(updateStaticCache());
 });
 
-
 self.addEventListener('activate', function (event) {
-    event.waitUntil(
-        caches.keys()
-        .then(function (keys) {
-            /* Remove caches whose name is no longer valid */
-            return Promise.all(keys
-                .filter(function (key) {
-                    return key.indexOf(version) !== 0;
-                })
-                .map(function (key) {
-                    return caches.delete(key);
-                })
-            );
-        })
-    );
+    var cacheWhitelist = [staticCacheName + '-' + version];
+    event.waitUntil(caches.keys().then(function (cacheNames) {
+        return Promise.all(cacheNames.map(function (cacheName) {
+            if (cacheWhitelist.indexOf(cacheName) === -1) {
+                return caches.delete(cacheName);
+            }
+        }));
+    }));
 });
 
 self.addEventListener('fetch', function (event) {
