@@ -75,7 +75,7 @@ self.addEventListener('fetch', function (event) {
             .then(function (response) {
                 /* Stash a copy of this page in the cache */
                 var copy = response.clone();
-                caches.open(version + staticCacheName)
+                caches.open(staticCacheName + '-' + version)
                     .then(function (cache) {
                         cache.put(request, copy);
                     });
