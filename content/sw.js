@@ -1,3 +1,7 @@
+---
+layout: 'compress'
+---
+
 /* Update 'version' if you need to refresh the cache */
 var staticCacheName = "daveredfern";
 var version = "{{ site.data['hash'] }}";
