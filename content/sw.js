@@ -101,13 +101,13 @@ self.addEventListener('fetch', function (event) {
             return response || fetch(request)
                 .catch(function () {
                     /* If the request is for an image, show an offline placeholder */
-                    if (request.headers.get('Accept').indexOf('image') !== -1) {
+                    /*if (request.headers.get('Accept').indexOf('image') !== -1) {
                         return new Response('<svg width="400" height="400" role="img" aria-labelledby="offline-title" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg"><title id="offline-title">Offline</title><g><line stroke="#666666" x1="0" y1="0" x2="400" y2="400"/><line stroke="#666666" x1="0" y1="400" x2="400" y2="0"/></g></svg>', {
                             headers: {
                                 'Content-Type': 'image/svg+xml'
                             }
                         });
-                    }
+                    }*/
                 });
         })
     );
