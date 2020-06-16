@@ -8,7 +8,7 @@ I have an unhealthy obsession with trying to create something original—I think
 
 I would highly recommend [reading the book](https://www.goodreads.com/book/show/13099738-steal-like-an-artist) or watching the [TED talk](https://www.youtube.com/watch?v=oww7oB9rjgw) titled “Steal Like An Artist”. It’s great at demonstrating how the most innovative and creative people use other peoples work as a basis for theirs. 
 
-If you’re a web designer, you may find by article on ([lazy web design](/lazy-web-design/) useful
+If you’re a web designer, you may find my article on [lazy web design](/lazy-web-design/) useful
 
 The following are some quotes from famous designers and artists.
 
