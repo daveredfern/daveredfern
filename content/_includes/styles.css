@@ -43,6 +43,12 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: var(--background-color);
+    scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
+}
+
+html {
+	font-size: calc(.9em + 0.3vw);
 }
 
 html,
@@ -53,17 +59,6 @@ button {
 	color: var(--color);
 	font-family: var(--font-family);
 	font-size: 1em;
-}
-
-html {
-	scroll-behavior: smooth;
-	font-size: calc(.9em + 0.3vw);
-}
-
-body {
-	min-height: 100vh;
-    scroll-behavior: smooth;
-	text-rendering: optimizeSpeed;
 }
 
 /* Links */
