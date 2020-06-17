@@ -4,7 +4,9 @@ title: "What I'm doing now"
 
 I am currently focusing my efforts on:
 
-**Continuously improving this website** with the goals of making it as lean, fast, and user-friendly as possible. If you have any suggestions for improving it, [let me know](/contact/).
+**Continuously improving this website** with the goals of making it lean, fast, and user-friendly. If you have any suggestions for improving it, [let me know](/contact/).
+
+**Sharing my film photography online.** I’ve started to create a [photos section](/photos/) on this website. It’s a work-in-progress.
 
 **Working at Conversion Rate Expert** as head of design and development. CRE is the world’s leading agency for conversion rate optimization (CRO)—a term they coined in 2007.
 
