@@ -1,5 +1,6 @@
 ---
 title: "Privacy policy"
+hide_references: true
 ---
 
 <p class="lead"><strong>This website collects as little personal information as possible.</strong> I don’t know who you are, where you’re from or how you found me.</p>

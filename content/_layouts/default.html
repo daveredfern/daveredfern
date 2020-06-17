@@ -95,7 +95,7 @@ layout: compress
         {% endif %}
 
         {{ content }}
-        
+
         {% if page.url == "/blog/" %}
           {% include tags.html %}
           {% include favorite-posts.html %}
@@ -108,8 +108,12 @@ layout: compress
 
       {% endif %}
 
+      {% if page.hide_references != true %}
+        {% include references.html %}
+      {% endif %}
+
     </div>
-    
+
     {% if page.hide_cta != true %}
       {% include cta.html %}
     {% endif %}
