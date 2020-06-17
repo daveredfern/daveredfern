@@ -2,7 +2,7 @@
 title: "Style guide"
 ---
 
-My goals is to make this website as lean, fast, and user-friendly as possible. If you have any suggestions or improvements that could help me reach that goal, please [get in touch](/contact/).
+My goals is to make this website lean, fast, and user-friendly. If you have any suggestions or improvements that could help me reach that goal, please [get in touch](/contact/).
 
 ## Behind the scenes
 
