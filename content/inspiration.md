@@ -8,11 +8,14 @@ tags: [Inspiration, Web Design, Writing, Design]
 
 ## Web Designs
 
+My [design principles page](/design-principles/) includes a list of my favorite ones other people have created.
+
 - [Brutalist Websites](https://brutalistwebsites.com/)
 - [Design Town](https://designtown.nyc/)
 - [Jonnie Hallman](https://destroytoday.com/)
 - [Blocks](https://blocks.do/)
 - [Netlify Docs](https://docs.netlify.com/)
+- [NHS](https://www.nhs.uk/)
 
 ## Fonts
 
@@ -25,6 +28,10 @@ tags: [Inspiration, Web Design, Writing, Design]
 ## Writing
 
 - [This 20-point copywriting outline was behind my first million-dollar sales letters!](https://www.breakthroughmarketingsecrets.com/blog/this-20-point-copywriting-outline-was-behind-my-first-million-dollar-sales-letters/)
+
+## Technical
+
+- [Harry Roberts’ articles on CSS Wizardry](https://csswizardry.com/archive/)
 
 ## Misc
 
