@@ -28,6 +28,7 @@ The following to-dos haven’t been prioritized yet. Some of them might be incoh
 
 - **Implement a 8 point grid.** Lots of websites use it including [Github](https://github.com/). It’s something I’d like to learn more about too.
 - **Left align the website.** I’ve done this many times using Chrome Dev Tools and there is something I like about it.
+- **Improve anchor links for heading.** They work well at the moment but they can often wrap strangle. Also, Google’s Lighthouse flags them for not including a descriptive name. Some of the anchor links are also flagged for having a small touch area.
 
 ## Completed tasks
 
