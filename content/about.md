@@ -17,7 +17,9 @@ I am a keen photographer. My photos have been [viewed over 12 million times](htt
 
 See my [style guide](/style-guide/) to find out about this website. See my [uses page](/uses/) that includes the technology I use on this website.
 
-I keep a [roadmap page](/roadmap/) that contains a list of features and ideas I’m currently working on.
+I keep a [roadmap page](/roadmap/) that contains a list of features and ideas I’ll work on in the near future.
+
+My [inspiration page](/inspiration/) includes links and resources that have helped me design and build this website.
 
 ## Soppy thanks
 
