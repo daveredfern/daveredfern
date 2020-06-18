@@ -19,7 +19,7 @@ The following is a list of prioritized tasks for my website prioritized using th
 > **Ease of implementation × Ease of maintenance × Impact to the website**
 
 - **(504=8×9×7) Make the website look more personal**. I’ll start with changing the fonts. Ones I like are Source Sans Pro and Inter. [Harry Robert’s](https://csswizardry.com/2020/05/the-fastest-google-fonts/) has a good guide for delivering fast fonts using Google Fonts although I may wish to host them locally.
-- **(400=10×10×4) Made the repository for this website public.** I’d like to share the code I use for this website in case it’s useful for other people. Before making the repository public, I need to make sure there is no private information inside of it.
+- **(400=10×10×4) Make the repository for my website public.** I’d like to share the code I use for this website in case it’s useful for other people. Before making the repository public, I need to make sure there is no private information inside of it.
 - **(32=2×8×2) Migrate to Hugo.** The site is currently using Jekyll. I have other websites using Hugo so consolidating to one platform would be helpful.
 
 ### Require prioritization
