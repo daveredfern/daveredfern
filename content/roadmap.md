@@ -3,7 +3,7 @@ title: "Roadmap for my website"
 tags: [Personal]
 ---
 
-In the vein of [working with the garage door up](/work-with-the-garage-door-up/), the following are all the to-dos and ideas for my website.
+I’m [working with the garage door up](/work-with-the-garage-door-up/). The following is my roadmap for this website.
 
 ## Bugs that need fixing
 
