@@ -111,6 +111,14 @@ label,
 	margin-bottom: 1.2em;
 }
 
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+}
+
 /* Typography */
 
 h1,
@@ -159,12 +167,12 @@ blockquote {
 
 li {
 	padding-left: 0.5em;
-	margin-bottom: 0.2em;
+	margin-bottom: 0.3em;
 }
 
 @media(min-width: 44em) {
-	ul:not(.inline-list),
-	ol {
+	div > ul:not(.inline-list),
+	div > ol {
 		padding-left: 0;
 		margin-left: -0.5em;
 	}
