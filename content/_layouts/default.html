@@ -78,13 +78,19 @@ layout: compress
     <div role="main">
       {% if page.type == 'tag' %}
 
-        <h1>Articles in “{{ page.title }}”</h1>
+        <h1>Content in “{{ page.title }}”</h1>
 
         <p>All of the following articles have been tagged with “{{ page.title }}”:</p>
 
-        {% for post in page.posts %}
-          {% include blog-article.html %}
-        {% endfor %}
+        {% assign all_content = site.pages | concat: site.posts %}
+        
+        <ul>
+          {% for post in all_content %}
+            {% if post.tags contains page.title %}
+              {% include blog-article.html %}
+            {% endif %}
+          {% endfor %}
+        </ul>
 
       {% else %}
 

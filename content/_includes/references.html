@@ -31,7 +31,9 @@
     <!-- Display the title !-->
     <h2>{{ referenced_content_size }} linked reference{% if referenced_content_size > 1 %}s{% endif %} to “{{ page.title }}”</h2>
     <!-- Display each referenced post -->
-    {% for post in referenced_content %}
-        {% include blog-article.html %}
-    {% endfor %}
+    <ul>
+        {% for post in referenced_content %}
+            {% include blog-article.html %}
+        {% endfor %}
+    </ul>
 {% endif %}
