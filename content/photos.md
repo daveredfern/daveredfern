@@ -3,6 +3,7 @@ title: "I <em>love</em> film photography"
 seo_title: "I love film photography"
 layout: photos
 hide_meta: true
+tags: [Photos, Personal]
 ---
 
 <p class="lead">This is a collection of my favorite photos. All the photos are were shot on a film camera. I’ve not made any edits apart from straightening a few.</p>

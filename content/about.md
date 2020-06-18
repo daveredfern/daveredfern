@@ -1,5 +1,6 @@
 ---
 title: "About"
+tags: [Personal]
 ---
 
 <p class="lead">I’m Head of Design & Development at <a href="https://conversion-rate-experts.com/">Conversion Rate Experts</a>. I’ve got a degree in Computer Science and over a decade’s worth of experience designing and developing e-commerce websites for leading B2B and B2C businesses.</p>
@@ -14,7 +15,9 @@ I am a keen photographer. My photos have been [viewed over 12 million times](htt
 
 ## About this website
 
-See my [style guide](/style-guide/) to find out about this website. I also keep a [uses page](/uses/) that includes the technology I use on this website.
+See my [style guide](/style-guide/) to find out about this website. See my [uses page](/uses/) that includes the technology I use on this website.
+
+I keep a [roadmap page](/roadmap/) that contains a list of features and ideas I’m currently working on.
 
 ## Soppy thanks
 

@@ -8,6 +8,8 @@ My goals is to make this website lean, fast, and user-friendly. If you have any 
 
 See my [uses page](/uses/) for the technology I use for this website.
 
+I keep a [roadmap page](/roadmap/) that contains a list of features and ideas I’m currently working on.
+
 ## Typography
 
 I uses system fonts. On Mac and iPhone you’ll see [San Francisco](https://developer.apple.com/fonts/), on Android you’ll see [Roboto](https://github.com/google/roboto), and on Windows you’ll see [Segoe UI](https://www.microsoft.com/typography/fonts/family.aspx?FID=331). I first saw it at [Ampersand Conference](http://2015.ampersandconf.com/) in 2015 when [Marcin Wichary](http://2015.ampersandconf.com/speakers#marcin) from Medium demonstrated it.

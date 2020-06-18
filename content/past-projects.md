@@ -1,5 +1,6 @@
 ---
 title: "Past projects"
+tags: [Personal]
 ---
 
 ## Chop Chop

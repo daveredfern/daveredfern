@@ -1,5 +1,6 @@
 ---
 title: "What I use"
+tags: [Personal]
 ---
 
 The following is a list of everything I use.
