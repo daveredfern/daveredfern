@@ -9,8 +9,6 @@ For security reasons, [Netlify](https://www.netlify.com/), my hosting provider, 
 
 I anonymously collect data using [Netlify Analytics](https://www.netlify.com/products/analytics/) to help me improve my website and deliver better content.
 
-If you complete any forms on this website, the information is processed and stored in [Netlify Forms](https://www.netlify.com/products/forms/).
-
-On a few pages of my website I use embed code for services like [YouTube](https://youtube.com) and [Speaker Deck](https://www.speakerdeck.com). Those services may collect information about you and use cookies. For more information, see their own privacy notices.
+On a few pages I embed services like [YouTube](https://youtube.com) and [Speaker Deck](https://www.speakerdeck.com). Those services may collect information about you and use cookies. For more information, see their own privacy notices.
 
 If you have any questions, please [contact me](/contact/).
