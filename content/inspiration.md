@@ -35,5 +35,6 @@ My [design principles page](/design-principles/) includes a list of my favorite 
 
 ## Misc
 
+- [1,000 True Fans](https://kk.org/thetechnium/1000-true-fans/)
 - [Start a Profitable Side Project in 2020](https://www.indiehackers.com/start)
 - [Makerpad](https://www.makerpad.co/explore)
