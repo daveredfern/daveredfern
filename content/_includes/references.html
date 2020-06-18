@@ -1,16 +1,16 @@
-<!-- Grab all the content from the site (both pages and articles) !-->
+{% comment %} Grab all the content from the site (both pages and articles) {% endcomment %}
 {% assign all_content = site.pages | concat: site.posts %}
 
-<!-- Create an empty array ready to add pages that include the current URL -->
+{% comment %} Create an empty array ready to add pages that include the current URL {% endcomment %}
 {% assign referenced_content = '' | split: '' %}
 
-<!-- Loop through every page on the website -->
+{% comment %} Loop through every page on the website {% endcomment %}
 {% for post in all_content %}
-    <!-- Put the content into a variable -->
+    {% comment %} Put the content into a variable {% endcomment %}
     {% assign content = post.content | strip_newlines %}
 
-    <!-- If the content contains the current URL, it doesn’t reference itself, isn’t the homepage, offline page, or service worker -->
-    <!-- I’m sure there is a better way to do this -->
+    {% comment %} If the content contains the current URL, it doesn’t reference itself, isn’t the homepage offline page, or service worker {% endcomment %}
+    {% comment %} I’m sure there is a better way to do this {% endcomment %}
     {% if
         content contains page.url and
         page.url != post.url and 
@@ -18,19 +18,19 @@
         post.url != "/" and
         post.url != "/sw.js"
     %}
-        <!-- Add page to array -->
+        {% comment %} Add page to array {% endcomment %}
         {% assign referenced_content = referenced_content | push: post %}
     {% endif %}
 {% endfor %}
 
-<!-- How big is the list of pages? -->
+{% comment %} How big is the list of pages? {% endcomment %}
 {% assign referenced_content_size = referenced_content | size %}
 
-<!-- If we have some referenced pages show this section -->
+{% comment %} If we have some referenced pages show this section {% endcomment %}
 {% if referenced_content_size > 0 %}
-    <!-- Display the title !-->
+    {% comment %} Display the title {% endcomment %}
     <h2>{{ referenced_content_size }} linked reference{% if referenced_content_size > 1 %}s{% endif %} to “{{ page.title }}”</h2>
-    <!-- Display each referenced post -->
+    {% comment %} Display each referenced post {% endcomment %}
     <ul>
         {% for post in referenced_content %}
             {% include blog-article.html %}

@@ -6,7 +6,7 @@ layout: compress
 <html lang="en-US">
 <head>
 
-  <!-- Page setting -->
+  {% comment %} Page setting {% endcomment %}
 	<meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, minimum-scale=1.0">
@@ -21,13 +21,13 @@ layout: compress
     {% assign page_title = page.title %}
   {% endif %}
 
-  <!-- Title -->
+  {% comment %} Title {% endcomment %}
   <title>{{ page_title }} - {{ site.title }}</title>
 
-  <!-- Preconnect for assets -->
+  {% comment %} Preconnect for assets {% endcomment %}
   <link rel="preconnect" href="https://d33wubrfki0l68.cloudfront.net">
 
-  <!-- Favicon -->
+  {% comment %} Favicon {% endcomment %}
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
@@ -36,15 +36,15 @@ layout: compress
 	<meta name="msapplication-TileColor" content="#0f40f2">
   <meta name="theme-color" content="#ffffff">
 
-  <!-- Misc meta information -->
+  {% comment %} Misc meta information {% endcomment %}
   <meta itemprop="description" name="description" content="{% if page.url == "/" %}{{ site.description | truncate: 150  }}{% else %}{{ page.content | markdownify | strip_html | truncate: 150 }}{% endif %}" />
   <meta name="author" content="{{ site.title }}">
   <meta name="robots" content="all" />
 
-  <!-- RSS feed -->
+  {% comment %} RSS feed {% endcomment %}
   <link rel="alternate" type="application/rss+xml" title="{{ site.title}}’s Feed" href="{{ site.url }}/feed.xml" />
 
-  <!-- Social meta information -->
+  {% comment %} Social meta information {% endcomment %}
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="article">
   <meta property="og:title" content="{%if page_title %}{{ page_title }}{% else %}{{ site.title }}{% endif %}">
@@ -60,10 +60,10 @@ layout: compress
   <meta name="twitter:creator" content="{{ site.twitter_username }}">
   <meta name="twitter:card" content="summary">
 
-  <!-- Canonical url -->
+  {% comment %} Canonical url {% endcomment %}
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
-  <!-- CSS -->
+  {% comment %} CSS {% endcomment %}
   <style>
       {% include styles.css %}
   </style>
@@ -134,7 +134,7 @@ layout: compress
 
   </div>
 
-  <!-- Instant pages -->
+  {% comment %} Instant pages {% endcomment %}
   <script defer>
     {% include script.js %}
   </script>
