@@ -263,23 +263,6 @@ a.mute {
 	margin-top: calc(1em + 2vw);
 }
 
-/* Notification */
-
-.notification {
-	border: 2px solid var(--primary-color);
-	border-bottom-width: 3px;
-	padding: calc(1em + .4vw);
-	border-radius: 5px;
-}
-
-.notification>*:first-child {
-	margin-top: 0;
-}
-
-.notification>*:last-child {
-	margin-bottom: 0;
-}
-
 /* Forms */
 
 label {

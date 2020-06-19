@@ -92,12 +92,6 @@ There is also styling available for <code>inline code</code>.
 
 <a href="#" class="button">This is a button</a>
 
-## Notification
-
-<div class="notification">
-    <p>This is a notification. It adds a box around content to make it more prominent.</p>
-</div>
-
 ## Inline list
 
 <ul class="inline-list">
