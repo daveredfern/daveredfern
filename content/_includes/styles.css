@@ -105,8 +105,8 @@ blockquote,
 pre,
 form,
 label,
-.media-object,
-.info-panel {
+.media-embed,
+.media-object {
 	margin-top: 1.2em;
 	margin-bottom: 1.2em;
 }
@@ -369,17 +369,17 @@ a.search-chip.is-active {
 
 /* Media object */
 
-.media-object {
+.media-embed {
 	position: relative;
 	overflow: hidden;
 	padding-top: calc(100% / (16 / 9));
 }
 
-.media-object--43 {
+.media-embed--43 {
 	padding-top: calc(100% / (4 / 3));
 }
 
-.media-object>* {
+.media-embed>* {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -473,26 +473,26 @@ a.search-chip.is-active {
 
 /* Media object */
 
-.info-panel {
+.media-object {
 	display: flex;
 }
 
-.info-panel__media {
+.media-object__media {
 	width: 15%;
 	min-width: 80px;
 	margin-right: 1em;
 	flex-shrink: 0;
 }
 
-.info-panel__body {
+.media-object__body {
 	flex-grow: 1;
 }
 
-.info-panel__body > *:first-child {
+.media-object__body > *:first-child {
 	margin-top: 0;
 }
 
-.info-panel__body > *:last-child {
+.media-object__body > *:last-child {
 	margin-bottom: 0;
 }
 

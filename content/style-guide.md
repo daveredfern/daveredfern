@@ -116,13 +116,13 @@ Use the <code>.search-chip</code> class on any link.
 
 If you’re filtering content on the same page, you can add the <code>.is-active</code> class to indicate the search chip is active.
 
-## Media object
+## Media embed
 
-A <code>.media-object</code> forces an element to maintain a ratio of 16:9. It’s primarily used for embedding iFrame content such as YouTube where, by default, they don’t resize responsively.
+A <code>.media-embed</code> forces an element to maintain a ratio of 16:9. It’s primarily used for embedding iFrame content such as YouTube where, by default, they don’t resize responsively.
 
-<div class="media-object"><iframe width="560" height="315" src="https://www.youtube.com/embed/2XX14tfsk4c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="media-embed"><iframe width="560" height="315" src="https://www.youtube.com/embed/2XX14tfsk4c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-To make the ratio 4:3, add a modifying class of <code>.media-object--43</code> to it.
+To make the ratio 4:3, add a modifying class of <code>.media-embed--43</code> to it.
 
 ## Icons
 
@@ -130,22 +130,18 @@ When using an icon, add the class <code>.icon</code> to the SVG to set the size 
 
 When an SVG is used inside of a link, an SVG element won’t have an underline like text does. This can look odd so to overcome this, instead of using a space, add the class <code>.space-left</code> which adds the equivelant of one space.
 
-## Info panel
+## Media object
 
-An `.info-panel` is a two column layout which is designed to have some media on the left and some copy on the right. I primarily use it at the bottom of each page to introduce myself.
+An `.media-object` is a two column layout which is designed to have some media on the left and some copy on the right. I primarily use it at the bottom of each page to introduce myself.
 
-<div class="info-panel">
-    <div class="info-panel__media">
+<div class="media-object">
+    <div class="media-object__media">
         <img src="/assets/images/profile.jpg" alt="A photo of Dave Redfern" />
     </div>
-    <div class="info-panel__body">
+    <div class="media-object__body">
         <p><strong>Hi. I’m Dave Redfern.</strong> I work with some of the world’s most sophisticated companies, helping to design and develop user‑centered experiences that deliver measurable returns. <a href="/about/">Read more about me</a>.</p>
     </div>
 </div>
-
-I’m aware this needs a better name. If you have a suggestion, let me know!
-
-
 
 ## Utilities
 
