@@ -293,10 +293,13 @@ a.mute {
 .inline-list {
 	padding-left: 0;
 	margin-left: -.5em;
+	margin-top: .7em;
+	margin-bottom: .7em;
 }
 
 .inline-list li {
 	padding-left: 0;
+	margin-bottom: 0;
 	display: inline-block;
 	list-style: none;
 }
