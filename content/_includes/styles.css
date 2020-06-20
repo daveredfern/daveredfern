@@ -13,7 +13,7 @@
 	--mute-color: #dddddd;
 	--selection-color: #feff91;
 
-	--font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+	--font-family: "Source Serif Pro", Georgia, serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -29,6 +29,43 @@
 		--light-color: #333333;
 		--mute-color: #444444;
 	}
+}
+
+/* Load custom font */
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('/assets/fonts/SourceSerifPro-It.woff2') format('woff2'),
+        url('/assets/fonts/SourceSerifPro-It.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('/assets/fonts/SourceSerifPro-Bold.woff2') format('woff2'),
+        url('/assets/fonts/SourceSerifPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('/assets/fonts/SourceSerifPro-BoldIt.woff2') format('woff2'),
+        url('/assets/fonts/SourceSerifPro-BoldIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('/assets/fonts/SourceSerifPro-Regular.woff2') format('woff2'),
+        url('/assets/fonts/SourceSerifPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 /* Global */
