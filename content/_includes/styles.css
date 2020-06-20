@@ -517,7 +517,7 @@ a.search-chip.is-active {
 	.anchor-link:link {
 		position: absolute;
 		top: 0;
-		left: -2.25rem;
+		left: -2.2rem;
 		padding: .35rem;
 		margin-left: 0;
 		display: block;
@@ -535,11 +535,13 @@ a.search-chip.is-active {
 	}
 }
 
-/* External link */
+/* No wrap */
 
 .nowrap {
 	white-space: nowrap;
 }
+
+/* External link */
 
 .external-link {
 	height: .6em;

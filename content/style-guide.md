@@ -147,7 +147,7 @@ An `.media-object` is a two column layout which is designed to have some media o
 
 <p class="mute">Use the <code>.mute</code> class to make an element light grey.</p>
 
-<p>Use the <code>.hidden</code> class to hide an element.</p>
+<p>Use the <code>.nowrap</code> class to to words wrapping. I use this with external links to stop the SVG wrapping on its own.</p>
 
 ## Layout
 
