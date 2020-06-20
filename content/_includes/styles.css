@@ -141,7 +141,7 @@ h1 {
 hr {
 	height: 1px;
 	border: 0;
-	border-bottom: 3px solid var(--color);
+	border-bottom: 3px solid var(--mute-color);
 	outline: 0;
 	clear: both;
 	margin: calc(1.8em + .6vw) 0;
@@ -452,17 +452,6 @@ a.search-chip.is-active {
 	transform-origin: 70% 80%;
 }
 
-/* Icon */
-
-.icon {
-	height: .8em;
-    width: .8em;
-}
-
-.space-left {
-	margin-left: .25em;
-}
-
 /* Header - hack to make the wrapping of the header nicer */
 
 @media(max-width: 30em) {
@@ -544,4 +533,17 @@ a.search-chip.is-active {
 		width: 1rem;
 		display: block;
 	}
+}
+
+/* External link */
+
+.nowrap {
+	white-space: nowrap;
+}
+
+.external-link {
+	height: .6em;
+    width: .6em;
+	vertical-align: text-top;
+	margin-left: 0.2em;
 }
