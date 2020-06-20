@@ -500,3 +500,37 @@ a.search-chip.is-active {
 	border-radius: 100px;
 	overflow: hidden;
 }
+
+/* Anchor links */
+
+.anchor-link,
+.anchor-link:link {
+	color: var(--color);
+	margin-left: .35em;
+}
+
+.anchor-link svg {
+	height: .8em;
+	width: .8em;
+}
+
+@media(min-width: 44em) {
+	h2[id],
+	h3[id] {
+		position: relative;
+	}
+
+	.anchor-link,
+	.anchor-link:link {
+		position: absolute;
+		top: -.2rem;
+		left: -2rem;
+		padding: .2rem;
+		margin-left: 0;
+	}
+
+	.anchor-link svg {
+		height: 1rem;
+		width: 1rem;
+	}
+}
