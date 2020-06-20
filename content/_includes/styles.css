@@ -312,11 +312,10 @@ a.mute {
 @media(min-width: 44em) {
 	.inline-list {
 		margin-left: -.5em;
-		margin-top: .7em;
-		margin-bottom: .7em;
 	}
 	.inline-list a {
-		padding: .5em;
+		padding-left: .5em;
+		padding-right: .5em;
 	}
 }
 
