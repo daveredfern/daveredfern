@@ -509,6 +509,10 @@ a.search-chip.is-active {
 	margin-left: .35em;
 }
 
+.anchor-link:focus {
+	color: var(--background-color);
+}
+
 .anchor-link svg {
 	height: .8em;
 	width: .8em;
@@ -523,14 +527,21 @@ a.search-chip.is-active {
 	.anchor-link,
 	.anchor-link:link {
 		position: absolute;
-		top: -.2rem;
-		left: -2rem;
-		padding: .2rem;
+		top: 0;
+		left: -2.25rem;
+		padding: .35rem;
 		margin-left: 0;
+		display: block;
+	}
+
+	h3 .anchor-link,
+	h3 .anchor-link:link {
+		top: -0.2rem;
 	}
 
 	.anchor-link svg {
 		height: 1rem;
 		width: 1rem;
+		display: block;
 	}
 }
