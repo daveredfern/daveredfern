@@ -127,12 +127,13 @@
     /* ServiceWorker is a progressive technology. Ignore unsupported browsers */
     if(
       'serviceWorker' in navigator &&
-      window.location.href.indexOf('daveredfern.com') > -1
+      window.location.href.indexOf('daveredfern') > -1
     ) {
-      navigator.serviceWorker.register('/sw.js?v={{ site.data['hash'] }}');
+      navigator.serviceWorker.register('/sw.js');
     }
   </script>
   <script src="/assets/js/instantpage.js"></script>
+  <script src="https://cdn.usefathom.com/script.js" site="RNUQOEPI" defer></script>
 
 </body>
 </html>
