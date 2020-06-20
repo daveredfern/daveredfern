@@ -3,9 +3,9 @@
 :root {
 	--color: #111111;
 
-	--primary-color: #0E40F2;
-	--light-primary-color: #E6EBFF;
-	--dark-primary-color: #082079;
+	--primary-color: #1C606D;
+	--light-primary-color: #DEEBEC;
+	--dark-primary-color: #0F4447;
 
 	--background-color: #fff;
 
@@ -13,7 +13,7 @@
 	--mute-color: #dddddd;
 	--selection-color: #feff91;
 
-	--font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+	--font-family: "Source Serif Pro", serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -29,6 +29,44 @@
 		--light-color: #333333;
 		--mute-color: #444444;
 	}
+}
+
+/* Custom font */
+
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('/assets/fonts/SourceSerifPro-It.woff2') format('woff2'),
+        url('/assets/fonts/SourceSerifPro-It.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('/assets/fonts/SourceSerifPro-Bold.woff2') format('woff2'),
+        url('/assets/fonts/SourceSerifPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('/assets/fonts/SourceSerifPro-BoldIt.woff2') format('woff2'),
+        url('/assets/fonts/SourceSerifPro-BoldIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('/assets/fonts/SourceSerifPro-Regular.woff2') format('woff2'),
+        url('/assets/fonts/SourceSerifPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 /* Global */
@@ -51,14 +89,14 @@ html,
 input,
 textarea,
 button {
-	line-height: 1.6;
+	line-height: 1.5;
 	color: var(--color);
 	font-family: var(--font-family);
 	font-size: 1em;
 }
 
 html {
-	font-size: calc(.9em + 0.3vw);
+	font-size: calc(.85em + 0.5vw);
 }
 
 /* Links */
@@ -106,7 +144,8 @@ pre,
 form,
 label,
 .media-embed,
-.media-object {
+.media-object,
+.notification {
 	margin-top: 1.2em;
 	margin-bottom: 1.2em;
 }
@@ -129,13 +168,23 @@ h5,
 h6 {
 	line-height: 1.1;
 	letter-spacing: -0.01em;
-	margin-top: 1.2em;
+	margin-top: 1.5em;
 	margin-bottom: 0.6em;
 	scroll-margin-top: 1em;
 }
 
 h1 {
-	font-size: calc(1.8em + .5vw);
+	margin-top: 1em;
+	font-size: calc(2em + .5vw);
+}
+
+h1 + *,
+h2 + *,
+h3 + *,
+h4 + *,
+h5 + *,
+h6 + * {
+	margin-top: 0;
 }
 
 hr {
@@ -185,14 +234,21 @@ code {
 	border-radius: 5px;
 	vertical-align: text-top;
 	background-color: var(--light-color);
-	font-size: 0.85em;
+	font-size: 0.8em;
 	color: var(--color);
 }
 
 pre code {
 	display: block;
-	padding: 1.4em;
+	padding: 1.2em;
 	overflow-x: auto;
+}
+
+@media(min-width: 44em) {
+	pre code {
+		margin-left: -1.2em;
+		margin-right: -1.2em;
+	}
 }
 
 /* Media */
@@ -333,15 +389,16 @@ button:hover {
 /* Search chip */
 
 a.search-chip {
-	padding: 0.1em .8em;
+	padding: 0.3em .8em;
     border-radius: 100px;
     border: 2px solid var(--primary-color);
     text-decoration: none;
-    margin-top: 0.3em;
     display: inline-block;
+    margin-top: .3em;
 	margin-bottom: .3em;
-	margin-right: 0.2em;
-    font-size: 0.85em;
+	margin-right: .3em;
+	font-size: 0.85em;
+	font-weight: bold;
 }
 
 a.search-chip:hover,
@@ -352,19 +409,6 @@ a.search-chip:focus {
 a.search-chip.is-active {
 	background-color: var(--primary-color);
 	color: var(--background-color);
-}
-
-/* Tag */
-
-.tag {
-	background-color: var(--primary-color);
-	color: var(--background-color);
-	display: inline-block;
-	border-radius: 5px;
-	padding: 0.1em 0.5em;
-	vertical-align: text-top;
-	font-size: 0.65em;
-	font-family: var(--heading-font-family);
 }
 
 /* Media object */
@@ -535,17 +579,25 @@ a.search-chip.is-active {
 	}
 }
 
-/* No wrap */
+/* Notification */
 
-.nowrap {
-	white-space: nowrap;
+.notification {
+	border: 3px solid var(--mute-color);
+    border-radius: 5px;
+    padding: 1.2em;
 }
 
-/* External link */
+.notification > *:first-child {
+	margin-top: 0;
+}
 
-.external-link {
-	height: .6em;
-    width: .6em;
-	vertical-align: text-top;
-	margin-left: 0.15em;
+.notification > *:last-child {
+	margin-bottom: 0;
+}
+
+@media(min-width: 44em) {
+	.notification {
+		margin-left: calc(-1.2em - 2px);
+		margin-right: calc(-1.2em - 2px);
+	}
 }

@@ -102,9 +102,13 @@ There is also styling available for <code>inline code</code>.
     <li>list</li>
 </ul>
 
-## Tag
+## Notification
 
-A <span class="tag">Tag</span> can be created by wrapping content insdie of a span with the class <code>.tag</code> applied to it.
+A <code>.notification</code> highlights a portion of content my putting it inside of a box.
+
+<div class="notification">
+    <p>This is a notification.</p>
+</div>
 
 ## Search chip
 
@@ -146,8 +150,6 @@ An `.media-object` is a two column layout which is designed to have some media o
 <p class="highlight">Use the <code>.highlight</code> class to make an element blue.</p>
 
 <p class="mute">Use the <code>.mute</code> class to make an element light grey.</p>
-
-<p>Use the <code>.nowrap</code> class to to words wrapping. I use this with external links to stop the SVG wrapping on its own.</p>
 
 ## Layout
 

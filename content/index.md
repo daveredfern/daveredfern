@@ -1,5 +1,5 @@
 ---
-title: "<span class=\"wave\">👋</span> I’m Dave.<br>I design and develop user‑centered experiences that deliver measurable returns"
+title: "I design and develop user‑centered experiences that deliver measurable returns."
 seo_title: "User‑centered experiences that deliver measurable returns"
 hide_meta: true
 hide_references: true

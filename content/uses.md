@@ -5,7 +5,7 @@ tags: [Personal]
 
 The following is a list of everything I use.
 
-I generally recommend everything in the list. I wouldn‘t use them if I didn’t. That being said, there are a few products that are the best I’ve found but I still don’t particularly enjoy them. For those, I’ve made a note.
+I generally recommend everything in the list. I wouldn’t use them if I didn’t. That being said, there are a few products that are the best I’ve found but I still don’t particularly enjoy them. For those, I’ve made a note.
 
 ## Hardware {#hardware}
 

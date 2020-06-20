@@ -25,6 +25,13 @@ My [design principles page](/design-principles/) includes a list of my favorite 
 - [Jost](https://fonts.google.com/specimen/Jost)
 - [Sporting Grotesque](https://velvetyne.fr/fonts/sporting-grotesque/)
 
+## Tools
+
+- [Color Scale Generator](https://hihayk.github.io/scale/)
+- [Contrast Ratio](https://contrast-ratio.com/)
+- [Tota11y](https://khan.github.io/tota11y/)
+- [Edit Any Website Bookmarklet](https://kopywritingkourse.com/edit-any-website-free-tool/)
+
 ## Writing
 
 - [This 20-point copywriting outline was behind my first million-dollar sales letters!](https://www.breakthroughmarketingsecrets.com/blog/this-20-point-copywriting-outline-was-behind-my-first-million-dollar-sales-letters/)
