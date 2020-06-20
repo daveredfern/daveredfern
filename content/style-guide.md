@@ -94,12 +94,14 @@ There is also styling available for <code>inline code</code>.
 
 ## Inline list
 
+This <code>.inline-list</code> is primarily used for navigation on the website.
+
 <ul class="inline-list">
-    <li>This</li>
-    <li>is</li>
-    <li>an</li>
-    <li>inline</li>
-    <li>list</li>
+    <li><a href="#">This</a></li>
+    <li><a href="#">is</a></li>
+    <li><a href="#">an</a></li>
+    <li><a href="#">inline</a></li>
+    <li><a href="#">list</a></li>
 </ul>
 
 ## Notification
