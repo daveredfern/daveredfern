@@ -297,12 +297,13 @@ a.mute {
 
 .inline-list li {
 	padding-left: 0;
-	display: inline;
+	display: inline-block;
 	list-style: none;
 }
 
 .inline-list a {
 	padding: .5em;
+	display: inline-block;
 }
 
 /* Container */
