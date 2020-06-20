@@ -292,13 +292,17 @@ a.mute {
 
 .inline-list {
 	padding-left: 0;
+	margin-left: -.5em;
 }
 
 .inline-list li {
 	padding-left: 0;
 	display: inline;
 	list-style: none;
-	margin-right: calc(0.5em + 0.5vw);
+}
+
+.inline-list a {
+	padding: .5em;
 }
 
 /* Container */
