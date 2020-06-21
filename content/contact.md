@@ -4,9 +4,7 @@ hide_meta: true
 hide_references: true
 ---
 
-Whether it's a question, a request for me to speak or just a friendly hello, get in touch.
-
-I generally respond the quickest on Twitter. Alternatively, you can email me or fill in the form at the bottom of the page.
+Whether it's a question, a request for me to speak or just a friendly hello, get in touch. I generally respond the quickest on Twitter.
 
 * [Twitter](https://www.twitter.com/daveredfern)
 * [dave@daveredfern.com](mailto:dave@daveredfern.com)
