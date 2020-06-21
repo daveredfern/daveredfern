@@ -552,3 +552,11 @@ a.search-chip.is-active {
 		margin-right: calc(-1.2em - 2px);
 	}
 }
+
+/* Header hack */
+
+@media(max-width: 59.99em) {
+	.header .inline-list li:first-child {
+		display: block;
+	}
+}
