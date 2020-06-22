@@ -18,10 +18,6 @@ The following is a list of prioritized tasks for my website prioritized using th
 > **Priority =**<br />
 > **Ease of implementation × Ease of maintenance × Impact to the website**
 
-- **(648=8×9×9) Update the footer of each page to focus on related content**. 
-Combine the “where to go next” and “about me” sections together. Emphasis the “linked reference” section with a fallback for content that doesn’t have any.
-- **(504=8×9×7) Make the website look more personal**. I’ll start with changing the fonts. Ones I like are Source Sans Pro and Inter. [Harry Robert’s](https://csswizardry.com/2020/05/the-fastest-google-fonts/) has a good guide for delivering fast fonts using Google Fonts although I may wish to host them locally.
-- **(400=10×10×4) Make the repository for my website public.** I’d like to share the code I use for this website in case it’s useful for other people. Before making the repository public, I need to make sure there is no private information inside of it.
 - **(32=2×8×2) Migrate to Hugo.** The site is currently using Jekyll. I have other websites using Hugo so consolidating to one platform would be helpful.
 
 ### Require prioritization
@@ -33,6 +29,18 @@ The following to-dos haven’t been prioritized yet. Some of them might be incoh
 - **Improve anchor links for heading.** They work well at the moment but they can often wrap strangle. Also, Google’s Lighthouse flags them for not including a descriptive name. Some of the anchor links are also flagged for having a small touch area.
 
 ## Completed tasks
+
+The most recently completed tasks are at the top.
+
+### 2020-06-22
+
+- **(648=8×9×9) Update the footer of each page to focus on related content**. 
+Combined the “where to go next” and “about me” sections together. Emphasized the “linked reference” section.
+- **(504=8×9×7) Made the website look more personal**. I updated the font to Source Serif Pro.
+
+### 2020-06-20
+
+- **(400=10×10×4) Made my website’s repository public.** I want to share the code I use for this website in case it’s useful for others.
 
 ### 2020-06-18
 
