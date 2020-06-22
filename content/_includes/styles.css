@@ -489,12 +489,7 @@ a.search-chip.is-active {
 
 .anchor-link,
 .anchor-link:link {
-	color: var(--color);
 	margin-left: .5em;
-}
-
-.anchor-link:focus {
-	color: var(--background-color);
 }
 
 @media(min-width: 44em) {
@@ -506,7 +501,7 @@ a.search-chip.is-active {
 	.anchor-link,
 	.anchor-link:link {
 		position: absolute;
-    top: -0.1rem;
+    top: -0.05rem;
     left: -1.9rem;
     padding: .35rem;
     margin-left: 0;
@@ -517,7 +512,7 @@ a.search-chip.is-active {
 
 	h3 .anchor-link,
 	h3 .anchor-link:link {
-		top: -0.3rem;
+		top: -0.25rem;
 	}
 }
 
