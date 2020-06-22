@@ -490,16 +490,11 @@ a.search-chip.is-active {
 .anchor-link,
 .anchor-link:link {
 	color: var(--color);
-	margin-left: .35em;
+	margin-left: .5em;
 }
 
 .anchor-link:focus {
 	color: var(--background-color);
-}
-
-.anchor-link svg {
-	height: .8em;
-	width: .8em;
 }
 
 @media(min-width: 44em) {
@@ -511,22 +506,18 @@ a.search-chip.is-active {
 	.anchor-link,
 	.anchor-link:link {
 		position: absolute;
-		top: 0;
-		left: -2.2rem;
-		padding: .35rem;
-		margin-left: 0;
-		display: block;
+    top: -0.1rem;
+    left: -1.9rem;
+    padding: .35rem;
+    margin-left: 0;
+    display: block;
+    font-size: 1rem;
+    text-decoration: none;
 	}
 
 	h3 .anchor-link,
 	h3 .anchor-link:link {
-		top: -0.2rem;
-	}
-
-	.anchor-link svg {
-		height: 1rem;
-		width: 1rem;
-		display: block;
+		top: -0.3rem;
 	}
 }
 
