@@ -1,5 +1,5 @@
 ---
-title: "McDonald’s theory - break the ice with the worst idea"
+title: "McDonald’s theory—break the ice with the worst idea"
 date: "2020-06-22"
 tags: [Web Design, Design, Inspiration, Management]
 ---
