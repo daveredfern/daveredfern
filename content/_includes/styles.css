@@ -82,7 +82,8 @@ body {
 	padding: 0;
 	background-color: var(--background-color);
     scroll-behavior: smooth;
-	text-rendering: optimizeSpeed;
+	text-rendering: optimizeLegibility;
+    font-variant-ligatures: common-ligatures;
 }
 
 html,
