@@ -105,10 +105,6 @@
     {% if page.url == "/" or page.url == "/offline/" %}
       {% include favorite-posts.html %}
     {% endif %}
-    
-    {% if page.hide_cta != true %}
-      {% include cta.html %}
-    {% endif %}
 
     {% if page.hide_about != true %}
       {% include about.html %}

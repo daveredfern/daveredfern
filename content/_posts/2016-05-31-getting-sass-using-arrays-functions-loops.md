@@ -62,7 +62,6 @@ $grey: #666;
 $dark-grey: #333;
 $pink: #ff69b4;
 $blue: #0000ff;
-
 ```
 
 These work fine but it’s hard to automatically loop through all colours when they’re separate variables. That’s where arrays come in handy. If we convert them to an array we can easily automate the generation of CSS, such as the background and text colour classes.
@@ -81,7 +80,6 @@ $colors: (
     blue: #0000ff
   )
 )
-
 ```
 
 In the above example we have converted the colours into a nested array. Where you see `(` it signifies the start of an array. Where there is `)` it’s the end. So we have gone from five variables to one that includes other arrays, one for each colour grouping.
@@ -96,7 +94,6 @@ When colours were separate variables we could use them like this `background-col
 @function color($color, $tone: 'base') {
   @return map-get(map-get($colors, $color), $tone);
 }
-
 ```
 
 We’re using a core function called [`map-get`](http://sass-lang.com/documentation/Sass/Script/Functions.html#map_get-instance_method). The function allows us to return a value from an array. For example `map-get($variable-containing-array, 'key-value')`. The problem is we have nested arrays. That is fine because we can also nest `map-get`, as you can see in our example. We could write that each time we need a value but it’s a little long. So we created this custom function as a shortcut.
@@ -109,7 +106,6 @@ Here is three examples that use our custom function:
 background-color: color(grey);
 background-color: color(grey, light);
 background-color: color(brand, pink);
-
 ```
 
 In the first example we are retrieving the base grey colour from the array. You can see we only passed one value into the function and therefore assumes the second value should be base. The second and third example has two values and we're retrieving the light grey and pink respectively.
@@ -136,7 +132,6 @@ I’ll first show you the @each loop we use to generate a class that applies a b
     }
   }
 }
-
 ```
 
 In the example we have two nested loops. One to loop through the high level array items (grey, brand) and another inside to loop through those items (for example light, base and dark for the grey array).
@@ -161,7 +156,6 @@ Here is the CSS output of the above code:
 .u-fill-brand—blue {
   background-color: #0000ff !important;
 }
-
 ```
 
 You might notice there is `!important` added to the end of each property. We’re not terrible people, it’s recommended for utilities. I’ll reiterate how good [Harry Roberts article on namespaces](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/) is on this topic.

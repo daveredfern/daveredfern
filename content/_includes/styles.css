@@ -339,8 +339,8 @@ a.mute {
 /* Spacing */
 
 .spacing {
-	margin-bottom: calc(1em + 2vw);
-	margin-top: calc(1em + 2vw);
+	margin-bottom: calc(1em + 3vw);
+	margin-top: calc(1em + 3vw);
 }
 
 /* Forms */
@@ -463,7 +463,7 @@ a.search-chip.is-active {
 
 .media-object__media {
 	width: 15%;
-	min-width: 80px;
+	min-width: 60px;
 	margin-right: 1em;
 	flex-shrink: 0;
 }
