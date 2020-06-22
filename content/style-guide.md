@@ -14,12 +14,12 @@ My [inspiration page](/inspiration/) includes links and resources that have help
 
 ## Typography
 
-I uses system fonts. On Mac and iPhone you’ll see [San Francisco](https://developer.apple.com/fonts/), on Android you’ll see [Roboto](https://github.com/google/roboto), and on Windows you’ll see [Segoe UI](https://www.microsoft.com/typography/fonts/family.aspx?FID=331). I first saw it at [Ampersand Conference](http://2015.ampersandconf.com/) in 2015 when [Marcin Wichary](http://2015.ampersandconf.com/speakers#marcin) from Medium demonstrated it.
+I use [Source Serif Pro](https://github.com/adobe-fonts/source-serif-pro) by Adobe Fonts. I locally host the font because it’s faster than Google Fonts and Google Fonts doesn’t contain the italic versions. The fallback is the standard serif used by browsers.
 
 ## Colors
 
 <ul>
-    <li class="highlight"><strong>Blue</strong> in light mode and <strong>pink</strong> in dark mode.</li>
+    <li class="highlight"><strong>Green/Blue</strong> in light mode and <strong>pink</strong> in dark mode.</li>
     <li><strong>Black</strong> in light mode and <strong>white</strong> in dark mode.</li>
     <li class="mute"><strong>Light grey</strong> in light mode and <strong>dark grey</strong> in dark mode.</li>
 </ul>
