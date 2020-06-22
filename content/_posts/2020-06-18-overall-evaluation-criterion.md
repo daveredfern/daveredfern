@@ -1,6 +1,6 @@
 ---
 title: "What is the overall evaluation criterion (OEC) in A/B testing and conversion rate optimization (CRO)"
-date: "2020-06-07"
+date: "2020-06-18"
 tags: [Web Design, CRO, Design]
 ---
 
