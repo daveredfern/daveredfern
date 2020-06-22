@@ -4,7 +4,7 @@ date: "2020-06-22"
 tags: [Web Design, Design, Inspiration, Management]
 ---
 
-Ideas are hard. Sharing ideas is just as hard. No one wants to share a bad idea but people underestimate the value of those ideas. Bad ideas kick start the creative process and allow people to speak their mind—reassured that the worst idea is already on the table. 
+Ideas are hard. Sharing ideas is just as hard. No one wants to share a bad idea but don’t underestimate the value of those ideas. Bad ideas kick start the creative process and allow people to speak their mind—reassured that the worst idea is already on the table. 
 
 **So why not break the ice with the worst idea?** If you say it, others might start sharing their good ideas with the confidence. 
 
