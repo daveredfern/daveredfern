@@ -6,7 +6,7 @@ tags: ["Web Design", "Front End Development"]
 
 I love [Visual Studio Code](https://code.visualstudio.com/). I never thought I'd be saying that my favorite application was developed by Microsoft! One of it's best features is the ability to customize almost anything using user settings.
 
-Here is a a snippet that hides folders or excludes them from search. Handy for removing those core files that shouldn't be edited anyway. It also helps with performance. These are mine for WordPress.
+Here is a snippet that hides folders or excludes them from the file explorer and search. Handy for removing those core files that shouldn't be edited anyway. It also helps with performance. These are mine for WordPress.
 
 Go to `Preferences > Settings` and search for “exclude”. Here you’ll see three exclude sections. One for files, one for glob patterns, and one for searches. For this article, we’ll focus on files although all the others work in the same way.
 
