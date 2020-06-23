@@ -39,6 +39,7 @@
         url('https://daveredfern.com/assets/fonts/SourceSerifPro-It.woff') format('woff');
     font-weight: normal;
     font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
@@ -47,6 +48,7 @@
         url('https://daveredfern.com/assets/fonts/SourceSerifPro-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -55,6 +57,7 @@
         url('https://daveredfern.com/assets/fonts/SourceSerifPro-BoldIt.woff') format('woff');
     font-weight: bold;
     font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
@@ -63,6 +66,7 @@
         url('https://daveredfern.com/assets/fonts/SourceSerifPro-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 /* Global */
