@@ -105,7 +105,7 @@ layout: compress
           {% include meta.html %}
         {% endif %}
 
-        {{ content }}
+        {{ content | extlinks }}
 
         {% if page.url == "/blog/" %}
           {% include tags.html %}
