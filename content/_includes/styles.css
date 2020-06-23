@@ -502,12 +502,12 @@ a.search-chip.is-active {
 	.anchor-link,
 	.anchor-link:link {
 		position: absolute;
-		top: -0.05rem;
+		top: -0.1rem;
 		left: -1.95rem;
 		padding: .35rem;
 		margin-left: 0;
 		display: block;
-		font-size: 1rem;
+		font-size: 1.1rem;
 		text-decoration: none;
 	}
 
