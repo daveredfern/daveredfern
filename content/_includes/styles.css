@@ -553,6 +553,7 @@ a.search-chip.is-active {
 }
 
 /* External links */
+
 a[rel*="noopener"]::after {
 	content: "\00A0↗"
 }
