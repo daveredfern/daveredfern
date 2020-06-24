@@ -81,7 +81,8 @@
         {% include meta.html %}
       {% endif %}
 
-      {{ content | extlinks }}
+      {% assign the_content = content | extlinks %}
+      {% include anchor_headings.html html=the_content anchorBody="#" anchorClass="anchor-link" anchorTitle="Anchor to this heading" h_min=1 h_max=3 %}
 
     </div>
 
@@ -117,7 +118,6 @@
 
   <!-- Instant pages -->
   <script defer>
-    {% include script.js %}
     {% include lazysizes.js %}
   </script>
   <script>
