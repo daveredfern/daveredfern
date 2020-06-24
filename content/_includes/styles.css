@@ -1,33 +1,31 @@
 /* Variables */
 
 :root {
-	--color: #111111;
+	--color: #111;
 
 	--primary-color: #1C606D;
 	--light-primary-color: #DEEBEC;
 	--dark-primary-color: #0F4447;
 
-	--background-color: #fff;
+	--bg-color: #fff;
 
 	--light-color: #eee;
 	--mute-color: #ddd;
 	--selection-color: #feff91;
-
-	--font-family: "Source Serif Pro", serif;
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--color: #eeeeee;
+		--color: #ddd;
 
 		--primary-color: #E99BC8;
 		--light-primary-color: #56414d;
 		--dark-primary-color: #efc3dc;
 
-		--background-color: #161616;
+		--bg-color: #222;
 
-		--light-color: #333333;
-		--mute-color: #444444;
+		--light-color: #333;
+		--mute-color: #444;
 	}
 }
 
@@ -80,7 +78,7 @@ html,
 body {
 	margin: 0;
 	padding: 0;
-	background-color: var(--background-color);
+	background-color: var(--bg-color);
     scroll-behavior: smooth;
 	text-rendering: optimizeLegibility;
     font-variant-ligatures: common-ligatures;
@@ -92,7 +90,7 @@ textarea,
 button {
 	line-height: 1.5;
 	color: var(--color);
-	font-family: var(--font-family);
+	font-family: "Source Serif Pro", serif;
 	font-size: 1em;
 }
 
@@ -114,7 +112,7 @@ a:hover {
 
 a:focus {
 	background-color: var(--primary-color);
-	color: var(--background-color);
+	color: var(--bg-color);
 	outline: .15em solid var(--primary-color);
 }
 
@@ -287,7 +285,7 @@ a.highlight {
 }
 
 a.highlight:focus {
-	color: var(--background-color) !important;
+	color: var(--bg-color) !important;
 }
 
 .mute,
@@ -359,7 +357,7 @@ textarea {
 	padding: .5em 1em;
 	width: 100%;
 	margin-top: .5em;
-	background-color: var(--background-color);
+	background-color: var(--bg-color);
 	border: 2px solid var(--color);
 	border-radius: 5px;
 }
@@ -398,7 +396,7 @@ button {
 	fill: currentColor;
 	background-color: var(--primary-color);
 	border: 2px solid var(--primary-color);
-	color: var(--background-color);
+	color: var(--bg-color);
 	white-space: inherit;
 	text-decoration: none;
 }
@@ -433,7 +431,7 @@ a.search-chip:focus {
 
 a.search-chip.is-active {
 	background-color: var(--primary-color);
-	color: var(--background-color);
+	color: var(--bg-color);
 }
 
 /* Media object */
