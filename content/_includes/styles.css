@@ -96,6 +96,7 @@ button {
 
 html {
 	font-size: calc(.95em + 0.4vw);
+    min-height: 0vw; /* Hack to fix Safari */
 }
 
 /* Links */
