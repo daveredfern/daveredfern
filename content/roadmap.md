@@ -32,9 +32,13 @@ The following to-dos haven’t been prioritized yet. Some of them might be incoh
 
 The most recently completed tasks are at the top.
 
+### 2020-06-24
+
+- **Removed all the custom JavaScript** that I was using on the website. Previously, I was using it instead of some Jekyll plugins. Shifting the cost to my build process over the users experience is an obvious quick win.
+
 ### 2020-06-22
 
-- **(648=8×9×9) Update the footer of each page to focus on related content**. 
+- **(648=8×9×9) Updated the footer of each page to focus on related content**. 
 Combined the “where to go next” and “about me” sections together. Emphasized the “linked reference” section.
 - **(504=8×9×7) Made the website look more personal**. I updated the font to Source Serif Pro.
 
