@@ -26,7 +26,6 @@ The following to-dos haven’t been prioritized yet. Some of them might be incoh
 
 - **Implement a 8 point grid.** Lots of websites use it including [Github](https://github.com/). It’s something I’d like to learn more about too.
 - **Left align the website.** I’ve done this many times using Chrome Dev Tools and there is something I like about it.
-- **Improve anchor links for heading.** They work well at the moment but they can often wrap strangle. Also, Google’s Lighthouse flags them for not including a descriptive name. Some of the anchor links are also flagged for having a small touch area.
 
 ## Completed tasks
 
@@ -35,6 +34,10 @@ The most recently completed tasks are at the top.
 ### 2020-06-24
 
 - **Removed all the custom JavaScript** that I was using on the website. Previously, I was using it instead of some Jekyll plugins. Shifting the cost to my build process over the users experience is an obvious quick win.
+
+### 2020-06-23
+
+- **Improved anchor links for heading.** On desktop they now sit on the left hand side of the page inline with the elements that under hang (bullets, quotes, etc).
 
 ### 2020-06-22
 
