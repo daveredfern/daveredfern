@@ -1,11 +1,11 @@
-<h2>All articles</h2>
+<h2 id="all-articles">All articles <a href="#all-articles" class="anchor-link" title="Anchor to this heading">#</a></h2>
 
 {% assign post_date = false %}
 {% for post in site.posts %}
     {% assign this_date = post.date | date: "%Y" %}
     {% if post_date != this_date  %}
         </ul>
-        <h3>{{ this_date }}</h3>
+        <h3 id="date-{{ this_date }}">{{ this_date }} <a href="#date-{{ this_date }}" class="anchor-link" title="Anchor to this heading">#</a></h3>
         <ul>
     {% endif %}
     {% include blog-article.html %}
