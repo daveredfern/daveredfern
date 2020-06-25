@@ -1,4 +1,4 @@
-/* Variables */
+{% comment %} Variables {% endcomment %}
 
 :root {
 	--color: #111;
@@ -29,7 +29,7 @@
 	}
 }
 
-/* Custom font */
+{% comment %} Custom font {% endcomment %}
 @font-face {
     font-family: 'Source Serif Pro';
     src: url('/assets/fonts/SourceSerifPro-It.woff2') format('woff2'),
@@ -67,7 +67,7 @@
     font-display: fallback;
 }
 
-/* Global */
+{% comment %} Global {% endcomment %}
 
 * {
 	-webkit-box-sizing: border-box;
@@ -96,10 +96,10 @@ button {
 
 html {
 	font-size: calc(.95em + 0.4vw);
-    min-height: 0vw; /* Hack to fix Safari */
+    min-height: 0vw; {% comment %} Hack to fix Safari {% endcomment %}
 }
 
-/* Links */
+{% comment %} Links {% endcomment %}
 
 a,
 a:link {
@@ -117,24 +117,24 @@ a:focus {
 	outline: .15em solid var(--primary-color);
 }
 
-/* Highlight color */
+{% comment %} Highlight color {% endcomment %}
 
 ::-moz-selection {
 	background: var(--selection-color);
-	/* WebKit/Blink Browsers */
+	{% comment %} WebKit/Blink Browsers {% endcomment %}
 }
 
 ::selection {
 	background: var(--selection-color);
-	/* WebKit/Blink Browsers */
+	{% comment %} WebKit/Blink Browsers {% endcomment %}
 }
 
 ::-moz-selection {
 	background: var(--selection-color);
-	/* Gecko Browsers */
+	{% comment %} Gecko Browsers {% endcomment %}
 }
 
-/* Spacing for elements */
+{% comment %} Spacing for elements {% endcomment %}
 
 p,
 ol,
@@ -158,7 +158,7 @@ ol ul {
 	margin-bottom: 0.3em;
 }
 
-/* Typography */
+{% comment %} Typography {% endcomment %}
 
 h1,
 h2,
@@ -233,7 +233,7 @@ li {
 	}
 }
 
-/* Code */
+{% comment %} Code {% endcomment %}
 
 code {
 	padding: 0.1em 0.5em;
@@ -257,7 +257,7 @@ pre code {
 	}
 }
 
-/* Media */
+{% comment %} Media {% endcomment %}
 
 img {
 	display: block;
@@ -270,7 +270,7 @@ iframe {
 	width: 100%;
 }
 
-/* Custom font styles */
+{% comment %} Custom font styles {% endcomment %}
 
 .lead {
 	font-size: 1.2em;
@@ -294,7 +294,7 @@ a.mute {
 	color: var(--mute-color) !important;
 }
 
-/* Inline list */
+{% comment %} Inline list {% endcomment %}
 
 .inline-list {
 	padding-left: 0;
@@ -325,7 +325,7 @@ a.mute {
 	}
 }
 
-/* Container */
+{% comment %} Container {% endcomment %}
 
 .container {
 	max-width: calc(34rem + 12vw);
@@ -336,14 +336,14 @@ a.mute {
 	margin-right: auto;
 }
 
-/* Spacing */
+{% comment %} Spacing {% endcomment %}
 
 .spacing {
 	margin-bottom: calc(1em + 3vw);
 	margin-top: calc(1em + 3vw);
 }
 
-/* Forms */
+{% comment %} Forms {% endcomment %}
 
 label {
 	display: block;
@@ -372,13 +372,13 @@ textarea:focus {
 	border-color: var(--primary-color);
 }
 
-/* Visibility classes */
+{% comment %} Visibility classes {% endcomment %}
 
 .hidden {
 	display: none !important;
 }
 
-/* Button */
+{% comment %} Button {% endcomment %}
 
 a.button,
 input[type="submit"],
@@ -410,7 +410,7 @@ button:hover {
 	outline: 0;
 }
 
-/* Search chip */
+{% comment %} Search chip {% endcomment %}
 
 a.search-chip {
 	padding: 0.3em .8em;
@@ -435,7 +435,7 @@ a.search-chip.is-active {
 	color: var(--bg-color);
 }
 
-/* Media object */
+{% comment %} Media object {% endcomment %}
 
 .media-embed {
 	position: relative;
@@ -455,7 +455,7 @@ a.search-chip.is-active {
 	height: 100%;
 }
 
-/* Media object */
+{% comment %} Media object {% endcomment %}
 
 .media-object__media {
 	width: 20%;
@@ -494,7 +494,7 @@ a.search-chip.is-active {
 	overflow: hidden;
 }
 
-/* Anchor links */
+{% comment %} Anchor links {% endcomment %}
 
 .anchor-link {
 	margin-left: .5em;
@@ -522,7 +522,7 @@ a.search-chip.is-active {
 	}
 }
 
-/* Notification */
+{% comment %} Notification {% endcomment %}
 
 .notification {
 	border: 3px solid var(--mute-color);
@@ -545,7 +545,7 @@ a.search-chip.is-active {
 	}
 }
 
-/* Header hack */
+{% comment %} Header hack {% endcomment %}
 
 @media(max-width: 59.99em) {
 	.header .inline-list li:first-child {
@@ -553,7 +553,7 @@ a.search-chip.is-active {
 	}
 }
 
-/* External links */
+{% comment %} External links {% endcomment %}
 
 a[rel*="noopener"]::after {
 	content: "\00A0↗"
