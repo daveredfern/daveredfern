@@ -15,7 +15,7 @@ When I’m at home, I use an [Ergotron Stand Workstation](https://www.ergotron.c
 
 While working remotely, I use a [Roost laptop stand](https://www.therooststand.com/). I store the keyboard and trackpad in a [carry sleeve](https://www.amazon.co.uk/gp/product/B01GFLRZDW/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) which is all stored inside of a The North Face backpack. The North Face don’t sell my backpack anymore but the [Borealis Classic Backpack](https://www.thenorthface.co.uk/shop/en-gb/tnf-gb/borealis-classic-backpack-cf9c) is the closest looking model.
 
-I use a [iPhone Xs](apple.com/uk/newsroom/2018/09/iphone-xs-and-iphone-xs-max-bring-the-best-and-biggest-displays-to-iphone/) and never leave home without my [AirPods](https://www.apple.com/uk/airpods/).
+I use a [iPhone Xs](https://apple.com/uk/newsroom/2018/09/iphone-xs-and-iphone-xs-max-bring-the-best-and-biggest-displays-to-iphone/) and never leave home without my [AirPods](https://www.apple.com/uk/airpods/).
 
 ## Software {#software}
 

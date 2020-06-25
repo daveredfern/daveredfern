@@ -33,8 +33,8 @@
 
 @font-face {
     font-family: 'Source Serif Pro';
-    src: url('/assets/fonts/SourceSerifPro-It.woff2') format('woff2'),
-        url('/assets/fonts/SourceSerifPro-It.woff') format('woff');
+    src: url('https://daveredfern.com/assets/fonts/SourceSerifPro-It.woff2') format('woff2'),
+        url('https://daveredfern.com/assets/fonts/SourceSerifPro-It.woff') format('woff');
     font-weight: normal;
     font-style: italic;
     font-display: fallback;
@@ -42,8 +42,8 @@
 
 @font-face {
     font-family: 'Source Serif Pro';
-    src: url('/assets/fonts/SourceSerifPro-Bold.woff2') format('woff2'),
-        url('/assets/fonts/SourceSerifPro-Bold.woff') format('woff');
+    src: url('https://daveredfern.com/assets/fonts/SourceSerifPro-Bold.woff2') format('woff2'),
+        url('https://daveredfern.com/assets/fonts/SourceSerifPro-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: fallback;
@@ -51,8 +51,8 @@
 
 @font-face {
     font-family: 'Source Serif Pro';
-    src: url('/assets/fonts/SourceSerifPro-BoldIt.woff2') format('woff2'),
-        url('/assets/fonts/SourceSerifPro-BoldIt.woff') format('woff');
+    src: url('https://daveredfern.com/assets/fonts/SourceSerifPro-BoldIt.woff2') format('woff2'),
+        url('https://daveredfern.com/assets/fonts/SourceSerifPro-BoldIt.woff') format('woff');
     font-weight: bold;
     font-style: italic;
     font-display: fallback;
@@ -61,8 +61,8 @@
 @font-face {
     font-family: 'Source Serif Pro';
 	src: local('Awesome Font'),
-		url('/assets/fonts/SourceSerifPro-Regular.woff2') format('woff2'),
-        url('/assets/fonts/SourceSerifPro-Regular.woff') format('woff');
+		url('https://daveredfern.com/assets/fonts/SourceSerifPro-Regular.woff2') format('woff2'),
+        url('https://daveredfern.com/assets/fonts/SourceSerifPro-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: fallback;
