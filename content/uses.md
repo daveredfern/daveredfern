@@ -33,7 +33,7 @@ I subscribe to [Feedbin](https://feedbin.com/) which helps sync my RSS subscript
 
 This site is built with [Jekyll](https://jekyllrb.com/) and deployed to [Netlify](https://www.netlify.com/).
 
-I collect analytics anonymously using [Fathom Analytics](https://usefathom.com/ref/ZIAIFM). It’s an awesome little webapp that helps me learn what people enjoy to read without infringing on their privacy. Shameless plug but [here’s a referral link](https://usefathom.com/ref/ZIAIFM) for $10 off free to try it.
+I collect analytics anonymously using [Fathom Analytics](https://usefathom.com/ref/ZIAIFM). It’s an awesome little webapp that helps me learn what people enjoy to read without infringing on your privacy—Fathom Analytics collects no personal data. Shameless plug but [here’s a referral link](https://usefathom.com/ref/ZIAIFM) for $10 off free to try it.
 
 Almost all of the images are hosted on [Cloudinary](https://cloudinary.com/). 
 
