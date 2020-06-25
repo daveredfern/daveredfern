@@ -30,7 +30,7 @@
 }
 
 /* Custom font */
-
+/*
 @font-face {
     font-family: 'Source Serif Pro';
     src: url('https://daveredfern.com/assets/fonts/SourceSerifPro-It.woff2') format('woff2'),
@@ -66,7 +66,7 @@
     font-weight: normal;
     font-style: normal;
     font-display: fallback;
-}
+}*/
 
 /* Global */
 
