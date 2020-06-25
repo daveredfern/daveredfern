@@ -139,7 +139,7 @@ An `.media-object` is a two column layout which is designed to have some media o
         <img src="/assets/images/profile.jpg" alt="A photo of Dave Redfern" />
     </div>
     <div class="media-object__body">
-        <p><strong>Hi. I’m Dave Redfern.</strong> I work with some of the world’s most sophisticated companies, helping to design and develop user‑centered experiences that deliver measurable returns. <a href="/about/">Read more about me</a>.</p>
+        <p><strong>Hi. I’m Dave Redfern.</strong> I work with some of the world’s most sophisticated companies, helping to design and develop user-centered experiences that deliver measurable returns. <a href="/about/">Read more about me</a>.</p>
     </div>
 </div>
 
