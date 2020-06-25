@@ -24,7 +24,7 @@ package = "netlify-plugin-subfont"
   recursive = true
   # Subfont lets you set CSS font-display value of the optimized subsets
   # See https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display
-  fontDisplay = "fallback"
+  fontDisplay = "swap"
   # Inline generated CSS @font-face blocks into each page
   # When set to `false` an external CSS file will be created
   inlineCss = true
