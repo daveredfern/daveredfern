@@ -37,3 +37,11 @@
         {% endfor %}
     </ul>
 {% endif %}
+
+{% if page.tags %}
+    <p> 
+        {% for tag in page.tags %}
+            <a href="/tag/{{ tag | slugify }}" class="search-chip">{{ tag }}</a> 
+        {% endfor %}
+    </p>
+{% endif %}

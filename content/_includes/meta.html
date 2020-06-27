@@ -1,5 +1,4 @@
-<p class="micro">
-    
+<p class="micro">    
     {% assign page_date = page.date | date: "%b %Y" %}
     {% assign page_update = page.last_modified_at | date: "%b %Y" %}
     {% if page_date != page_update %}
@@ -16,15 +15,4 @@
     {% unless words contains '-' %}
         {{ words | plus: 100 | divided_by: 100 | append: ' minute read' }}
     {% endunless %}
-
-    {% if page.tags %}
-        <br>
-        Tagged with
-        {% for tag in page.tags %}
-            {% if forloop.length > 2 %}
-                {% if forloop.last %} and {% endif %}
-            {% endif %}
-            <a href="/tag/{{ tag | slugify }}">{{ tag }}</a>{% if forloop.last %}{% else %},{% endif %}
-        {% endfor %}
-    {% endif %}
 </p>
