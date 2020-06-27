@@ -58,7 +58,7 @@ jekyll-archives:
     tag: '/tag/:name/'
 
 extlinks:
-  attributes: { rel: 'noopener noreferrer' }
+  attributes: { rel: 'external noopener' }
   rel_exclude: ['daveredfern.com', 'localhost']
 
 # Exclude from processing.
