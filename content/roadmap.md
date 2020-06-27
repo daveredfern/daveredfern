@@ -29,7 +29,11 @@ The following to-dos haven’t been prioritized yet. Some of them might be incoh
 
 ## Completed tasks
 
-The most recently completed tasks are at the top.
+The most recently completed tasks are at the top. The Git repository is publicly available but often contains lots of commits and quick fixes. The following is a list of key changes with my reasoning behind them.
+
+### 2020-06-27
+
+- **Moved tags to the bottom of each page.** This is part of my improvements to help visitors to browse similar articles. Tags were originally at the top of pages. Now they’re next to the “linked references” so when you finish reading an article, you can discover similar ones using tags or “linked references”.
 
 ### 2020-06-24
 
