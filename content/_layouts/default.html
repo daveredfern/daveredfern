@@ -130,7 +130,7 @@ layout: compress
   </div>
 
   {% comment %} Instant pages {% endcomment %}
-  <script>
+  <script defer>
     /* ServiceWorker is a progressive technology. Ignore unsupported browsers */
     if(
       'serviceWorker' in navigator &&
@@ -139,8 +139,8 @@ layout: compress
       navigator.serviceWorker.register('/sw.js');
     }
   </script>
-  <script src="/assets/js/quicklink.js"></script>
-  <script>
+  <script src="/assets/js/quicklink.js" defer></script>
+  <script defer>
     window.addEventListener('load', () => {
       quicklink.listen();
     });
