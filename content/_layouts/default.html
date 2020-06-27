@@ -147,7 +147,8 @@ layout: compress
   </script>
   <script src="https://eagle.daveredfern.com/script.js" site="KVVWNWUA" defer></script>
 
-  <span class="characters hidden">-</span>
+  {% comment %} Hack to support non-breaking spaces in subfonts {% endcomment %}
+  <div class="hidden">&hyphen;</div>
 
 </body>
 </html>
