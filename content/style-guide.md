@@ -153,6 +153,10 @@ An `.media-object` is a two column layout which is designed to have some media o
 
 <p class="mute">Use the <code>.mute</code> class to make an element light grey.</p>
 
+<p>Use the <code>.hidden</code> class hides an element using `display:none`.</p>
+
+<p>Use the <code>.visible-hidden</code> class hides an element by positioning it off the screen.</p>
+
 ## Layout
 
 <p>Use the <code>.container</code> class to cap with width of the content.</p>
