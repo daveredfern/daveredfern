@@ -29,7 +29,9 @@ The following to-dos haven’t been prioritized yet. Some of them might be incoh
 
 ## Completed tasks
 
-The most recently completed tasks are at the top. The Git repository is publicly available but often contains lots of commits and quick fixes. The following is a list of key changes with my reasoning behind them.
+The [Git repository is publicly available](https://github.com/daveredfern/daveredfern) but often contains lots of commits and quick fixes. That makes it difficult to follow the progression of the website and the reasoning behind key decisions.
+
+The following is a list of major changes. The most recently changes are at the top. 
 
 ### 2020-06-27
 
