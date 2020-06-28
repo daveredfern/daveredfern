@@ -12,6 +12,14 @@
   for = "/sw.js"
   [headers.values]
     cache-control = "max-age=0,no-cache,no-store,must-revalidate"
+[[headers]]
+  for = "*.woff2" # js files should be set this way
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+[[headers]]
+  for = "*.woff" # css files too
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
 [[plugins]]
 package = "netlify-plugin-subfont"
   [plugins.inputs]
