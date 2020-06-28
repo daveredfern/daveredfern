@@ -13,11 +13,11 @@
   [headers.values]
     cache-control = "max-age=0,no-cache,no-store,must-revalidate"
 [[headers]]
-  for = "*.woff2" # js files should be set this way
+  for = "*.woff2"
   [headers.values]
     Cache-Control = "public, max-age=604800"
 [[headers]]
-  for = "*.woff" # css files too
+  for = "*.woff"
   [headers.values]
     Cache-Control = "public, max-age=604800"
 [[plugins]]
@@ -38,7 +38,7 @@ package = "netlify-plugin-subfont"
   inlineCss = true
   # Inline generated font subsets into their respective @font-face blocks
   # When set to `false` external font files will be created
-  inlineFonts = false
+  inlineFonts = true
   # Include fallbacks so the original font will be loaded when dynamic content gets injected at runtime
   # When set to `false` external font files will be created
   fallbacks = false
