@@ -10,4 +10,4 @@ One of my favorite quotes from the book “[Let My People Go Surfing](https://eu
 
 One of the best things about the web industry is its community. It’s full of passionate people who are willing to help.
 
-So next time, [Work with the garage door up](/work-with-the-garage-door-up/) and **ask for help**.
+So next time, [work with the garage door up](/work-with-the-garage-door-up/) and **ask for help**.
