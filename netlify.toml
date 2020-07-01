@@ -29,7 +29,7 @@
   [headers.values]
     Cache-Control = "public, max-age=604800"
 [[headers]]
-  for = "*.manifest"
+  for = "manifest.json"
   [headers.values]
     Cache-Control = "public, max-age=604800"
 [[headers]]
