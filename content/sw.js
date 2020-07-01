@@ -23,8 +23,6 @@ const cacheFiles = [
 
     '/assets/images/profile.jpg',
 
-    '/assets/fonts/',
-
     '/assets/fonts/subset-SourceSerifPro-It.woff2',
     '/assets/fonts/subset-SourceSerifPro-Bold.woff2',
     '/assets/fonts/subset-SourceSerifPro-BoldIt.woff2',
