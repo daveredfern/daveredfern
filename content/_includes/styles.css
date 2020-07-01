@@ -497,7 +497,7 @@ a.search-chip.is-active {
 {% comment %} Anchor links {% endcomment %}
 
 .anchor-link {
-	margin-left: .5em;
+	margin-left: .25em;
 }
 
 @media(min-width: 44em) {
