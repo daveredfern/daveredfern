@@ -21,7 +21,14 @@ const cacheFiles = [
 
     '/offline/',
 
-    '/assets/images/profile.jpg'
+    '/assets/images/profile.jpg',
+
+    '/assets/fonts/',
+
+    '/assets/fonts/subset-SourceSerifPro-It.woff2',
+    '/assets/fonts/subset-SourceSerifPro-Bold.woff2',
+    '/assets/fonts/subset-SourceSerifPro-BoldIt.woff2',
+    '/assets/fonts/subset-SourceSerifPro-Regular.woff2'
 ];
 
 /* Store core files in a cache (including a page to display when offline) */
