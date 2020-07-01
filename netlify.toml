@@ -35,7 +35,7 @@
 [[headers]]
   for = "/sw.js"
   [headers.values]
-    cache-control = "max-age=0,no-cache,no-store,must-revalidate"
+    cache-control = "max-age=300,no-cache,no-store,must-revalidate"
 [[plugins]]
 package = "netlify-plugin-subfont"
   [plugins.inputs]
