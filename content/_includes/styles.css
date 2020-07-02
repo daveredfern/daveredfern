@@ -36,7 +36,7 @@
         url('/assets/fonts/subset-SourceSerifPro-It.woff') format('woff');
     font-weight: normal;
     font-style: italic;
-    font-display: fallback;
+    font-display: swap;
 }
 
 @font-face {
@@ -45,7 +45,7 @@
         url('/assets/fonts/subset-SourceSerifPro-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
-    font-display: fallback;
+    font-display: swap;
 }
 
 @font-face {
@@ -54,7 +54,7 @@
         url('/assets/fonts/subset-SourceSerifPro-BoldIt.woff') format('woff');
     font-weight: bold;
     font-style: italic;
-    font-display: fallback;
+    font-display: swap;
 }
 
 @font-face {
@@ -64,7 +64,7 @@
         url('/assets/fonts/subset-SourceSerifPro-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    font-display: fallback;
+    font-display: swap;
 }
 
 {% comment %} Global {% endcomment %}
