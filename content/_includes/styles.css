@@ -1,16 +1,17 @@
 {% comment %} Variables {% endcomment %}
 
 :root {
-	--color: #111;
+	--color: #222222;
 
-	--primary-color: #1C606D;
-	--light-primary-color: #DEEBEC;
-	--dark-primary-color: #0F4447;
+	--primary-color: #035094;
+	--light-primary-color: #D9E5F4;
+	--dark-primary-color: #001E5F;
 
-	--bg-color: #fff;
+	--bg-color: #fafafa;
 
-	--light-color: #eee;
-	--mute-color: #ddd;
+	--lightest-color: #fff;
+	--light-color: #ddd;
+	--mute-color: #aaa;
 	--selection-color: #feff91;
 }
 
@@ -22,49 +23,12 @@
 		--light-primary-color: #56414d;
 		--dark-primary-color: #efc3dc;
 
-		--bg-color: #222;
+		--bg-color: #111;
 
+		--lightest-color: #000;
 		--light-color: #333;
 		--mute-color: #444;
 	}
-}
-
-{% comment %} Custom font {% endcomment %}
-@font-face {
-    font-family: 'Source Serif Pro';
-    src: url('/assets/fonts/subset-SourceSerifPro-It.woff2') format('woff2'),
-        url('/assets/fonts/subset-SourceSerifPro-It.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Source Serif Pro';
-    src: url('/assets/fonts/subset-SourceSerifPro-Bold.woff2') format('woff2'),
-        url('/assets/fonts/subset-SourceSerifPro-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Source Serif Pro';
-    src: url('/assets/fonts/subset-SourceSerifPro-BoldIt.woff2') format('woff2'),
-        url('/assets/fonts/subset-SourceSerifPro-BoldIt.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Source Serif Pro';
-	src: local('Awesome Font'),
-		url('/assets/fonts/subset-SourceSerifPro-Regular.woff2') format('woff2'),
-        url('/assets/fonts/subset-SourceSerifPro-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
 }
 
 {% comment %} Global {% endcomment %}
@@ -90,7 +54,7 @@ textarea,
 button {
 	line-height: 1.5;
 	color: var(--color);
-	font-family: "Source Serif Pro", serif;
+	font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
 	font-size: 1em;
 }
 
@@ -176,11 +140,12 @@ h6 {
 h1 {
 	margin-top: 1em;
 	font-size: calc(1.8em + .3vw);
+	font-weight: 800;
 }
 
 @media(min-width: 44em) {
 	h1 {
-		font-size: calc(2em + .5vw);
+		font-size: calc(2em + .4vw);
 	}
 }
 
@@ -236,12 +201,13 @@ li {
 {% comment %} Code {% endcomment %}
 
 code {
-	padding: 0.1em 0.5em;
-	border-radius: 5px;
-	vertical-align: text-top;
-	background-color: var(--light-color);
-	font-size: 0.8em;
-	color: var(--color);
+	padding: 0.1em 0.3em;
+    border-radius: 5px;
+    vertical-align: text-top;
+    background-color: var(--lightest-color);
+    font-size: 0.8em;
+    color: var(--color);
+    border: 1px solid var(--light-color);
 }
 
 pre code {
@@ -358,7 +324,7 @@ textarea {
 	padding: .5em 1em;
 	width: 100%;
 	margin-top: .5em;
-	background-color: var(--bg-color);
+	background-color: var(--lightest-color);
 	border: 2px solid var(--color);
 	border-radius: 5px;
 }
@@ -500,6 +466,12 @@ a.search-chip.is-active {
 	margin-left: .25em;
 }
 
+.anchor-link svg {
+	height: 1rem;
+    width: 1rem;
+	display: inline-block;
+}
+
 @media(min-width: 44em) {
 	h2[id],
 	h3[id] {
@@ -508,12 +480,11 @@ a.search-chip.is-active {
 
 	.anchor-link {
 		position: absolute;
-		top: -0.15rem;
-		left: -1.95rem;
-		padding: .35rem;
+		top: -0.4rem;
+		left: -2.1rem;
+		padding: .3rem;
 		margin-left: 0;
 		display: block;
-		font-size: 1.1rem;
 		text-decoration: none;
 	}
 
@@ -525,9 +496,10 @@ a.search-chip.is-active {
 {% comment %} Notification {% endcomment %}
 
 .notification {
-	border: 3px solid var(--mute-color);
+	border: 1px solid var(--light-color);
     border-radius: 5px;
-    padding: 1.2em;
+	padding: 1.2em;
+	background: var(--lightest-color);
 }
 
 .notification > *:first-child {
@@ -540,8 +512,8 @@ a.search-chip.is-active {
 
 @media(min-width: 44em) {
 	.notification {
-		margin-left: calc(-1.2em - 2px);
-		margin-right: calc(-1.2em - 2px);
+		margin-left: -1.2em;
+		margin-right: -1.2em;
 	}
 }
 
@@ -556,5 +528,5 @@ a.search-chip.is-active {
 {% comment %} External links {% endcomment %}
 
 a[rel*="noopener"]::after {
-	content: "\00A0↗"
+	content: "\00A0↗";
 }
