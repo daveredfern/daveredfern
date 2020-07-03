@@ -480,7 +480,7 @@ a.search-chip.is-active {
 
 	.anchor-link {
 		position: absolute;
-		top: -0.4rem;
+		top: -0.05rem;
 		left: -2.1rem;
 		padding: .3rem;
 		margin-left: 0;
@@ -488,8 +488,12 @@ a.search-chip.is-active {
 		text-decoration: none;
 	}
 
+	.anchor-link svg {
+		display: block;
+	}
+
 	h3 .anchor-link {
-		top: -0.3rem;
+		top: -0.2rem;
 	}
 }
 
