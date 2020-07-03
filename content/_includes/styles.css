@@ -17,17 +17,17 @@
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--color: #eee;
+		--color: #fafafa;
 
 		--primary-color: #E99BC8;
 		--light-primary-color: #56414d;
 		--dark-primary-color: #efc3dc;
 
-		--bg-color: #111;
+		--bg-color: #141414;
 
 		--lightest-color: #000;
-		--light-color: #333;
-		--mute-color: #444;
+		--light-color: #222;
+		--mute-color: #333;
 	}
 }
 
