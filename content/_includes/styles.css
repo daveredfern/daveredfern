@@ -480,7 +480,7 @@ a.search-chip.is-active {
 
 	.anchor-link {
 		position: absolute;
-		top: -0.05rem;
+		top: 0;
 		left: -2.1rem;
 		padding: .3rem;
 		margin-left: 0;
