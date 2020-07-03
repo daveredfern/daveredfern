@@ -13,6 +13,7 @@ const cacheFiles = [
     '/blog/',
     '/contact/',
 
+    '/ask-for-help/',
     '/green-smoothie/',
     '/design-principles/',
     '/enabling-a-chance-for-something-to-happen/',
