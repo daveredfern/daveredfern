@@ -185,8 +185,12 @@ blockquote {
 	}
 }
 
+div > ul:not(.inline-list),
+div > ol {
+	padding-left: 1.8em;
+}
+
 li {
-	padding-left: 0.5em;
 	margin-bottom: 0.3em;
 }
 
@@ -195,6 +199,10 @@ li {
 	div > ol {
 		padding-left: 0;
 		margin-left: -0.5em;
+	}
+
+	li {
+		padding-left: 0.5em;
 	}
 }
 
@@ -221,7 +229,7 @@ pre code {
 	border-right: 0;
 }
 
-@media(min-width: 38rem) {
+@media(min-width: 41.8rem) {
 	pre code {
 		border: 1px solid var(--light-color);
 		border-radius: 5px;
@@ -521,7 +529,7 @@ a.search-chip.is-active {
 	margin-bottom: 0;
 }
 
-@media(min-width: 38rem) {
+@media(min-width: 41.8rem) {
 	.notification {
 		border: 1px solid var(--light-color);
 		border-radius: 5px;
