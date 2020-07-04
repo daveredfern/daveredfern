@@ -212,16 +212,16 @@ code {
 
 pre code {
 	display: block;
-	padding: 1.2em;
+	padding: 1.2rem;
 	overflow-x: auto;
-	margin-left: -1.2em;
-	margin-right: -1.2em;
+	margin-left: -1.2rem;
+	margin-right: -1.2rem;
 	border-radius: 0;
 	border-left: 0;
 	border-right: 0;
 }
 
-@media(min-width: 36rem) {
+@media(min-width: 38rem) {
 	pre code {
 		border: 1px solid var(--light-color);
 		border-radius: 5px;
@@ -299,7 +299,7 @@ a.mute {
 {% comment %} Container {% endcomment %}
 
 .container {
-	max-width: 38rem;
+	max-width: 37rem;
 	width: 100%;
 	padding-left: 1.2em;
 	padding-right: 1.2em;
@@ -521,7 +521,7 @@ a.search-chip.is-active {
 	margin-bottom: 0;
 }
 
-@media(min-width: 36rem) {
+@media(min-width: 38rem) {
 	.notification {
 		border: 1px solid var(--light-color);
 		border-radius: 5px;
