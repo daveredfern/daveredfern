@@ -58,7 +58,7 @@ button {
 	font-size: 1em;
 }
 
-html {
+html {	
 	font-size: calc(.95em + 0.4vw);
     min-height: 0vw; {% comment %} Hack to fix Safari {% endcomment %}
 }
@@ -143,7 +143,7 @@ h1 {
 	font-weight: 800;
 }
 
-@media(min-width: 44em) {
+@media(min-width: 48em) {
 	h1 {
 		font-size: calc(2em + .4vw);
 	}
@@ -179,7 +179,7 @@ blockquote {
 	font-style: italic;
 }
 
-@media(min-width: 44em) {
+@media(min-width: 48em) {
 	blockquote {
 		margin-left: calc(-1.2em - 3px);
 	}
@@ -190,7 +190,7 @@ li {
 	margin-bottom: 0.3em;
 }
 
-@media(min-width: 44em) {
+@media(min-width: 48em) {
 	div > ul:not(.inline-list),
 	div > ol {
 		padding-left: 0;
@@ -207,19 +207,24 @@ code {
     background-color: var(--lightest-color);
     font-size: 0.8em;
     color: var(--color);
-    border: 1px solid var(--light-color);
+	border: 1px solid var(--light-color);
 }
 
 pre code {
 	display: block;
 	padding: 1.2em;
 	overflow-x: auto;
+	margin-left: -1.2em;
+	margin-right: -1.2em;
+	border-radius: 0;
+	border-left: 0;
+	border-right: 0;
 }
 
-@media(min-width: 44em) {
+@media(min-width: 36rem) {
 	pre code {
-		margin-left: -1.2em;
-		margin-right: -1.2em;
+		border: 1px solid var(--light-color);
+		border-radius: 5px;
 	}
 }
 
@@ -281,7 +286,7 @@ a.mute {
 	display: inline-block;
 }
 
-@media(min-width: 44em) {
+@media(min-width: 48em) {
 	.inline-list {
 		margin-left: -.5em;
 	}
@@ -294,10 +299,10 @@ a.mute {
 {% comment %} Container {% endcomment %}
 
 .container {
-	max-width: calc(34rem + 12vw);
+	max-width: 38rem;
 	width: 100%;
-	padding-left: 6vw;
-	padding-right: 6vw;
+	padding-left: 1.2em;
+	padding-right: 1.2em;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -439,7 +444,7 @@ a.search-chip.is-active {
 	margin-bottom: 0;
 }
 
-@media(min-width: 44em) {
+@media(min-width: 48em) {
 	.media-object {
 		display: flex;
 	}
@@ -472,7 +477,7 @@ a.search-chip.is-active {
 	display: inline-block;
 }
 
-@media(min-width: 44em) {
+@media(min-width: 48em) {
 	h2[id],
 	h3[id] {
 		position: relative;
@@ -500,10 +505,12 @@ a.search-chip.is-active {
 {% comment %} Notification {% endcomment %}
 
 .notification {
-	border: 1px solid var(--light-color);
-    border-radius: 5px;
+	border-top: 1px solid var(--light-color);
+	border-bottom: 1px solid var(--light-color);
 	padding: 1.2em;
 	background: var(--lightest-color);
+	margin-left: -1.2em;
+	margin-right: -1.2em;
 }
 
 .notification > *:first-child {
@@ -514,10 +521,10 @@ a.search-chip.is-active {
 	margin-bottom: 0;
 }
 
-@media(min-width: 44em) {
+@media(min-width: 36rem) {
 	.notification {
-		margin-left: -1.2em;
-		margin-right: -1.2em;
+		border: 1px solid var(--light-color);
+		border-radius: 5px;
 	}
 }
 
