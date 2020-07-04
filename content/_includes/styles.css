@@ -145,7 +145,7 @@ h1 {
 
 @media(min-width: 48em) {
 	h1 {
-		font-size: calc(2em + .4vw);
+		font-size: calc(2em + .3vw);
 	}
 }
 
