@@ -123,7 +123,8 @@
     /* ServiceWorker is a progressive technology. Ignore unsupported browsers */
     if(
       'serviceWorker' in navigator &&
-      window.location.href.indexOf('daveredfern') > -1
+      window.location.href.indexOf('daveredfern') > -1 &&
+      window.location.href.indexOf('amplifyapp') > -1
     ) {
       navigator.serviceWorker.register('/sw.js');
     }
