@@ -1,0 +1,48 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - bundle install
+    build:
+      commands:
+        - bundle exec jekyll b
+  artifacts:
+    baseDirectory: _site
+    files:
+      - '**/*'
+  cache:
+    paths: []
+  customHeaders:
+    - pattern: '**/*'
+      headers:
+        - key: 'Strict-Transport-Security'
+            value: 'max-age=2592000'
+        - key: 'X-Frame-Options'
+            value: 'DENY'
+        - key: 'X-XSS-Protection'
+            value: '1; mode=block'
+        - key: 'X-Content-Type-Options'
+            value: 'nosniff'
+        - key: 'Content-Security-Policy'
+            value: 'form-action https:'
+        - key: 'Feature-Policy'
+            value: "vibrate 'none'; geolocation 'none'; midi 'none'; notifications 'none'; push 'none'; sync-xhr 'none'; microphone 'none'; camera 'none'; magnetometer 'none'; gyroscope 'none'; speaker 'none'; vibrate 'none'; fullscreen 'none'; payment 'none'"
+        - key: 'Referrer-Policy'
+            value: 'strict-origin-when-cross-origin'
+      - pattern: '/favicon.ico'
+        headers:
+        - key: 'Cache-Control'
+          value: 'public, must-revalidate, max-age=31536000'
+      - pattern: '/assets/**/*'
+        headers:
+        - key: 'Cache-Control'
+          value: 'public, must-revalidate, max-age=31536000'
+      - pattern: 'manifest.json'
+        headers:
+        - key: 'Cache-Control'
+          value: 'public, must-revalidate, max-age=604800'
+      - pattern: 'sw.js'
+        headers:
+        - key: 'Cache-Control'
+          value: 'max-age=300,no-cache,no-store,must-revalidate'
