@@ -1,7 +1,6 @@
 ---
 title: "I love honest feedback"
 hide_meta: true
-hide_cta: true
 ---
 
 If you have any feedback—no matter how large, small, good, bad, or ugly it is, please let me know.
