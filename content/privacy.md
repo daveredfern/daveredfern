@@ -4,7 +4,7 @@ hide_references: true
 hide_newsletter: true
 ---
 
-<p class="lead"><strong>This website collects as little personal information as possible.</strong> I don’t know who you are, where you’re from or how you found me.</p>
+<p class="lead"><strong>I aim to collect as little personal information as possible.</strong> I don’t know who you are, where you’re from or how you found me.</p>
 
 ## Website
 
@@ -16,6 +16,6 @@ On a few pages I embed services like [YouTube](https://youtube.com) and [Speaker
 
 ## Newsletter
 
-If you decide to subscribe to my [newsletter](/newsletter/) (thanks!) your email address will be stored in [Mailchimp](https://mailchimp.com/). My Mailchimp account is protected by a randomly generated password and two-factor authentication (2FA). Each person on the list has been double opted-in.
+If you decide to subscribe to my [newsletter](/newsletter/) (thanks!) your email address will be stored in [Mailchimp](https://mailchimp.com/). My Mailchimp account is protected by a randomly generated password and two-factor authentication (2FA). Each person on the list has double opted-in and can unsubscribe with one-click.
 
 If you have any questions, please [contact me](/contact/).
