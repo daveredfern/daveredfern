@@ -11,23 +11,23 @@
 [[headers]]
   for = "*.js"
   [headers.values]
-    Cache-Control = "public, max-age=604800"
+    Cache-Control = "public, max-age=2628000"
 [[headers]]
   for = "*.svg"
   [headers.values]
-    Cache-Control = "public, max-age=604800"
+    Cache-Control = "public, max-age=2628000"
 [[headers]]
   for = "*.ico"
   [headers.values]
-    Cache-Control = "public, max-age=604800"
+    Cache-Control = "public, max-age=2628000"
 [[headers]]
   for = "*.png"
   [headers.values]
-    Cache-Control = "public, max-age=604800"
+    Cache-Control = "public, max-age=2628000"
 [[headers]]
   for = "*.jpg"
   [headers.values]
-    Cache-Control = "public, max-age=604800"
+    Cache-Control = "public, max-age=2628000"
 [[headers]]
   for = "manifest.json"
   [headers.values]
