@@ -34,6 +34,10 @@ The [Git repository is publicly available](https://github.com/daveredfern/davere
 
 The following is a list of major changes. The most recently changes are at the top. 
 
+## 2020-07-05
+
+- **Added a newsletter** where I will send a monthly digest of articles and links that I’ve found interesting.
+
 ### 2020-06-27
 
 - **Moved tags to the bottom of each page.** This is part of my improvements to help visitors to browse similar articles. Tags were originally at the top of pages. Now they’re next to the “linked references” so when you finish reading an article, you can discover similar ones using tags or “linked references”.
