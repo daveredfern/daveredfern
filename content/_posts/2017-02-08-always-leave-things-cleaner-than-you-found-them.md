@@ -1,5 +1,5 @@
 ---
-title: "Always Leave Things Cleaner Than You Found Them"
+title: "Always leave things cleaner than you found them"
 date: "2017-02-08"
 tags: [Favorite, Inspiration]
 ---

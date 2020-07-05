@@ -1,5 +1,5 @@
 ---
-title: "Information Designer"
+title: "Information designer"
 date: "2017-02-08"
 tags: ["Web Design", Design, Personal]
 ---

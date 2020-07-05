@@ -1,5 +1,5 @@
 ---
-title: "Enabling a Chance for Something to Happen"
+title: "Enabling a chance for something to happen"
 date: "2017-02-19"
 tags: [Favorite, Inspiration]
 ---

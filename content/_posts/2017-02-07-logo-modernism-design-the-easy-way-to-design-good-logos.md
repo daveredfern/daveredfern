@@ -1,5 +1,5 @@
 ---
-title: "Logo Modernism (Design) — The Easy Way to Design Good Logos"
+title: "Logo Modernism (Design) — The easy way to design good logos"
 date: "2017-02-07"
 tags: [Design, Inspiration, Recommendation]
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Italian Tomato Sauce"
+title: "Italian tomato sauce"
 excerpt: "Once you know this, you’ll have dozens of recipes under your belt."
 tags: [Vegan, Recipe, Food]
 date: "2019-03-03"

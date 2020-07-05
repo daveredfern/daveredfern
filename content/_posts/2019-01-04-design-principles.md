@@ -1,5 +1,5 @@
 ---
-title: "Design Principles"
+title: "Design principles"
 date: "2019-01-04"
 tags: [Favorite, "Web Design", Design, Inspiration]
 ---

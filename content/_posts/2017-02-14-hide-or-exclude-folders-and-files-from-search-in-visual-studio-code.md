@@ -1,5 +1,5 @@
 ---
-title: "Hide or Exclude Folders and Files From Search in Visual Studio Code"
+title: "Hide or exclude folders and files from search in Visual Studio Code"
 date: "2017-02-14"
 tags: ["Web Design", "Front End Development"]
 ---
