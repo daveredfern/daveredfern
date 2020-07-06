@@ -13,6 +13,10 @@ During this time I’ve worked on nearly all aspects of creating a successful we
 > 
 > —Gareth Joyce, Senior Consultant
 
+> **Dave pioneered a move to component level design and development**, increasing the maintainability and scalability of our projects.
+> 
+> —Jake Cobley, Front End Systems Developer
+
 ## How my website works
 
 In an effort to publish as much as possible, my website [contains articles](/blog/) on everything I find interesting from web design to music and cooking.
