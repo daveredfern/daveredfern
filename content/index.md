@@ -9,6 +9,10 @@ I'm Head of Design & Development at [Conversion Rate Experts](https://conversio
 
 During this time I’ve worked on nearly all aspects of creating a successful website including wireframing, user experience, user interface design, and performance driven front-end development.
 
+> I have worked in the digital field for more than 10 years and can honestly say that **Dave is one of the best designers I have worked with**. He has a passion for user centred design and a focus and competence to translate his ideas into fully functioning, accessible user interfaces.
+> 
+> —Gareth Joyce, Senior Consultant
+
 ## How my website works
 
 In an effort to publish as much as possible, my website [contains articles](/blog/) on everything I find interesting from web design to music and cooking.
