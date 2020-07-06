@@ -20,9 +20,9 @@ Your information is [always kept private](/privacy/). Unsubscribe with one-click
 
 ## What you’ll get from my newsletter
 
-* A monthly update on best articles I’ve written.
-* Links to my favorite articles I’ve read from others.
-* Tools and tips I’ve discovered to improved my productivity and output.
+* A monthly update of my best articles.
+* Links to my favorite articles from others.
+* Tools and tips I’ve discovered to improved my productivity.
 * The occasional closing joke.
 
 Would you like me to include something else? [I love feedback](/feedback/) so feel free to let me know and I’ll try to include it.
