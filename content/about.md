@@ -13,6 +13,20 @@ I am a keen photographer. My photos have been [viewed over 12 million times](htt
 
 [Here's what I'm currently focused on](/now/).
 
+## What others say about me
+
+> I have worked in the digital field for more than 10 years and can honestly say that **Dave is one of the best designers I have worked with**. He has a passion for user centred design and a focus and competence to translate his ideas into fully functioning, accessible user interfaces.
+> 
+> —Gareth Joyce, Senior Consultant
+
+> **Dave pioneered a move to component level design and development**, increasing the maintainability and scalability of our projects.
+> 
+> —Jake Cobley, Front End Systems Developer
+
+> **Dave is meticulous and passionate about every job**. He's efficient and keeps up to date with the technology and tools around today.
+> 
+> —Chris Cheshire, Senior Engineer
+
 ## About this website
 
 See my [style guide](/style-guide/) to find out about this website. See my [uses page](/uses/) that includes the technology I use on this website.

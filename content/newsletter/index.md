@@ -5,7 +5,7 @@ hide_references: true
 hide_newsletter: true
 ---
 
-<p>A <a href="/newsletter/">monthly roundup</a> of articles, tools, and tips for creating user-centered experiences that deliver measurable returns.</p>
+A monthly roundup of articles, tools, and tips for creating user-centered experiences that deliver measurable returns.
 
 <form action="https://daveredfern.us10.list-manage.com/subscribe/post?u=5f28db666ed2fa394d4b32a3c&amp;id=595799564d" method="post" target="_blank" class="inline-form" novalidate>
     <label>
@@ -17,4 +17,18 @@ hide_newsletter: true
     <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">Subscribe</button>
 </form>
 
-<p>Your information is <a href="/privacy">always kept private</a>. Unsubscribe with one-click.</p>
+Your information is [always kept private](/privacy/). Unsubscribe with one-click.
+
+## What others say about me
+
+> I have worked in the digital field for more than 10 years and can honestly say that **Dave is one of the best designers I have worked with**. He has a passion for user centred design and a focus and competence to translate his ideas into fully functioning, accessible user interfaces.
+> 
+> —Gareth Joyce, Senior Consultant
+
+> **Dave pioneered a move to component level design and development**, increasing the maintainability and scalability of our projects.
+> 
+> —Jake Cobley, Front End Systems Developer
+
+> **Dave is meticulous and passionate about every job**. He's efficient and keeps up to date with the technology and tools around today.
+> 
+> —Chris Cheshire, Senior Engineer
