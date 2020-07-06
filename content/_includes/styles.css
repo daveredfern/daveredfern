@@ -171,10 +171,10 @@ hr {
 blockquote {
 	margin-top: 1.5em;
 	margin-bottom: 1.5em;
-	border: 1px solid var(--light-color);
+	border-left: 3px solid var(--color);
 	padding-left: 1.2em;
+	padding-right: 1.2em;
 	margin-left: 0;
-	margin-right: 0;
 	font-style: italic;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 }
