@@ -307,8 +307,7 @@ a.mute {
 {% comment %} Container {% endcomment %}
 
 .container {
-	max-width: 37rem;
-	width: 100%;
+	max-width: 60ch;
 	padding-left: 1.2em;
 	padding-right: 1.2em;
 	margin-left: auto;
