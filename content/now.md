@@ -4,13 +4,11 @@ title: "What I’m doing now"
 
 I am currently focusing my efforts on:
 
+**Spending my money with the [right people](/supports/).** I’m making a conscious effort to spend my money with those who follow a good ethos and ethics.
+
 **Continuously improving this website** with the goals of making it lean, fast, and user-friendly. If you have any suggestions for improving it, [let me know](/contact/).
 
-**Sharing my film photography online.** I’ve started to create a [photos section](/photos/) on this website. It’s a work-in-progress.
-
 **Working at Conversion Rate Expert** as head of design and development. CRE is the world’s leading agency for conversion rate optimization (CRO)—a term they coined in 2007.
-
-**Learning to make bread.** Spending more time at home has encouraged me to learn how to make bread. It’s a really satisfying hobby.
 
 **Learning the piano.** After a 10 year hiatus, I’ve decided to learn the piano again. I’m aiming for one new song a month.
 
