@@ -11,7 +11,8 @@ layout: compress
       post.url != "/photos/" and 
       post.url != "/404.html" and 
       post.url != "/" and
-      post.url != "/sw.js"
+      post.url != "/sw.js" and
+      post.url != "/search.json"
     %}
       {
         "title"    : "{{ post.title | escape }}",

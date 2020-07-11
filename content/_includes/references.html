@@ -16,7 +16,8 @@
         page.url != post.url and 
         post.url != "/offline/" and 
         post.url != "/" and
-        post.url != "/sw.js"
+        post.url != "/sw.js" and
+        post.url != "/search.js"
     %}
         {% comment %} Add page to array {% endcomment %}
         {% assign referenced_content = referenced_content | push: post %}
