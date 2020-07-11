@@ -34,6 +34,10 @@ The [Git repository is publicly available](https://github.com/daveredfern/davere
 
 The following is a list of major changes. The most recently changes are at the top. 
 
+## 2020-07-11
+
+- **Added [search](/search/)** to help me quickly find content. I’ve added a link to the footer in case other finds it useful.
+
 ## 2020-07-05
 
 - **Added a newsletter** where I will send a monthly digest of articles and links that I’ve found interesting.
