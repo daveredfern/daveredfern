@@ -2,7 +2,7 @@
 title: "The charities, companies, and people I support"
 ---
 
-I’m making a conscious effort to spend my money with those who follow good ethics and ethos.
+I’m making a conscious effort to spend my money with those who follow a good ethos and ethics.
 
 The following is a list of charities, companies, and people I support through either buying their products, subscribing to their services, or donating.
 
