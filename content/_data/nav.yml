@@ -12,11 +12,13 @@ header:
 footer:
   - name: I love feedback
     link: /feedback/
-  - name: Supports
-    link: /supports/
   - name: RSS feed
     link: /feed/
+  - name: Search
+    link: /search/
   - name: Style guide
     link: /style-guide/
   - name: Roadmap
     link: /roadmap/
+  - name: Supports
+    link: /supports/

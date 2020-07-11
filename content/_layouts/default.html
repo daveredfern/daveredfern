@@ -115,6 +115,25 @@ layout: compress
           {% include favorite-posts.html %}
         {% endif %}
 
+        {% if page.url == "/search/" %}
+          <label>
+            <div><strong>Search for an article, page, or tag</strong></div>
+            <input type="search" id="search-field" placeholder="search…">
+          </label>
+          <ul id="search-results"></ul>
+            
+          <!-- Search script -->
+          <script src="/assets/js/search.js" type="text/javascript"></script>
+          <script>
+              SimpleJekyllSearch({
+              searchInput: document.getElementById('search-field'),
+              resultsContainer: document.getElementById('search-results'),
+              json: '/search.json',
+              success: () => {}
+              });
+          </script>
+        {% endif %}
+
       {% endif %}
 
       {% if page.hide_references != true %}
