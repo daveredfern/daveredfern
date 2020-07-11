@@ -24,7 +24,7 @@ The following is a list of charities, companies, and people I support through ei
 
 ## Large companies
 
-**[Bulb energy](www.bulb.me/davidr1004)** is my electricity and gas provider. 100% of their electricity is renewable and their gas is 100% carbon neutral.
+**[Bulb energy](https://www.bulb.me/davidr1004)** is my electricity and gas provider. 100% of their electricity is renewable and their gas is 100% carbon neutral.
 
 **[Patagonia](https://www.patagonia.com/)** are a clothing brand that focus on creating amazingly design clothes that pay their staff and suppliers well, and look after the environment. Yvon Chouinard, the founder of Patagonia, wrote [Let My People Go Surfing](https://www.goodreads.com/book/show/22155.Let_My_People_Go_Surfing) about the company.
 
