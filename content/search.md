@@ -5,4 +5,4 @@ hide_references: true
 hide_newsletter: true
 ---
 
-This search isn’t sophisticated. It only searches the title, url, tags, date. For better search, try [DuckDuckGo’s site search](https://duckduckgo.com/?q=Web+Design+site%3Adaveredfern.com&t=hk&ia=web).
+Search my site using [DuckDuckGo’s Site Search Box](https://duckduckgo.com/search_box). Enter a search term into the following search box and it will open in a new DuckDuckGo window.
