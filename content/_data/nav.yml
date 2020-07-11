@@ -12,6 +12,8 @@ header:
 footer:
   - name: I love feedback
     link: /feedback/
+  - name: Supports
+    link: /supports/
   - name: RSS feed
     link: /feed/
   - name: Style guide
