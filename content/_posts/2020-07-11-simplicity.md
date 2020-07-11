@@ -4,7 +4,7 @@ date: "2020-07-11"
 tags: [Inspiration, Design, Thought, Management]
 ---
 
-In Interview with Business Week, Apple Steve Jobs said the following:
+In Interview with Business Week, Steve Jobs said the following:
 
 > Simple can be harder than complex: you have to work hard to get your thinking clean to make it simple. But it's worth it in the end because once you get there, you can move mountains.  
 
