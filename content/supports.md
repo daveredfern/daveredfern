@@ -10,6 +10,8 @@ The following is a list of charities, companies, and people I support through ei
 
 **[Farm Animal Sanctuary](https://www.thefarmanimalsanctuary.co.uk/)** cares for hundreds of animals who have been saved from slaughter or poorly treated. I help support them by sponsoring their animals and visiting their open days.
 
+**[Bulb Carbon Offsetting](https://calculator.bulb.co.uk/)** allows me to offset my impact on the plant. I’m currently offsetting my footprint of 5 tonnes. They use the money to protect the Gola rainforest in Sierra Leone, provide clean cookstoves in Ghana and Kenya, and support wind and solar power in India.
+
 ## Independent companies
 
 **[Dithering](https://dithering.fm/)** is a podcast by Ben Thompson and John Gruber. It’s 15-minutes an episode, three times a week. It’s really insightful and they both do great work on their respective websites.
@@ -22,7 +24,7 @@ The following is a list of charities, companies, and people I support through ei
 
 ## Large companies
 
-**[Bulb energy](www.bulb.me/davidr1004)** is my electricity and gas provider. 100% of their electricity is renewable and their gas is 100% carbon neutral. They’ve just recently released a [calculator](https://calculator.bulb.co.uk/) where you can also offset everything else in (travel, food, etc).
+**[Bulb energy](www.bulb.me/davidr1004)** is my electricity and gas provider. 100% of their electricity is renewable and their gas is 100% carbon neutral.
 
 **[Patagonia](https://www.patagonia.com/)** are a clothing brand that focus on creating amazingly design clothes that pay their staff and suppliers well, and look after the environment. Yvon Chouinard, the founder of Patagonia, wrote [Let My People Go Surfing](https://www.goodreads.com/book/show/22155.Let_My_People_Go_Surfing) about the company.
 
