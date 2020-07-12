@@ -68,7 +68,7 @@
 </head>
 <body>
 
-  <div class="container section">
+  <div class="container">
 
     {% include header.html %}
 
@@ -95,7 +95,7 @@
     {% endfor %}
   </div>
 
-  <div class="container section">
+  <div class="container">
       
     {% if page.url == "/blog/" %}
       {% include tags.html %}
@@ -123,14 +123,13 @@
     /* ServiceWorker is a progressive technology. Ignore unsupported browsers */
     if(
       'serviceWorker' in navigator &&
-      window.location.href.indexOf('daveredfern') > -1 &&
-      window.location.href.indexOf('amplifyapp') > -1
+      window.location.href.indexOf('daveredfern') > -1
     ) {
       navigator.serviceWorker.register('/sw.js');
     }
   </script>
   <script src="/assets/js/instantpage.js" type="module" defer></script>
-  <script src="https://eagle.daveredfern.com/script.js" site="KVVWNWUA" defer></script>
+  <script src="//eagle.daveredfern.com/script.js" site="KVVWNWUA" defer></script>
 
 </body>
 </html>
