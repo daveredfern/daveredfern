@@ -442,7 +442,7 @@ a.search-chip.is-active {
 	color: var(--bg-color);
 }
 
-{% comment %} Media object {% endcomment %}
+{% comment %} Media embed {% endcomment %}
 
 .media-embed {
 	position: relative;
@@ -494,11 +494,6 @@ a.search-chip.is-active {
 	.media-object__body {
 		flex-grow: 1;
 	}
-}
-
-.round {
-	border-radius: 100px;
-	overflow: hidden;
 }
 
 {% comment %} Anchor links {% endcomment %}
