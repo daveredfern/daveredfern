@@ -12,4 +12,4 @@ Written communication can be time-consuming but it doesn’t need to be. When wr
 4. **Don’t be offended.** Don’t read into tone. People are generally good.
 5. **If it’s turning into a thread, jump on a call.** It’s the equivalent of days worth of text-based communication.
 
-This article is inspired by [five.sentenc.es](http://five.sentenc.es/).
+This article was inspired by [five.sentenc.es](http://five.sentenc.es/).
