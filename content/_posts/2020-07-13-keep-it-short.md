@@ -9,7 +9,7 @@ Written communication can be time-consuming but it doesn’t need to be. When wr
 1. **Keep it short.** Less is more.
 2. **Be explicit.** Being passive can cost you lots of follow-up discussions.
 3. **Write for an international audience.** Some words have double which might be offensive or cause you to break rule two.
-4. **If it’s turning into a thread, jump on a call.** It’s the equivalent of days worth of text-based communication.
-5. **Don’t be offended.** People are generally good. Don’t read into tone when communicating with text.
+4. **Don’t be offended.** People are generally good. Don’t read into tone when communicating with text.
+5. **If it’s turning into a thread, jump on a call.** It’s the equivalent of days worth of text-based communication.
 
 This article is inspired by [five.sentenc.es](http://five.sentenc.es/).
