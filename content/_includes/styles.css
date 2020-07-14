@@ -572,3 +572,10 @@ a.search-chip.is-active {
 a[rel*="noopener"]::after {
 	content: "\00A0↗";
 }
+
+{% comment %} rounded image {% endcomment %}
+
+.round {
+	border-radius: 100px;
+	overflow: hidden;
+}
