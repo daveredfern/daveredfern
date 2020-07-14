@@ -19,9 +19,7 @@ I use [Source Serif Pro](https://github.com/adobe-fonts/source-serif-pro) by Ado
 ## Colors
 
 <ul>
-    <li class="highlight"><strong>Green/Blue</strong> in light mode and <strong>pink</strong> in dark mode.</li>
-    <li><strong>Black</strong> in light mode and <strong>white</strong> in dark mode.</li>
-    <li class="mute"><strong>Light grey</strong> in light mode and <strong>dark grey</strong> in dark mode.</li>
+    <li style="color: var(--primary-color)"><strong>Green/blue</strong> in light mode and <strong>pink</strong> in dark mode.</li>
 </ul>
 
 ## Headings
@@ -37,6 +35,8 @@ I use [Source Serif Pro](https://github.com/adobe-fonts/source-serif-pro) by Ado
 ##### Page heading (h5)
 
 ###### Page heading (h6)
+
+<br />
 
 ## Paragraphs and lists
 
@@ -150,7 +150,7 @@ An `.media-object` is a two column layout which is designed to have some media o
 
 <div class="media-object">
     <div class="media-object__media">
-        <img src="/assets/images/profile.jpg" alt="A photo of Dave Redfern" />
+        <img src="/assets/images/profile.jpg" alt="A photo of Dave Redfern" class="round" />
     </div>
     <div class="media-object__body">
         <p><strong>Hi. I’m Dave Redfern.</strong> I work with some of the world’s most sophisticated companies, helping to design and develop user-centered experiences that deliver measurable returns. <a href="/about/">Read more about me</a>.</p>
@@ -162,12 +162,6 @@ An `.media-object` is a two column layout which is designed to have some media o
 <p class="lead">Use the <code>.lead</code> class to increase the size of an element.</p>
 
 <p class="micro">Use the <code>.micro</code> class to decrease the size of an element.</p>
-
-<p class="highlight">Use the <code>.highlight</code> class to make an element blue.</p>
-
-<p class="mute">Use the <code>.mute</code> class to make an element light grey.</p>
-
-<p>Use the <code>.hidden</code> class hides an element using `display:none`.</p>
 
 ## Layout
 

@@ -258,20 +258,6 @@ iframe {
 	font-size: 0.8em;
 }
 
-.highlight,
-a.highlight {
-	color: var(--primary-color) !important;
-}
-
-a.highlight:focus {
-	color: var(--bg-color) !important;
-}
-
-.mute,
-a.mute {
-	color: var(--mute-color) !important;
-}
-
 {% comment %} Inline list {% endcomment %}
 
 .inline-list {
@@ -377,12 +363,6 @@ textarea:focus {
 .inline-form button {
 	border-top-left-radius: 0;
 	border-bottom-left-radius: 0;
-}
-
-{% comment %} Visibility classes {% endcomment %}
-
-.hidden {
-	display: none !important;
 }
 
 {% comment %} Button {% endcomment %}
