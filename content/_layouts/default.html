@@ -118,23 +118,23 @@ layout: compress
         {% if page.url == "/search/" %}
           <form action="https://duckduckgo.com/" method="post" target="_blank" class="inline-form" novalidate>
             <label>
-              <input type="search" name="q" placeholder="Enter a search term…">
-              <input type="hidden" name="site" value="daveredfern.com">
+              <input type="search" name="q" placeholder="Enter a search term…" value="Enter search term here site:daveredfern.com" data-site="daveredfern.com">
             </label>
             <button type="submit" value="Search" name="subscribe" class="button">Search</button>
           </form>
           <script>
             var searchForm = document.querySelector('form[action="https://duckduckgo.com/"]');
+            var searchField = searchForm.querySelector('[name="q"]');
+            searchField.value = '';
             searchForm.addEventListener('submit', function(e) {
               e.preventDefault();
-              var action = searchForm.action;
-              var query = searchForm.querySelector('[name="q"]').value;
-              var site = searchForm.querySelector('[name="site"]').value;
-              var url = `${action}?q=${encodeURI(query)}+site:${encodeURI(site)}`;
+              var url = `${searchForm.action}?q=${encodeURI(searchField.value)}+site:${encodeURI(searchField.getAttribute('data-site'))}`;
               window.open(url, '_blank');
               win.focus();
             });
           </script>
+          
+          <p>If you’d like to add DuckDuckGo search to your website, I’ve <a href="https://codepen.io/daveredfern/pen/OJMoEOb">created a CodePen</a> you can copy.</p>
         {% endif %}
 
       {% endif %}
