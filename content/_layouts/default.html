@@ -115,6 +115,15 @@ layout: compress
           {% include favorite-posts.html %}
         {% endif %}
 
+        {% if page.url == "/movies/" %}
+          {% for movie in site.data.movies %}
+            <p>
+              <strong><a href="{{ movie.link }}">{{ movie.name }}</a><br /></strong>
+              <span class="micro">Rated {{ movie.rating }} stars &nbsp;|&nbsp; Released in {{ movie.year }}</span>
+            </p>
+          {% endfor %}
+        {% endif %}
+
         {% if page.url == "/search/" %}
           <form action="https://duckduckgo.com/" method="post" target="_blank" class="inline-form" novalidate>
             <label>

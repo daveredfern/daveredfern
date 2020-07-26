@@ -4,7 +4,7 @@ hide_meta: true
 hide_references: true
 ---
 
-A monthly roundup of articles, tools, and tips for creating user-centered experiences that deliver measurable returns.
+An occasional roundup of articles, tools, and tips for creating user-centered experiences that deliver measurable returns.
 
 <form action="https://daveredfern.us10.list-manage.com/subscribe/post?u=5f28db666ed2fa394d4b32a3c&amp;id=595799564d" method="post" target="_blank" class="inline-form" novalidate>
     <label>

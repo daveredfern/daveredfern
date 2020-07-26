@@ -1,0 +1,25 @@
+- name: Parasite
+  link: https://letterboxd.com/film/parasite-2019/
+  year: 2019
+  rating: 4.5
+  watched: 24/07/2019
+  tags:
+    - foreign-language
+    - drama
+    - comedy
+- name: The Farewell
+  link: https://letterboxd.com/search/the+farewell/
+  year: 2019
+  rating: 4
+  watched: 25/07/2019
+  tags:
+    - foreign-language
+    - drama
+    - comedy
+- name: How To Build A Girl
+  link: https://letterboxd.com/film/how-to-build-a-girl/
+  year: 2020
+  rating: 3
+  watched: 25/07/2019
+  tags:
+    - comedy
