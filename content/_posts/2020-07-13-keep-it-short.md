@@ -4,7 +4,7 @@ date: "2020-07-11"
 tags: [Writing, Thought, Management]
 ---
 
-Written communication can be time-consuming but it doesn’t need to be. When writing I use the following rules.
+Written communication can be time-consuming but it doesn’t need to be. When writing, I use the following rules.
 
 1. **Keep it short.** Less is more.
 2. **Be explicit.** Being passive can create lots of follow-up.
