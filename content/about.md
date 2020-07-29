@@ -23,6 +23,10 @@ I am a keen photographer. My photos have been [viewed over 12 million times](htt
 > 
 > —Jake Cobley, Front End Systems Developer
 
+> I have a small network of trusted professionals that I turn to when I need help, advice or feedback. Dave is top of that list. **Dave is a clear thinker, a great writer and an efficient developer.** It has been a pleasure to work with him on occasion and I’ve learnt a lot from him over the years. I would recommend him without hesitation.
+> 
+> —Marc Jenkins, WordPress Consultant
+
 > **Dave is meticulous and passionate about every job**. He's efficient and keeps up to date with the technology and tools around today.
 > 
 > —Chris Cheshire, Senior Engineer
