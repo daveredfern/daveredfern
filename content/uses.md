@@ -35,11 +35,7 @@ This site is built with [Jekyll](https://jekyllrb.com/) and deployed to [Netlify
 
 I collect analytics anonymously using [Fathom Analytics](https://usefathom.com/ref/ZIAIFM). It’s an awesome little webapp that helps me learn what people enjoy to read without infringing on your privacy—Fathom Analytics collects no personal data. Shameless plug but [here’s a referral link](https://usefathom.com/ref/ZIAIFM) for $10 off free to try it.
 
-Almost all of the images are hosted on [Cloudinary](https://cloudinary.com/).
-
-I manage my newsletter using [Mailchimp](https://www.mailchimp.com/).
-
-The code is stored in [Github](https://github.com/).
+Almost all of the images are hosted on [Cloudinary](https://cloudinary.com/). I manage my newsletter using [Mailchimp](https://www.mailchimp.com/). The code is stored in [Github](https://github.com/).
 
 For more information, you can [see my style guide](/style-guide/).
 
@@ -55,7 +51,7 @@ I’ve not settled on any particular software but my go to are [Ableton Live](ht
 
 ## Kitchen {#kitchen}
 
-I love cooking. For how much I love cooking, I only have a handful of recommendations. My go to place is Ikea and Oxo. They both fantastic value equipment.
+I love cooking. For how much I love cooking, I only have a handful of recommendations. My go to place is Ikea and Oxo. They both make products that offer fantastic value.
 
 I spent far too long buying non-stick pots and pans before I discovered stainless steel. There is no looking back now. The [Ikea Sensuell 4-piece cookware set](https://www.ikea.com/gb/en/p/sensuell-4-piece-cookware-set-stainless-steel-grey-20324541/) are probably my most loved piece of equipment in the kitchen. I did lots of research before buying these are for value-for-money, nothing else comes close. I also like the Ikea stainless steel [Koncis](https://www.ikea.com/gb/en/search/products/?q=KONCIS) range. They cheap and last forever.
 

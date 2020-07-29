@@ -14,3 +14,4 @@ The following is a list of design principles I really like:
 - [Tim Berners-Lee’s design principles](https://www.w3.org/DesignIssues/Principles.html)
 - [Digital.gov design principles](https://designsystem.digital.gov/design-principles/)
 - [NHS design principles](/nhs-design-principles/)
+- [Microsoft’s Inclusive Design](https://www.microsoft.com/design/inclusive/)
