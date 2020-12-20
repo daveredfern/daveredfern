@@ -33,6 +33,12 @@ I am a keen photographer. My photos have been [viewed over 12 million times](htt
 > 
 > —Chris Cheshire, Senior Engineer
 
+## Where it all began
+
+While looking through old photos I found this one of me using a computer and had to include it on this page!
+
+![A photo of baby Dave using a computer](/assets/images/baby-dave-on-a-computer.jpg)
+
 ## About this website
 
 See my [style guide](/style-guide/) to find out about this website. See my [uses page](/uses/) that includes the technology I use on this website.
