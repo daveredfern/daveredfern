@@ -11,7 +11,7 @@ During this time I’ve worked on nearly all aspects of creating a successful we
 
 ![A photo of Dave Redfern](/assets/images/archive/2016/08/IMG_0172-1024x686.jpg)
 
-I am a keen photographer. My photos have been [viewed over 12 million times](https://unsplash.com/daveredfern) and used by Adobe, Squarespace, Trello and Wix.
+I am a keen photographer. My photos have been [viewed over 13 million times](https://unsplash.com/daveredfern) and used by Adobe, Squarespace, Trello and Wix.
 
 [Here's what I'm currently focused on](/now/).
 
