@@ -22,7 +22,7 @@ The following is a list of charities, companies, and people I support through ei
 
 **[Rave Coffee](http://i.refs.cc/dYNQ1pNN?smile_ref=eyJzbWlsZV9zb3VyY2UiOiJzbWlsZV91aSIsInNtaWxlX21lZGl1bSI6IiIsInNtaWxlX2NhbXBhaWduIjoicmVmZXJyYWxfcHJvZ3JhbSIsInNtaWxlX2N1c3RvbWVyX2lkIjo2NDE3ODg5Nzd9)** is an independent coffee company who source and roast their own coffee. It feels great to make a fresh cup of coffee each morning. I have a different bag of coffee delivered each month which is alway exciting to try.
 
-## Large companies
+## Larger companies
 
 **[Bulb energy](https://www.bulb.me/davidr1004)** is my electricity and gas provider. 100% of their electricity is renewable and their gas is 100% carbon neutral.
 
