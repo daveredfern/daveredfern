@@ -11,7 +11,7 @@ I generally recommend everything in the list. I wouldn’t use them if I didn’
 
 I use a [MacBook Pro 15”](https://support.apple.com/kb/SP756?locale=en_GB), [Magic Keyboard](https://www.apple.com/uk/shop/product/MLA22B/A/magic-keyboard-british-english), and [Magic Trackpad 2](https://www.apple.com/uk/shop/product/MJ2R2Z/A/magic-trackpad-2-silver). I previously used a [Magic Mouse 2](https://www.apple.com/uk/shop/product/MLA02Z/A/magic-mouse-2-silver) (and I still own one) but it was causing some aches in my hand so switched to the trackpad which fixed it.
 
-When I’m at home, I use an [Ergotron Stand Workstation](https://www.ergotron.com/en-gb/products/product-details/33-342) with an [LG Apple Display](https://www.apple.com/uk-business/shop/product/HMUB2B/A/lg-ultrafine-5k-display). When listening to music, I use [Bower & Wikins P7 headphones](https://www.whathifi.com/bw/p7/review). Everything is connected to a [Belkin Surge Protection Extension Lead Strip](https://www.amazon.co.uk/gp/product/B00OE4510M/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1).
+When I’m at home, I use an [Ergotron Stand Workstation](https://www.ergotron.com/en-gb/products/product-details/33-342) with an [LG Apple Display](https://www.apple.com/uk-business/shop/product/HMUB2B/A/lg-ultrafine-5k-display). When listening to music, I use [sony WH-1000XM4 headphones](https://www.sony.co.uk/electronics/headband-headphones/wh-1000xm4). Everything is connected to a [Belkin Surge Protection Extension Lead Strip](https://www.amazon.co.uk/gp/product/B00OE4510M/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1).
 
 While working remotely, I use a [Roost laptop stand](https://www.therooststand.com/). I store the keyboard and trackpad in a [carry sleeve](https://www.amazon.co.uk/gp/product/B01GFLRZDW/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) which is all stored inside of a The North Face backpack. The North Face don’t sell my backpack anymore but the [Borealis Classic Backpack](https://www.thenorthface.co.uk/shop/en-gb/tnf-gb/borealis-classic-backpack-cf9c) is the closest looking model.
 
@@ -50,6 +50,8 @@ I’ve not settled on any particular software but my go to are [Ableton Live](ht
 ## Kitchen {#kitchen}
 
 I love cooking. For how much I love cooking, I only have a handful of recommendations. My go to place is Ikea and Oxo. They both make products that offer fantastic value.
+
+Goo knives are worth their weight on gold. My favorite is the [Wüsthof Classic Ikon Chef's Knife 20 cm](https://www.wuesthof.com/en-ec/cook-s-knife-20-cm-8-1040330120/). It’s sharp, balanced, and slices through almost anything as if it were butter.
 
 I spent far too long buying non-stick pots and pans before I discovered stainless steel. There is no looking back now. The [Ikea Sensuell 4-piece cookware set](https://www.ikea.com/gb/en/p/sensuell-4-piece-cookware-set-stainless-steel-grey-20324541/) are probably my most loved piece of equipment in the kitchen. I did lots of research before buying these are for value-for-money, nothing else comes close. I also like the Ikea stainless steel [Koncis](https://www.ikea.com/gb/en/search/products/?q=KONCIS) range. They cheap and last forever.
 
