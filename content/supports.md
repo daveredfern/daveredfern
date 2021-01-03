@@ -10,6 +10,8 @@ The following is a list of charities, companies, and people I support through ei
 
 **[Farm Animal Sanctuary](https://www.thefarmanimalsanctuary.co.uk/)** cares for hundreds of animals who have been saved from slaughter or poorly treated. I help support them by sponsoring their animals and visiting their open days.
 
+**[Viva!](https://viva.org.uk/)** is a UK vegan charity that specializes in undercover investigations and high-profile animal campaigns. I donate to them using [Amazon Smile](https://smile.amazon.co.uk).
+
 **[Bulb Carbon Offsetting](https://bulb.co.uk/carbon-calculator/)** allows me to offset my impact on the planet. I’m currently offsetting my footprint of 5 tonnes. They use the money to protect the Gola rainforest in Sierra Leone, provide clean cookstoves in Ghana and Kenya, and support wind and solar power in India.
 
 ## Independent companies
