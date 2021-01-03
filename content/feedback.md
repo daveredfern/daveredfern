@@ -9,5 +9,17 @@ Your honest feedback helps me improve my website and future ones I build.
 
 I respond personally to all feedback.
 
-* [Twitter](https://www.twitter.com/daveredfern)
 * [dave@daveredfern.com](mailto:dave@daveredfern.com)
+
+<button class="copy-email">Copy email</button>
+<script>
+    var copyButton = document.querySelector('.copy-email');
+    copyButton.addEventListener('click', function(e) {
+        navigator.clipboard.writeText('dave@daveredfern.com').then(function() {
+            copyButton.innerHTML = "Copied email";
+            window.setTimeout(function() {
+                copyButton.innerHTML = "Copy email";
+            }, 3000);
+        });
+    });
+</script>
