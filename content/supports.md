@@ -16,11 +16,11 @@ The following is a list of charities, companies, and people I support through ei
 
 **[Dithering](https://dithering.fm/)** is a podcast by Ben Thompson and John Gruber. It’s 15-minutes an episode, three times a week. It’s really insightful and they both do great work on their respective websites.
 
-**[Fathom Analytics](https://usefathom.com/ref/ZIAIFM)** is a privacy focussed, GDPR friendly alternative to Google Analytics. They’re a two man company striving to provide enough information for website owners to make informed decisions while keeping their users information private.
-
 **[Feedbin](https://feedbin.com/)** is a good old RSS reader. It’s simple, reliable, and integrates with lots of other great applications.
 
 **[Overcast](https://overcast.fm/)** is a podcast app by Marco Arment. I listen to dozens of podcasts and Marco does a great job with his app… and saved me dozens of hours with his smart speed feature.
+
+**[Rave Coffee](http://i.refs.cc/dYNQ1pNN?smile_ref=eyJzbWlsZV9zb3VyY2UiOiJzbWlsZV91aSIsInNtaWxlX21lZGl1bSI6IiIsInNtaWxlX2NhbXBhaWduIjoicmVmZXJyYWxfcHJvZ3JhbSIsInNtaWxlX2N1c3RvbWVyX2lkIjo2NDE3ODg5Nzd9)** is an independent coffee company who source and roast their own coffee. It feels great to make a fresh cup of coffee each morning. I have a different bag of coffee delivered each month which is alway exciting to try.
 
 ## Large companies
 
