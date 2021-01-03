@@ -26,6 +26,7 @@ The following to-dos haven’t been prioritized yet. Some of them might be incoh
 
 - **Implement a 8 point grid.** Lots of websites use it including [Github](https://github.com/). It’s something I’d like to learn more about too.
 - **Left align the website.** I’ve done this many times using Chrome Dev Tools and there is something I like about it.
+- **Improve [/photos/](/photos) section.** This section has been a little neglected. I initially rushed this part of the website to get something live. It now needs to be integrated better.
 
 ## Completed tasks
 
