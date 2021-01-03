@@ -28,6 +28,10 @@ The following to-dos haven’t been prioritized yet. Some of them might be incoh
 - **Left align the website.** I’ve done this many times using Chrome Dev Tools and there is something I like about it.
 - **Improve [/photos/](/photos) section.** This section has been a little neglected. I initially rushed this part of the website to get something live. It now needs to be integrated better.
 
+### Prioritized tasks
+
+None at the moment.
+
 ## Completed tasks
 
 The [Git repository is publicly available](https://github.com/daveredfern/daveredfern) but often contains lots of commits and quick fixes. That makes it difficult to follow the progression of the website and the reasoning behind key decisions.
