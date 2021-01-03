@@ -10,7 +10,6 @@ I’m [working with the garage door up](/work-with-the-garage-door-up/). The fol
 If you spot anything, please [let me know](/contact/).
 
 - **Unable to create new tags for pages.** I added a global tag system that allows all articles and pages to be part of the tagging. At the moment, new tags can’t be used inside of pages. The tag must already exist and be part of an article. Right now, this isn’t an issue but it will be worth fixing at some point.
-- **Subfonts doesn’t support non-breaking hyphen.** I use subfonts to improve the speed of my website. Unfortunately, Source Serif Pro doesn’t have a non-breaking hyphen character. Normally, the browser defaults back to using a hyphen but when using subfonts, that character isn’t available. As a temporary hack, I’ve added a hidden element with the normal hyphen in so it renders properly (don’t hate me).
 
 ## Roadmap
 
