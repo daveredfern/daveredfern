@@ -28,4 +28,3 @@ Below is a list of social networks I am most active on. Feel free to browse them
 * [LinkedIn](https://uk.linkedin.com/in/daveredfern)
 * [Unsplash.com](https://unsplash.com/daveredfern)
 * [Github](https://github.com/daveredfern)
-* [Twitter](https://www.twitter.com/daveredfern)
