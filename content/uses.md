@@ -31,9 +31,7 @@ I subscribe to [Feedbin](https://feedbin.com/) which helps sync my RSS subscript
 
 ## This website {#website}
 
-This site is built with [Jekyll](https://jekyllrb.com/) and deployed to [Netlify](https://www.netlify.com/).
-
-Almost all of the images are hosted on [Cloudinary](https://cloudinary.com/). I manage my newsletter using [Mailchimp](https://www.mailchimp.com/). The code is stored in [Github](https://github.com/).
+This site is built with [Jekyll](https://jekyllrb.com/) and deployed to [Netlify](https://www.netlify.com/). Almost all of the images are hosted on [Cloudinary](https://cloudinary.com/). The code is stored in [Github](https://github.com/).
 
 For more information, you can [see my style guide](/style-guide/).
 

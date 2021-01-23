@@ -92,20 +92,6 @@ There is also styling available for <code>inline code</code>.
 
 <a href="#" class="button">This is a button</a>
 
-## Inline form
-
-I use the inline form for my [newsletter](/newsletter/) that appears on the bottom of each page.
-
-<form action="https://daveredfern.us10.list-manage.com/subscribe/post?u=5f28db666ed2fa394d4b32a3c&amp;id=595799564d" method="post" target="_blank" class="inline-form" novalidate>
-    <label>
-        <input type="email" value="" name="EMAIL" id="mce-EMAIL" required placeholder="you@email.com">
-    </label>
-    <div style="position: absolute; left: -5000px;" aria-hidden="true">
-        <input type="text" name="b_2e436c3694ac9e00b18a8ada2_59f17af024" tabindex="-1" value="">
-    </div>
-    <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">Subscribe</button>
-</form>
-
 ## Inline list
 
 This <code>.inline-list</code> is primarily used for navigation on the website.

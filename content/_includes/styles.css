@@ -335,36 +335,6 @@ textarea:focus {
 	border-color: var(--primary-color);
 }
 
-{% comment %} Inline form {% endcomment %}
-
-.inline-form {
-	display: flex;
-}
-
-.inline-form * {
-	margin: 0;
-}
-
-.inline-form > *:first-child {
-	flex-grow: 1;
-}
-
-.inline-form > *:last-child {
-	flex-shrink: 0;
-}
-
-.inline-form input {
-	max-width: none;
-	border-right: 0;
-	border-top-right-radius: 0;
-	border-bottom-right-radius: 0;
-}
-
-.inline-form button {
-	border-top-left-radius: 0;
-	border-bottom-left-radius: 0;
-}
-
 {% comment %} Button {% endcomment %}
 
 a.button,

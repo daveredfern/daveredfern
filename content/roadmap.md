@@ -38,6 +38,10 @@ The [Git repository is publicly available](https://github.com/daveredfern/davere
 
 The following is a list of major changes. The most recently changes are at the top. 
 
+## 2021-01-23
+
+- Removed the newsletter from my website. I wasn’t comfortable using Mailchimp anymore (and wouldn’t recommend anyone else using it) and since I’ve not sent many emails, I opted to delete all the data instead.
+
 ## 2020-07-11
 
 - **Added [search](/search/)** to help me quickly find content. I’ve added a link to the footer in case other finds it useful.

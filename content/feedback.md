@@ -1,7 +1,6 @@
 ---
 title: "I love honest feedback"
 hide_meta: true
-hide_newsletter: true
 hide_references: true
 ---
 
