@@ -32,8 +32,8 @@ The following is a list of charities, companies, and people I support through ei
 
 **[Patagonia](https://www.patagonia.com/)** are a clothing brand that focus on creating amazingly design clothes that pay their staff and suppliers well, and look after the environment. Yvon Chouinard, the founder of Patagonia, wrote [Let My People Go Surfing](https://www.goodreads.com/book/show/22155.Let_My_People_Go_Surfing) about the company.
 
-This page was inspired by [Ross Wintle](https://rosswintle.uk/supports/) and [Marc Jenkins](http://www.marcjenkins.co.uk/supports/). If you have your own site, you should make one too.
-
 ## Companies I’ve supported in the past
 
 **[Dithering](https://dithering.fm/)** is a podcast by Ben Thompson and John Gruber. It’s 15-minutes an episode, three times a week. It’s really insightful and they both do great work on their respective websites.
+
+This page was inspired by [Ross Wintle](https://rosswintle.uk/supports/) and [Marc Jenkins](http://www.marcjenkins.co.uk/supports/). If you have your own site, you should make one too.
