@@ -21,7 +21,8 @@
   <title>{{ page_title }} - {{ site.title }}</title>
 
   {% comment %} Preconnect for assets {% endcomment %}
-  <link rel="preconnect" href="https://eagle.daveredfern.com" crossorigin>
+  <link rel="preconnect" href="https://daveredfern.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
@@ -62,6 +63,7 @@
 
   <!-- CSS -->
   <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400,600,800&display=swap');
       {% include styles.css %}
       {% include photos.css %}
   </style>
@@ -69,22 +71,18 @@
 </head>
 <body>
 
-  <div class="container">
+  {% include header.html %}
 
-    {% include header.html %}
+  <div role="main" class="container">
 
-    <div role="main">
+    <h1>{{ page.title }}</h1>
 
-      <h1>{{ page.title }}</h1>
+    {% if page.hide_meta != true %}
+      {% include meta.html %}
+    {% endif %}
 
-      {% if page.hide_meta != true %}
-        {% include meta.html %}
-      {% endif %}
-
-      {% assign the_content = content | extlinks %}
-      {{ the_content }}
-
-    </div>
+    {% assign the_content = content | extlinks %}
+    {{ the_content }}
 
   </div>
 
@@ -108,13 +106,14 @@
       {% include favorite-posts.html %}
     {% endif %}
 
-    {% if page.hide_about != true %}
-      {% include about.html %}
-    {% endif %}
-
-    {% include footer.html %}
-
   </div>
+
+  {% if page.hide_about != true %}
+    {% include about.html %}
+  {% endif %}
+
+  {% include footer.html %}
+
 
   <!-- Instant pages -->
   <script defer>

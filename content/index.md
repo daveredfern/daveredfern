@@ -5,9 +5,11 @@ hide_meta: true
 hide_references: true
 ---
 
-I'm Head of Design & Development at [Conversion Rate Experts](https://conversion-rate-experts.com/). I’ve got a degree in Computer Science and over a decade's worth of experience designing, developing, and optimizing e-commerce websites for leading B2B and B2C businesses.
+<p class="lead">I'm Head of Design & Development at <a href="https://conversion-rate-experts.com/">Conversion Rate Experts</a>. I’ve got a degree in Computer Science and over a decade's worth of experience designing, developing, and optimizing e-commerce websites for leading B2B and B2C businesses.</p>
 
 During this time I’ve worked on nearly all aspects of creating a successful website including wireframing, user experience, user interface design, and performance driven front-end development.
+
+## What others say about me
 
 > I have worked in the digital field for more than 10 years and can honestly say that **Dave is one of the best designers I have worked with**. He has a passion for user centred design and a focus and competence to translate his ideas into fully functioning, accessible user interfaces.
 > 

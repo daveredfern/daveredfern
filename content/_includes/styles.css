@@ -54,11 +54,6 @@ html {
 	min-height: 0vw;
 }
 
-body {
-	padding-left: calc(1em + 4vw);
-	padding-right: calc(1em + 4vw);
-}
-
 a,
 a:link {
 	color: var(--primary-color);
@@ -394,4 +389,9 @@ a[rel*="noopener"]::after {
 .round {
 	border-radius: 100px;
 	overflow: hidden;
+}
+
+.container {
+	padding-left: calc(1em + 4vw);
+	padding-right: calc(1em + 4vw);
 }
