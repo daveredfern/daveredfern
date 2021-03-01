@@ -19,7 +19,7 @@ I use [Source Serif Pro](https://github.com/adobe-fonts/source-serif-pro) by Ado
 ## Colors
 
 <ul>
-    <li style="color: var(--primary-color)"><strong>Green/blue</strong> in light mode and <strong>pink</strong> in dark mode.</li>
+    <li style="color: var(--primary-color)"><strong>Blue</strong> in light mode and <strong>pink</strong> in dark mode.</li>
 </ul>
 
 ## Headings
@@ -104,14 +104,6 @@ This <code>.inline-list</code> is primarily used for navigation on the website.
     <li><a href="#">list</a></li>
 </ul>
 
-## Notification
-
-A <code>.notification</code> highlights a portion of content my putting it inside of a box.
-
-<div class="notification">
-    <p>This is a notification.</p>
-</div>
-
 ## Search chip
 
 <a href="#" class="search-chip">Search chip</a>
@@ -151,6 +143,6 @@ An `.media-object` is a two column layout which is designed to have some media o
 
 ## Layout
 
-<p>Use the <code>.container</code> class to cap with width of the content.</p>
+<p>Use the <code>.spacing</code> class to add large space to the top and bottom of the element.</p>
 
-<p>Use the <code>.spacing</code> class add large space to the top and bottom of the element.</p>
+<p>Use the <code>.no-spacing</code> class to remove the top and bottom margin from ana element.</p>

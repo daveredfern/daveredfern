@@ -1,37 +1,27 @@
-{% comment %} Variables {% endcomment %}
-
 :root {
 	--color: #222222;
-
 	--primary-color: #035094;
 	--light-primary-color: #D9E5F4;
 	--dark-primary-color: #001E5F;
-
-	--bg-color: #f4f4f4;
-
+	--bg-color: #fff;
 	--lightest-color: #fff;
-	--light-color: #ddd;
-	--mute-color: #aaa;
+	--light-color: #ccc;
+	--mute-color: #ccc;
 	--selection-color: #feff91;
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
 		--color: #fafafa;
-
 		--primary-color: #6ed2cb;
 		--light-primary-color: #172F30;
 		--dark-primary-color: #356C6D;
-
 		--bg-color: #141414;
-
 		--lightest-color: #000;
-		--light-color: #222;
+		--light-color: #333;
 		--mute-color: #333;
 	}
 }
-
-{% comment %} Global {% endcomment %}
 
 * {
 	-webkit-box-sizing: border-box;
@@ -43,27 +33,31 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: var(--bg-color);
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
 	text-rendering: optimizeLegibility;
-    font-variant-ligatures: common-ligatures;
+	font-variant-ligatures: common-ligatures;
 }
 
 html,
 input,
 textarea,
 button {
-	line-height: 1.5;
+	line-height: 1.618;
 	color: var(--color);
-	font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+	font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+	letter-spacing: -0.01em;
 	font-size: 1em;
 }
 
-html {	
+html {
 	font-size: calc(.95em + 0.4vw);
-    min-height: 0vw; {% comment %} Hack to fix Safari {% endcomment %}
+	min-height: 0vw;
 }
 
-{% comment %} Links {% endcomment %}
+body {
+	padding-left: calc(1em + 4vw);
+	padding-right: calc(1em + 4vw);
+}
 
 a,
 a:link {
@@ -81,24 +75,27 @@ a:focus {
 	outline: .15em solid var(--primary-color);
 }
 
-{% comment %} Highlight color {% endcomment %}
-
 ::-moz-selection {
 	background: var(--selection-color);
-	{% comment %} WebKit/Blink Browsers {% endcomment %}
 }
 
 ::selection {
 	background: var(--selection-color);
-	{% comment %} WebKit/Blink Browsers {% endcomment %}
 }
 
 ::-moz-selection {
 	background: var(--selection-color);
-	{% comment %} Gecko Browsers {% endcomment %}
 }
 
-{% comment %} Spacing for elements {% endcomment %}
+p,
+ol,
+ul:not(.inline-list),
+blockquote,
+pre,
+form,
+label {
+	max-width: 50ch;
+}
 
 p,
 ol,
@@ -108,8 +105,7 @@ pre,
 form,
 label,
 .media-embed,
-.media-object,
-.notification {
+.media-object {
 	margin-top: 1.2em;
 	margin-bottom: 1.2em;
 }
@@ -122,8 +118,6 @@ ol ul {
 	margin-bottom: 0.3em;
 }
 
-{% comment %} Typography {% endcomment %}
-
 h1,
 h2,
 h3,
@@ -131,41 +125,35 @@ h4,
 h5,
 h6 {
 	line-height: 1.1;
-	letter-spacing: -0.01em;
+	letter-spacing: -0.02em;
 	margin-top: 1.5em;
 	margin-bottom: 0.6em;
 	scroll-margin-top: 1em;
 }
 
 h1 {
-	margin-top: 1em;
-	font-size: calc(1.8em + .3vw);
-	font-weight: 800;
+    font-size: calc(1.8em + 2.5vw);
+    font-weight: 800;
+    max-width: 22ch;
+	margin-bottom: 1em;
 }
 
-@media(min-width: 48em) {
-	h1 {
-		font-size: calc(2em + .3vw);
-	}
-}
-
-h1 + *,
-h2 + *,
-h3 + *,
-h4 + *,
-h5 + *,
-h6 + * {
+h1+*,
+h2+*,
+h3+*,
+h4+*,
+h5+*,
+h6+* {
 	margin-top: 0;
 }
 
 hr {
 	height: 1px;
 	border: 0;
-	border-bottom: 3px solid var(--mute-color);
+	border-bottom: 1px solid var(--mute-color);
 	outline: 0;
 	clear: both;
 	margin: calc(1.8em + .6vw) 0;
-	width: 30%;
 }
 
 blockquote {
@@ -175,17 +163,10 @@ blockquote {
 	padding-left: 1.2em;
 	margin-left: 0;
 	font-style: italic;
-	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-@media(min-width: 48em) {
-	blockquote {
-		margin-left: -1.2em;
-	}
-}
-
-div > ul:not(.inline-list),
-div > ol {
+div>ul:not(.inline-list),
+div>ol {
 	padding-left: 1.8em;
 }
 
@@ -193,27 +174,13 @@ li {
 	margin-bottom: 0.3em;
 }
 
-@media(min-width: 48em) {
-	div > ul:not(.inline-list),
-	div > ol {
-		padding-left: 0;
-		margin-left: -0.5em;
-	}
-
-	li {
-		padding-left: 0.5em;
-	}
-}
-
-{% comment %} Code {% endcomment %}
-
 code {
 	padding: 0.1em 0.3em;
-    border-radius: 5px;
-    vertical-align: text-top;
-    background-color: var(--lightest-color);
-    font-size: 0.8em;
-    color: var(--color);
+	border-radius: 5px;
+	vertical-align: text-top;
+	background-color: var(--lightest-color);
+	font-size: 0.8em;
+	color: var(--color);
 	border: 1px solid var(--light-color);
 }
 
@@ -235,8 +202,6 @@ pre code {
 	}
 }
 
-{% comment %} Media {% endcomment %}
-
 img {
 	display: block;
 	max-width: 100%;
@@ -248,8 +213,6 @@ iframe {
 	width: 100%;
 }
 
-{% comment %} Custom font styles {% endcomment %}
-
 .lead {
 	font-size: 1.2em;
 }
@@ -257,8 +220,6 @@ iframe {
 .micro {
 	font-size: 0.8em;
 }
-
-{% comment %} Inline list {% endcomment %}
 
 .inline-list {
 	padding-left: 0;
@@ -272,41 +233,29 @@ iframe {
 	margin-bottom: 0;
 	display: inline-block;
 	list-style: none;
+	margin-right: .5vw;
 }
 
 .inline-list a {
-	padding: .4em .3em;
+	padding: .3em;
 	display: inline-block;
 }
 
-@media(min-width: 48em) {
-	.inline-list {
-		margin-left: -.5em;
-	}
-	.inline-list a {
-		padding-left: .5em;
-		padding-right: .5em;
-	}
-}
-
-{% comment %} Container {% endcomment %}
-
-.container {
-	max-width: 58ch;
-	padding-left: 1.2em;
-	padding-right: 1.2em;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-{% comment %} Spacing {% endcomment %}
-
 .spacing {
-	margin-bottom: calc(1em + 3vw);
-	margin-top: calc(1em + 3vw);
+	margin-bottom: calc(1em + 4vw);
+	margin-top: calc(1em + 4vw);
 }
 
-{% comment %} Forms {% endcomment %}
+.no-spacing {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+@media(max-width: 40em) {
+	.hidden-mobile {
+		display: none;
+	}
+}
 
 label {
 	display: block;
@@ -334,8 +283,6 @@ input:focus,
 textarea:focus {
 	border-color: var(--primary-color);
 }
-
-{% comment %} Button {% endcomment %}
 
 a.button,
 input[type="submit"],
@@ -367,15 +314,13 @@ button:hover {
 	outline: 0;
 }
 
-{% comment %} Search chip {% endcomment %}
-
 a.search-chip {
 	padding: 0.3em .8em;
-    border-radius: 100px;
-    border: 2px solid var(--primary-color);
-    text-decoration: none;
-    display: inline-block;
-    margin-top: .3em;
+	border-radius: 100px;
+	border: 2px solid var(--primary-color);
+	text-decoration: none;
+	display: inline-block;
+	margin-top: .3em;
 	margin-bottom: .3em;
 	margin-right: .3em;
 	font-size: 0.85em;
@@ -391,8 +336,6 @@ a.search-chip.is-active {
 	background-color: var(--primary-color);
 	color: var(--bg-color);
 }
-
-{% comment %} Media embed {% endcomment %}
 
 .media-embed {
 	position: relative;
@@ -412,8 +355,6 @@ a.search-chip.is-active {
 	height: 100%;
 }
 
-{% comment %} Media object {% endcomment %}
-
 .media-object__media {
 	width: 20%;
 	min-width: 60px;
@@ -422,11 +363,11 @@ a.search-chip.is-active {
 	float: right;
 }
 
-.media-object__body > *:first-child {
+.media-object__body>*:first-child {
 	margin-top: 0;
 }
 
-.media-object__body > *:last-child {
+.media-object__body>*:last-child {
 	margin-bottom: 0;
 }
 
@@ -446,84 +387,9 @@ a.search-chip.is-active {
 	}
 }
 
-{% comment %} Anchor links {% endcomment %}
-
-.anchor-link {
-	margin-left: .25em;
-}
-
-.anchor-link svg {
-	height: 1rem;
-    width: 1rem;
-	display: inline-block;
-}
-
-@media(min-width: 48em) {
-	h2[id],
-	h3[id] {
-		position: relative;
-	}
-
-	.anchor-link {
-		position: absolute;
-		top: 0;
-		left: -2.1rem;
-		padding: .3rem;
-		margin-left: 0;
-		display: block;
-		text-decoration: none;
-	}
-
-	.anchor-link svg {
-		display: block;
-	}
-
-	h3 .anchor-link {
-		top: -0.2rem;
-	}
-}
-
-{% comment %} Notification {% endcomment %}
-
-.notification {
-	border-top: 1px solid var(--light-color);
-	border-bottom: 1px solid var(--light-color);
-	padding: 1.2em;
-	background: var(--lightest-color);
-	margin-left: -1.2em;
-	margin-right: -1.2em;
-}
-
-.notification > *:first-child {
-	margin-top: 0;
-}
-
-.notification > *:last-child {
-	margin-bottom: 0;
-}
-
-@media(min-width: 41.8rem) {
-	.notification {
-		border: 1px solid var(--light-color);
-		border-radius: 5px;
-	}
-}
-
-{% comment %} Header hack {% endcomment %}
-
-@media(max-width: 59.99em) {
-	.header .inline-list li:first-child {
-		display: block;
-	}
-}
-
-{% comment %} External links {% endcomment %}
-
 a[rel*="noopener"]::after {
 	content: "\00A0↗";
 }
-
-{% comment %} rounded image {% endcomment %}
 
 .round {
 	border-radius: 100px;

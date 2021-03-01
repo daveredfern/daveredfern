@@ -1,5 +1,5 @@
 header:
-  - name: <strong>Dave Redfern</strong>
+  - name: <strong>D<span class="hidden-mobile">ave </span>R<span class="hidden-mobile">edfern</span></strong>
     link: /
   - name: Now
     link: /now/
