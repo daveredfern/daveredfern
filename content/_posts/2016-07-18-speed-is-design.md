@@ -6,7 +6,7 @@ tags: ["Web Design", "Front End Development"]
 
 A few months ago I visited New York. I was lucky enough to have internet on my phone (thanks [Three](http://www.three.co.uk/Discover/Phones/Feel_At_Home)). While walking around the streets I wanted to find the number for [One Observatory](https://oneworldobservatory.com). With my phone in hand I started to load their website. I waited, then waited some more. Part of the page had loaded but I was still waiting for the text to show – I was waiting for a custom font. The page took over a minute to fully load.
 
-<div class="media-embed"><iframe width="560" height="315" src="https://www.youtube.com/embed/2XX14tfsk4c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="media-embed"><div class="media-embed__body"><iframe width="560" height="315" src="https://www.youtube.com/embed/2XX14tfsk4c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>
 
 Sometimes the web feels as slow as it's ever been. It's slowly grinding to a halt. But why is this?
 

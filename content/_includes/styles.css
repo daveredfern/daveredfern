@@ -183,18 +183,7 @@ pre code {
 	display: block;
 	padding: 1.2rem;
 	overflow-x: auto;
-	margin-left: -1.2rem;
-	margin-right: -1.2rem;
-	border-radius: 0;
-	border-left: 0;
-	border-right: 0;
-}
-
-@media(min-width: 41.8rem) {
-	pre code {
-		border: 1px solid var(--light-color);
-		border-radius: 5px;
-	}
+	border-radius: 5px;
 }
 
 img {
@@ -333,16 +322,21 @@ a.search-chip.is-active {
 }
 
 .media-embed {
+	max-width: 54ch;
+}
+
+.media-embed__body {
 	position: relative;
 	overflow: hidden;
 	padding-top: calc(100% / (16 / 9));
+	max-width: 
 }
 
-.media-embed--43 {
+.media-embed--43 .media-embed__body {
 	padding-top: calc(100% / (4 / 3));
 }
 
-.media-embed>* {
+.media-embed__body>* {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -405,28 +399,12 @@ a[rel*="noopener"]::after {
 }
 
 @keyframes wave-animation {
-	0% {
-		transform: rotate(0.0deg)
-	}
-	10% {
-		transform: rotate(14.0deg)
-	}
-	20% {
-		transform: rotate(-8.0deg)
-	}
-	30% {
-		transform: rotate(14.0deg)
-	}
-	40% {
-		transform: rotate(-4.0deg)
-	}
-	50% {
-		transform: rotate(10.0deg)
-	}
-	60% {
-		transform: rotate(0.0deg)
-	}
-	100% {
-		transform: rotate(0.0deg)
-	}
+	0% { transform: rotate(0.0deg) }
+	10% { transform: rotate(14.0deg) }
+	20% { transform: rotate(-8.0deg) }
+	30% { transform: rotate(14.0deg) }
+	40% { transform: rotate(-4.0deg) }
+	50% { transform: rotate(10.0deg) }
+	60% { transform: rotate(0.0deg) }
+	100% { transform: rotate(0.0deg) }
 }
