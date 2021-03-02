@@ -118,6 +118,8 @@ If you’re filtering content on the same page, you can add the <code>.is-active
 
 A <code>.media-embed</code> forces an element to maintain a ratio of 16:9. It’s primarily used for embedding iFrame content such as YouTube where, by default, they don’t resize responsively.
 
+<div class="media-embed"><div class="media-embed__body"><iframe width="560" height="315" src="https://www.youtube.com/embed/2XX14tfsk4c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>
+
 To make the ratio 4:3, add a modifying class of <code>.media-embed--43</code> to it.
 
 ## Media object
