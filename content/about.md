@@ -49,6 +49,6 @@ My [inspiration page](/inspiration/) includes links and resources that have help
 
 ## Soppy thanks
 
-A big thanks to [Marc Jenkins](https://marcjenkins.co.uk/), everyone at [Conversion Rate Experts](https://conversion-rate-experts.com) and everyone I [follow on Twitter](https://twitter.com/daveredfern/following). Their passion for the web typifies why I love this industry.
+Thanks to [Marc Jenkins](https://marcjenkins.co.uk/), everyone at [Conversion Rate Experts](https://conversion-rate-experts.com), and everyone I follow online. Their passion for the web typifies why I love this industry.
 
 The biggest thanks goes to my girlfriend, [Karen Uppal](https://karenuppal.co.uk/). I tinker far too much.

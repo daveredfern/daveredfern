@@ -19,6 +19,10 @@ During this time I’ve worked on nearly all aspects of creating a successful we
 > 
 > —Jake Cobley, Front End Systems Developer
 
+> I have a small network of trusted professionals that I turn to when I need help, advice or feedback. Dave is top of that list. **Dave is a clear thinker, a great writer and an efficient developer.**
+> 
+> —Marc Jenkins, WordPress Consultant
+
 ## How my website works
 
 In an effort to publish as much as possible, my website [contains articles](/blog/) on everything I find interesting from web design to music and cooking.
