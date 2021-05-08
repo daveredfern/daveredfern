@@ -75,6 +75,5 @@ I have a [now page](/now/) that I try to keep up-to-date with what my current p
 - Working on some larger project at work, something that is definitely my forte. I have no interest in working on smaller projects.
 - Working on our in-house front end library. It’s called Chop Chop and we hope to realise it soon. It’s currently in a lot of flux but it’s a huge leap forward for me.
 - Using [Sketch app](http://www.sketchapp.com/) on more projects. It’s awesome and definitely changed how I design.
-- To end with some cheese, a happy future with [Karen](https://www.instagram.com/karen.uppal/).
 
 If you write your own Q&A post, let me know. [I’d love to read it](/contact/).
