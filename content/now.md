@@ -14,6 +14,8 @@ I am currently focusing my efforts on:
 
 **Spending my money with the [right people](/supports/).** I’m making a conscious effort to spend my money with those who follow a good ethos and ethics.
 
+**Working on become carbon neutral or climate positive.** You can see my progress on my [carbon neutral](/carbon-neutral/) page.
+
 I have a [uses page](/uses/) if you’d like to see the hardware and software I use on a daily basis.
 
 This page is inspired by [Derek Sivers now page](https://sivers.org/nowff) via [Marc Jenkins’ now page](https://marcjenkins.co.uk/now/).
