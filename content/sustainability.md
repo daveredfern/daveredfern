@@ -9,8 +9,8 @@ tags: [Personal]
 
 - **🥦 Plant based, whole food diet.** I’ve been vegan since March 2018 and haven’t looked back. If you’re interested, you can see some of [my recipes here](https://daveredfern.com/tag/vegan/). 
 - **⚡️Renewable electric.** All of the electricity we use at home is from renewable sources.
-- **🌳 Offsetting the rest.** While some consider it controversial, I think it’s a great intermediate step before I make the remaining changes. Even then, I’ll like continue to do this so I can be climate positive.
 - **🍅 Growing my own veg.** I’ve started growing my own vegetables. Since it’s my first year, I’m growing a wide variety of herbs, fruit, and vegetables. 
+- **🌳 Offsetting the rest.** While some consider it controversial, I think it’s a great intermediate step before I make the remaining changes. Even then, I’ll like continue to do this so I can be climate positive.
 
 ## What I need to improve
 
