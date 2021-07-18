@@ -3,7 +3,7 @@ title: "Sustainability—becoming carbon neutral"
 tags: [Personal]
 ---
 
-My aim is to become carbon neutral or climate positive as quickly as possible.
+<p class="lead">My aim is to become carbon neutral or climate positive as quickly as possible.</p>
 
 ## What I’m doing well
 
