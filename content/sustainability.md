@@ -1,5 +1,5 @@
 ---
-title: "Sustainability—becoming carbon neutral"
+title: "Becoming carbon neutral or climate positive"
 tags: [Personal]
 ---
 
