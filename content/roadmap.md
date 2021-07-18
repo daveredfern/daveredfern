@@ -36,7 +36,12 @@ None at the moment.
 
 The [Git repository is publicly available](https://github.com/daveredfern/daveredfern) but often contains lots of commits and quick fixes. That makes it difficult to follow the progression of the website and the reasoning behind key decisions.
 
-The following is a list of major changes. The most recently changes are at the top. 
+The following is a list of major changes. The most recently changes are at the top.
+
+## 2021-07-17
+
+- Added my pronouns to the footer of each page of my website.
+- Created [/sustainability/](/sustainability/) to track my progress becoming carbon neutral.
 
 ## 2021-01-23
 
