@@ -14,7 +14,7 @@ I am currently focusing my efforts on:
 
 **Spending my money with the [right people](/supports/).** I’m making a conscious effort to spend my money with those who follow a good ethos and ethics.
 
-**Becoming carbon neutral or—even better—climate positive.** You can see my progress on my [carbon neutral](/carbon-neutral/) page.
+**Becoming carbon neutral or—even better—climate positive.** You can see my progress on my [sustainability](/sustainability/) page.
 
 I have a [uses page](/uses/) if you’d like to see the hardware and software I use on a daily basis.
 

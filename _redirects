@@ -3,6 +3,7 @@
 /articles/feed/ /feed.xml 301!
 /notes/feed/    /feed.xml 301!
 /photography/feed/  /feed.xml 301!
+/carbon-neutral/ /sustainability/ 301!
 
 # Common URLs that are visited
 /wp-content/themes/brutal/images/favicon/favicon-32x32.png  /assets/images/favicon/favicon-32x32.png 301!
