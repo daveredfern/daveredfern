@@ -1,6 +1,6 @@
 ---
-title: "Sustainability—Becoming carbon neutral or—even better—climate positive"
-tags: [Personal, Sustainability]
+title: "Sustainability—becoming carbon neutral"
+tags: [Personal]
 ---
 
 My aim is to become carbon neutral or climate positive as quickly as possible.
