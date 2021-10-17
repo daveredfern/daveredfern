@@ -1,6 +1,6 @@
 ---
 title: "Consume Vegetables, Not Candy"
-date: "2020-10-17"
+date: "2021-10-17"
 tags: [Writing, Thought, Management]
 ---
 
