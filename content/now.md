@@ -4,9 +4,7 @@ title: "What I’m doing now"
 
 I am currently focusing my efforts on:
 
-**[Intermittent fasting](https://en.wikipedia.org/wiki/Intermittent_fasting)** using the 16/8 method where I fast for 16 hours a day and eat for 8 hours a day. Once I’ve figured it all out, I’ll write something up. 
-
-**Improving my fitness** by trying to exercise each day. In particular, I’m trying to pick up running again. I’ve recently bought an Apple Watch so I’m aiming to “close my rings”.
+**[Intermittent fasting](https://en.wikipedia.org/wiki/Intermittent_fasting)** using the 16/8 method where I fast for 16 hours a day and eat for 8 hours a day. Once I’ve figured it all out, I’ll write something up.
 
 **Continuously improving this website** with the goals of making it lean, fast, and user-friendly. If you have any suggestions for improving it, [let me know](/contact/).
 
