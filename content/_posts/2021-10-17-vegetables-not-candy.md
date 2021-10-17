@@ -1,5 +1,5 @@
 ---
-title: "Consume Vegetables, Not Candy"
+title: "Consume vegetables, not candy"
 date: "2021-10-17"
 tags: [Writing, Thought, Management]
 ---

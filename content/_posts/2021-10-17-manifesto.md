@@ -1,5 +1,5 @@
 ---
-title: "Manifesto for Myself"
+title: "Manifesto for myself"
 date: "2021-10-17"
 tags: [Writing, Thought, Personal]
 ---
