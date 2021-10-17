@@ -12,4 +12,4 @@ tags: [Writing, Thought, Personal]
 * Constantly learn new things.
 * Don’t compare myself to others.
 
-This page was inspired by Brendan Dawes’ poster titled [Manifesto for Myself](https://producedforuse.com/products/manifestoformyself).
+This page was inspired by Brendan Dawes’ poster titled [Manifesto for Myself](https://producedforuse.com/products/manifestoformyself). Brendan’s other poster titled [The Process](https://producedforuse.com/products/process) is also worth a look.
