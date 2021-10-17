@@ -1,15 +1,15 @@
 ---
-title: "Consume Vegetables, Not Candy"
+title: "Manifesto for Myself"
 date: "2020-10-17"
-tags: [Writing, Thought, Management]
+tags: [Writing, Thought, Personal]
 ---
 
-Someone at work said the following:
+* Be kind to everyone.
+* Be positive.
+* Help others whenever possible.
+* Spend time with those I love.
+* Spend time on my own.
+* Constantly learn new things.
+* Don’t compare myself to others.
 
-> Consume vegetables, not candy
-
-I love the concept of avoiding instant gratification and investing as much time as possible in quality content and doing meaningful things. 
-
-Read books, not Twitter.
-Listen to albums, not singles.
-Watch movies, not YouTube.
+This page was inspired by Brendan Dawes’ poster titled [Manifesto for Myself](https://producedforuse.com/products/manifestoformyself).
