@@ -1,5 +1,5 @@
 ---
-title: "Blog"
+title: "Articles"
 hide_meta: true
 hide_references: true
 ---
