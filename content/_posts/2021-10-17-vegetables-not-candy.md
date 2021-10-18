@@ -13,3 +13,4 @@ I love the concept of avoiding instant gratification and investing as much time 
 Read books, not Twitter.
 Listen to albums, not singles.
 Watch movies, not YouTube.
+Consume vegetables, not candy.
