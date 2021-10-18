@@ -8,7 +8,7 @@ Someone at work said the following:
 
 > Consume vegetables, not candy
 
-I love the concept of avoiding instant gratification and investing as much time as possible in quality content and doing meaningful things. 
+I love the idea of avoiding instant gratification and investing as much time as possible in quality content and doing meaningful things. 
 
 Read books, not Twitter.
 Listen to albums, not singles.
