@@ -48,7 +48,6 @@ plugins:
   - jekyll-last-modified-at
   - jekyll-sitemap
   - jekyll-archives
-  - jekyll-extlinks
 
 
 jekyll-archives:
@@ -56,10 +55,6 @@ jekyll-archives:
   layout: default
   permalinks:
     tag: '/tag/:name/'
-
-extlinks:
-  attributes: { rel: 'external noopener' }
-  rel_exclude: ['daveredfern.com', 'localhost']
 
 # Exclude from processing.
 # The following items will not be processed, by default.
